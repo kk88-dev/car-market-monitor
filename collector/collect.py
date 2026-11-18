@@ -17,6 +17,7 @@
 import argparse
 import calendar
 import datetime as dt
+import hashlib
 import json
 import os
 import re
@@ -49,17 +50,18 @@ def days_between(a, b):
     return (dt.date.fromisoformat(b) - dt.date.fromisoformat(a)).days
 
 
-def load_json(name, default):
-    path = os.path.join(DATA_DIR, name)
+def load_json(name, default, d=None):
+    path = os.path.join(d or DATA_DIR, name)
     if not os.path.exists(path):
         return default
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
-def save_json(name, obj):
-    os.makedirs(DATA_DIR, exist_ok=True)
-    path = os.path.join(DATA_DIR, name)
+def save_json(name, obj, d=None):
+    d = d or DATA_DIR
+    os.makedirs(d, exist_ok=True)
+    path = os.path.join(d, name)
     tmp = path + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=1, sort_keys=True)
@@ -195,10 +197,22 @@ def url_to_params(url):
     return params, unknown
 
 
-def build_search_params(cfg):
-    params, unknown = url_to_params(cfg.get("search_url", ""))
-    params.update({k: str(v) for k, v in (cfg.get("api_params") or {}).items()})
+def build_search_params(search):
+    params, unknown = url_to_params(search.get("search_url", ""))
+    params.update({k: str(v) for k, v in (search.get("api_params") or {}).items()})
     return params, unknown
+
+
+def search_id(url):
+    return "s" + hashlib.sha1(url.strip().encode()).hexdigest()[:7]
+
+
+def year_range(params):
+    lo = [int(v) for k, v in params.items() if k.startswith("s_yers")]
+    hi = [int(v) for k, v in params.items() if k.startswith("po_yers")]
+    if lo and hi:
+        return f"{min(lo)}–{max(hi)}" if min(lo) != max(hi) else str(min(lo))
+    return f"от {min(lo)}" if lo else (f"до {max(hi)}" if hi else "")
 
 
 # ---------------------------------------------------------------- API client
@@ -338,6 +352,78 @@ def parse_info(auto_id, j):
     }
 
 
+# ------------------------------------------------- human-readable filters
+
+FUEL_NAMES = {"1": "Бензин", "2": "Дизель", "3": "Газ", "4": "Газ пропан-бутан / Бензин", "5": "Гибрид",
+              "6": "Электро", "7": "Другое", "8": "Газ метан / Бензин", "9": "Газ пропан-бутан"}
+GEARBOX_NAMES = {"1": "Механика", "2": "Автомат", "3": "Типтроник", "4": "Робот", "5": "Вариатор"}
+DRIVE_NAMES = {"1": "Полный", "2": "Передний", "3": "Задний"}
+
+
+def load_names():
+    return load_json("names.json", {"marks": {}, "models": {}})
+
+
+def resolve_names(api, params, names):
+    """Подтягивает названия марок и моделей из API (1 запрос на марку, кэшируется)."""
+    cat = params.get("category_id", "1")
+    marks = {v for k, v in params.items() if k.startswith("marka_id") and v != "0"}
+    try:
+        if marks - set(names["marks"]):
+            _, data = api.get(f"/categories/{cat}/marks", {})
+            for m in data if isinstance(data, list) else []:
+                names["marks"][str(m.get("value"))] = m.get("name")
+        for mk in marks:
+            if not any(k.startswith(mk + ":") for k in names["models"]):
+                _, data = api.get(f"/categories/{cat}/marks/{mk}/models", {})
+                for m in data if isinstance(data, list) else []:
+                    names["models"][f"{mk}:{m.get('value')}"] = m.get("name")
+                names["models"].setdefault(f"{mk}:_loaded", "1")
+    except (BudgetExhausted, RateLimited):
+        pass
+    save_json("names.json", names)
+
+
+def describe(params, names=None):
+    """Список фильтров человеческим языком."""
+    names = names or {"marks": {}, "models": {}}
+    out, cars = [], {}
+    for k, v in params.items():
+        m = re.fullmatch(r"marka_id\[(\d+)\]", k)
+        if m:
+            cars.setdefault(v, []).append(params.get(f"model_id[{m.group(1)}]", "0"))
+    for mk, models in cars.items():
+        brand = names["marks"].get(mk) or f"марка #{mk}"
+        ms = [names["models"].get(f"{mk}:{md}") or f"модель #{md}" for md in models if md != "0"]
+        out.append(brand + (" " + ", ".join(ms) if ms else " (все модели)"))
+    yr = year_range(params)
+    if yr:
+        out.append(yr + " г.")
+
+    def listed(prefix, table, label):
+        vals = [table.get(v, f"#{v}") for k, v in sorted(params.items()) if re.fullmatch(prefix + r"\[\d+\]", k)]
+        if vals:
+            out.append((label + ": " if label else "") + ", ".join(vals))
+    listed("type", FUEL_NAMES, "")
+    listed("gearbox", GEARBOX_NAMES, "КПП")
+    listed("drive_id", DRIVE_NAMES, "привод")
+    rng = lambda a, b, unit, f=lambda x: x: (  # noqa: E731
+        out.append(f"{unit} {'от ' + f(params[a]) if a in params else ''}{' ' if a in params and b in params else ''}{'до ' + f(params[b]) if b in params else ''}".strip())
+        if a in params or b in params else None)
+    rng("engineVolumeFrom", "engineVolumeTo", "объём, л:")
+    rng("raceFrom", "raceTo", "пробег, тыс. км:")
+    rng("powerFrom", "powerTo", "мощность, л.с.:")
+    rng("price_ot", "price_do", "цена, $:")
+    for k in ("state", "city", "bodystyle"):
+        if any(x.startswith(k + "[") for x in params):
+            out.append({"state": "область", "city": "город", "bodystyle": "кузов"}[k] + " (выбрано)")
+    if params.get("abroad") == "2":
+        out.append("только в Украине")
+    if params.get("custom") == "1":
+        out.append("растаможенные")
+    return out
+
+
 # -------------------------------------------------------------- the monitor
 
 
@@ -346,17 +432,22 @@ DETAIL_FIELDS = ("title", "version", "year", "mileage", "fuel", "gearbox", "driv
 
 
 class Monitor:
-    def __init__(self, cfg, api, clock=None):
+    """Один поиск. Данные лежат в docs/data/s/<id>/."""
+
+    def __init__(self, cfg, search, api, clock=None):
         self.cfg = cfg
+        self.search = search
         self.api = api
         self.clock = clock or now
         self.today = today_str(self.clock())
-        self.listings = load_json("listings.json", {})
-        self.events = load_json("events.json", [])
-        self.daily = load_json("daily.json", [])
-        self.meta = api.meta
+        self.dir = os.path.join(DATA_DIR, "s", search["id"])
+        self.listings = load_json("listings.json", {}, self.dir)
+        self.events = load_json("events.json", [], self.dir)
+        self.daily = load_json("daily.json", [], self.dir)
+        self.meta = load_json("meta.json", {}, self.dir)
         self.refresh_days = int(cfg.get("price_refresh_days", 3))
         self.missing_checks = int(cfg.get("missing_checks_before_hidden", 3))
+        self.params, self.unknown = build_search_params(search)
 
     # -- events -----------------------------------------------------------
     def event(self, kind, l, **extra):
@@ -365,8 +456,10 @@ class Monitor:
                             "price": l.get("price"), **extra})
 
     # -- steps ------------------------------------------------------------
-    def do_search(self, params):
-        ids, total = self.api.search(params)
+    def search_if_due(self):
+        if self.meta.get("last_search") == self.today:
+            return
+        ids, total = self.api.search(self.params)
         self.meta["last_search"] = self.today
         self.meta["last_search_count"] = total
         found = set(ids)
@@ -386,7 +479,7 @@ class Monitor:
         for l in self.listings.values():
             if l["status"] == "active" and l["id"] not in found:
                 l["missing"] = l.get("missing", 0) + 1
-        log(f"поиск: {len(ids)} объявлений (count={total})")
+        log(f"[{self.search['id']}] поиск: {len(ids)} объявлений (count={total})")
 
     def apply_details(self, l, d):
         for k in DETAIL_FIELDS:
@@ -447,7 +540,6 @@ class Monitor:
             origin.update(status="relisted", relisted_to=l["id"])
             l["relisted_from"] = origin["id"]
             l["market_since"] = origin.get("market_since") or origin["first_seen"]
-            # Убираем ложное «продано» из ленты: это перевыставление.
             self.event("relist", l, origin=origin["id"], origin_status=prev_status)
         else:
             self.event("new", l)
@@ -478,38 +570,28 @@ class Monitor:
         if d["is_sold"]:
             self.close(l, "sold", "отмечено «продано»")
 
-    # -- orchestration ----------------------------------------------------
-    def run(self):
-        params, unknown = build_search_params(self.cfg)
-        for u in unknown:
-            log(f"ВНИМАНИЕ: фильтр не распознан и не применён: {u}")
-        self.meta["search_params"] = params
-        self.meta["unknown_filters"] = unknown
-        try:
-            if self.meta.get("last_search") != self.today:
-                self.do_search(params)
-            active = [l for l in self.listings.values() if l["status"] == "active"]
-            queue = (
-                [(self.check_new, l) for l in active if l.get("pending")]
-                + [(self.check_missing, l) for l in active if l.get("missing", 0) > 0 and l.get("last_checked") != self.today]
-                + [(self.check_price, l) for l in sorted(
-                    (l for l in active if not l.get("pending") and not l.get("missing")
-                     and (not l.get("last_checked") or days_between(l["last_checked"], self.today) >= self.refresh_days)),
-                    key=lambda l: l.get("last_checked") or "")]
-            )
-            for fn, l in queue:
-                fn(l)
-        except BudgetExhausted:
-            log("дневной лимит запросов исчерпан, продолжу в следующий запуск")
-        except RateLimited:
-            log("API ответил 429 (лимит), продолжу в следующий запуск")
-        finally:
-            self.finish()
+    # -- queues -----------------------------------------------------------
+    def _active(self):
+        return [l for l in self.listings.values() if l["status"] == "active"]
 
-    def finish(self):
+    def required_queue(self):
+        act = self._active()
+        return ([(self.check_new, l) for l in act if l.get("pending")]
+                + [(self.check_missing, l) for l in act
+                   if l.get("missing", 0) > 0 and l.get("last_checked") != self.today])
+
+    def price_queue(self):
+        due = [l for l in self._active() if not l.get("pending") and not l.get("missing")
+               and (not l.get("last_checked") or days_between(l["last_checked"], self.today) >= self.refresh_days)]
+        return [(self.check_price, l) for l in sorted(due, key=lambda l: l.get("last_checked") or "")]
+
+    def finish(self, names):
         self.meta["updated_at"] = self.clock().isoformat(timespec="minutes")
-        self.meta["title"] = self.cfg.get("title", "")
-        self.meta["search_url"] = self.cfg.get("search_url", "")
+        self.meta["search_url"] = self.search.get("search_url", "")
+        self.meta["filters"] = describe(self.params, names)
+        self.meta["unknown_filters"] = self.unknown
+        self.meta["search_params"] = self.params
+        self.meta["title"] = self.search.get("title") or auto_title(self.params, names)
         self.meta["demo"] = False
         active = [l for l in self.listings.values() if l["status"] == "active" and l.get("price")]
         prices = [l["price"] for l in active]
@@ -522,13 +604,80 @@ class Monitor:
             "sold": sum(1 for e in todays if e["type"] == "sold"),
             "removed": sum(1 for e in todays if e["type"] == "removed"),
         }
-        self.daily = [r for r in self.daily if r["date"] != self.today] + [row]
+        if self.meta.get("last_search"):
+            self.daily = [r for r in self.daily if r["date"] != self.today] + [row]
         self.events = self.events[-5000:]
-        save_json("listings.json", self.listings)
-        save_json("events.json", self.events)
-        save_json("daily.json", self.daily)
-        save_json("meta.json", self.meta)
-        log(f"запросов за запуск: {self.api.run_used}; за месяц: {self.meta['budget']['used_month']}")
+        save_json("listings.json", self.listings, self.dir)
+        save_json("events.json", self.events, self.dir)
+        save_json("daily.json", self.daily, self.dir)
+        save_json("meta.json", self.meta, self.dir)
+
+
+def auto_title(params, names):
+    d = describe(params, names)
+    yr = year_range(params)
+    return (d[0] if d else "Поиск") + (f", {yr}" if yr else "")
+
+
+def run_all(cfg, api, clock=None):
+    """Общий лимит запросов на все поиски: сначала обязательное, потом цены по кругу."""
+    searches = [s for s in cfg.get("searches", []) if not s.get("archived")]
+    monitors = [Monitor(cfg, s, api, clock) for s in searches]
+    names = load_names()
+    try:
+        for m in monitors:
+            for u in m.unknown:
+                log(f"[{m.search['id']}] ВНИМАНИЕ: фильтр не распознан: {u}")
+        for m in monitors:
+            resolve_names(api, m.params, names)
+        for m in monitors:
+            m.search_if_due()
+        for m in monitors:
+            for fn, l in m.required_queue():
+                fn(l)
+        queues = [m.price_queue() for m in monitors]
+        while any(queues):
+            for q in queues:
+                if q:
+                    fn, l = q.pop(0)
+                    fn(l)
+    except BudgetExhausted:
+        log("дневной лимит запросов исчерпан, продолжу в следующий запуск")
+    except RateLimited:
+        log("API ответил 429 (лимит), продолжу в следующий запуск")
+    finally:
+        for m in monitors:
+            m.finish(names)
+        save_json("budget.json", api.meta)
+        write_index(cfg, names)
+        log(f"запросов за запуск: {api.run_used}; за месяц: {api.meta['budget']['used_month']}")
+
+
+def write_index(cfg, names=None):
+    """docs/data/searches.json — список поисков для дашборда."""
+    names = names or load_names()
+    items = []
+    for s in cfg.get("searches", []):
+        if s.get("archived"):
+            continue
+        d = os.path.join(DATA_DIR, "s", s["id"])
+        meta = load_json("meta.json", {}, d)
+        params, unknown = build_search_params(s)
+        items.append({
+            "id": s["id"],
+            "title": s.get("title") or meta.get("title") or auto_title(params, names),
+            "search_url": s.get("search_url", ""),
+            "filters": describe(params, names),
+            "unknown_filters": unknown,
+            "added": s.get("added"),
+            "updated_at": meta.get("updated_at"),
+            "count": meta.get("last_search_count"),
+            "demo": bool(meta.get("demo")),
+        })
+    budget = load_json("budget.json", {}).get("budget", {})
+    save_json("searches.json", {"searches": items, "budget": budget,
+                                "repo": os.environ.get("GITHUB_REPOSITORY") or cfg.get("repo", ""),
+                                "monthly_limit": int(cfg.get("monthly_request_limit", 1000))})
 
 
 # ----------------------------------------------------------------------- CLI
@@ -536,45 +685,58 @@ class Monitor:
 
 def load_config():
     with open(CONFIG_PATH, encoding="utf-8") as f:
-        return json.load(f)
+        cfg = json.load(f)
+    # Старый формат: один поиск в корне конфига.
+    if cfg.get("search_url") and not cfg.get("searches"):
+        cfg["searches"] = [{"id": search_id(cfg["search_url"]), "title": cfg.get("title", ""),
+                            "search_url": cfg["search_url"], "api_params": cfg.get("api_params") or {}}]
+    for k in ("search_url", "title", "api_params", "expected_count_on_site"):
+        cfg.pop(k, None)
+    cfg.setdefault("searches", [])
+    return cfg
+
+
+def save_config(cfg):
+    with open(CONFIG_PATH, "w", encoding="utf-8") as f:
+        json.dump(cfg, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+
+
+def drop_demo(cfg):
+    demo = [s for s in cfg["searches"] if s.get("demo")]
+    if demo:
+        import shutil
+        for s in demo:
+            shutil.rmtree(os.path.join(DATA_DIR, "s", s["id"]), ignore_errors=True)
+        cfg["searches"] = [s for s in cfg["searches"] if not s.get("demo")]
+        save_config(cfg)
+        log("демо-данные удалены")
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--show-params", action="store_true", help="показать, как ссылка переводится в параметры API")
-    ap.add_argument("--reset", action="store_true", help="удалить накопленные данные (например, после демо)")
+    ap.add_argument("--show", metavar="URL", help="показать, какие фильтры извлекаются из ссылки")
     args = ap.parse_args()
     cfg = load_config()
 
-    if args.show_params:
-        params, unknown = build_search_params(cfg)
-        print(json.dumps(params, ensure_ascii=False, indent=1))
+    if args.show:
+        params, unknown = url_to_params(args.show)
+        print("Фильтры:", " · ".join(describe(params, load_names())))
+        print("Параметры API:", json.dumps(params, ensure_ascii=False))
         for u in unknown:
-            print("не распознано:", u)
+            print("НЕ распознано (не применяется):", u)
         return
 
     key = os.environ.get("RIA_API_KEY", "").strip()
-    if not key and not args.reset:
+    if not key:
         # Без ключа запуск просто пропускается (без ошибки), демо-данные остаются.
         log("RIA_API_KEY не задан: пропускаю запуск. "
             "Добавьте ключ: Settings → Secrets and variables → Actions → RIA_API_KEY")
+        write_index(cfg)
         return
-
-    meta = load_json("meta.json", {})
-    if args.reset or meta.get("demo"):
-        for name in ("listings.json", "events.json", "daily.json", "meta.json"):
-            p = os.path.join(DATA_DIR, name)
-            if os.path.exists(p):
-                os.remove(p)
-        meta = {}
-        log("данные очищены")
-        if args.reset:
-            return
-
-    if not cfg.get("search_url") and not cfg.get("api_params"):
-        raise SystemExit("В config.json не указана search_url")
-    api = Api(key, meta, cfg)
-    Monitor(cfg, api).run()
+    drop_demo(cfg)
+    api = Api(key, load_json("budget.json", {}), cfg)
+    run_all(cfg, api)
 
 
 if __name__ == "__main__":

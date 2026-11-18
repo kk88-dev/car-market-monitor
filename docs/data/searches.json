@@ -1,0 +1,38 @@
+{
+ "budget": {},
+ "monthly_limit": 1000,
+ "repo": "kk88-dev/car-market-monitor",
+ "searches": [
+  {
+   "added": null,
+   "count": 46,
+   "demo": true,
+   "filters": [
+    "2016–2020 г.",
+    "Дизель"
+   ],
+   "id": "demo",
+   "search_url": "",
+   "title": "Демо: вымышленная модель",
+   "unknown_filters": [],
+   "updated_at": "2026-11-18T09:00+02:00"
+  },
+  {
+   "added": "2026-11-18",
+   "count": null,
+   "demo": false,
+   "filters": [
+    "Mercedes-Benz GLE-Class, GLE-Class Coupe",
+    "2015–2018 г.",
+    "Бензин, Газ пропан-бутан / Бензин, Газ, Газ метан / Бензин",
+    "только в Украине",
+    "растаможенные"
+   ],
+   "id": "s33edce0",
+   "search_url": "https://auto.ria.com/uk/search/?search_type=1&category=1&all[0].any[0].brand=48&all[0].any[0].any[0].model=45217&all[0].any[0].any[1].model=67474&all[0].any[0].year[0]=2015&all[0].any[0].year[1]=2018&all[1].any[0].fuel[0]=1&all[1].any[0].fuel[1]=4&all[1].any[0].fuel[2]=3&all[1].any[0].fuel[3]=8&abroad=0&customs_cleared=1",
+   "title": "Mercedes-Benz GLE-Class, GLE-Class Coupe, 2015–2018",
+   "unknown_filters": [],
+   "updated_at": null
+  }
+ ]
+}

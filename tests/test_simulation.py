@@ -64,6 +64,8 @@ class FakeMarket:
             ids = sorted(i for i, a in self.ads.items() if a["state"] == "active")
             page, size = int(params["page"]), int(params["countpage"])
             return 200, {"result": {"search_result": {"ids": ids[page * size:(page + 1) * size], "count": len(ids)}}}
+        if path.startswith("/categories"):
+            return 200, [{"name": "Toyota", "value": 79}]
         a = self.ads.get(params["auto_id"])
         if a is None or a["state"] == "deleted":
             return 404, {"error": "not found"}
@@ -80,7 +82,8 @@ def main():
     collect.DATA_DIR = tmp
     market = FakeMarket()
     t = dt.datetime(2026, 11, 20, 0, 17, tzinfo=collect.TZ)
-    cfg = {"search_url": "https://auto.ria.com/uk/search/?categories.main.id=1&brand.id[0]=79", "title": "Test"}
+    cfg = {"searches": [{"id": "t1", "title": "Test", "search_url": "https://auto.ria.com/uk/search/?categories.main.id=1&brand.id[0]=79"}]}
+    sdir = os.path.join(tmp, "s", "t1")
     days = 25
     max_per_hour = 0
     for run in range(days * 8):
@@ -88,15 +91,14 @@ def main():
         if t.hour == 0 and t.date() > dt.date(2026, 11, 20):
             market.step_day((t.date() - dt.date(2026, 11, 20)).days)
         before = len(market.calls)
-        meta = collect.load_json("meta.json", {})
-        api = collect.Api("x", meta, cfg, clock=clock, transport=market.transport)
-        collect.Monitor(cfg, api, clock=clock).run()
+        api = collect.Api("x", collect.load_json("budget.json", {}), cfg, clock=clock, transport=market.transport)
+        collect.run_all(cfg, api, clock=clock)
         max_per_hour = max(max_per_hour, len(market.calls) - before)
         t += dt.timedelta(hours=3)
 
-    L = collect.load_json("listings.json", {})
-    events = collect.load_json("events.json", [])
-    meta = collect.load_json("meta.json", {})
+    L = collect.load_json("listings.json", {}, sdir)
+    events = collect.load_json("events.json", [], sdir)
+    meta = collect.load_json("budget.json", {})
     errors = []
     for i, a in market.ads.items():
         got = L.get(i, {}).get("status")

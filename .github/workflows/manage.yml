@@ -1,0 +1,50 @@
+name: Добавить или убрать поиск
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  manage:
+    # Только владелец репозитория может менять список поисков.
+    if: >-
+      github.event.issue.user.login == github.repository_owner &&
+      (startsWith(github.event.issue.title, '[add]') || startsWith(github.event.issue.title, '[remove]'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Обновить список поисков
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          RIA_API_KEY: ${{ secrets.RIA_API_KEY }}
+        working-directory: collector
+        run: python manage.py && mv comment.md ..
+      - name: Сохранить
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config.json docs/data
+          if ! git diff --staged --quiet; then
+            git commit -m "searches: ${{ github.event.issue.number }}"
+            git pull --rebase
+            git push
+          fi
+      - name: Ответить и закрыть запрос
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue close ${{ github.event.issue.number }} -R ${{ github.repository }} --comment "$(cat comment.md)"
+          gh workflow run collect.yml -R ${{ github.repository }}

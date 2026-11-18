@@ -61,26 +61,36 @@ class DemoMarket:
 
 
 def main():
-    for name in ("listings.json", "events.json", "daily.json", "meta.json"):
-        p = collect.os.path.join(collect.DATA_DIR, name)
-        if collect.os.path.exists(p):
-            collect.os.remove(p)
+    import shutil
+    ddir = collect.os.path.join(collect.DATA_DIR, "s", "demo")
+    shutil.rmtree(ddir, ignore_errors=True)
     m = DemoMarket()
-    cfg = {"title": "Демо Авто 2.0 TDI, 2016–2020", "search_url": "", "api_params": {"category_id": 1},
-           "monthly_request_limit": 10 ** 6, "hourly_request_limit": 10 ** 6, "price_refresh_days": 1}
+    search = {"id": "demo", "demo": True, "title": "Демо: вымышленная модель", "search_url": "",
+              "api_params": {"category_id": 1, "s_yers[0]": 2016, "po_yers[0]": 2020, "type[0]": 2}}
+    dcfg = {"searches": [search], "monthly_request_limit": 10 ** 6, "hourly_request_limit": 10 ** 6,
+            "price_refresh_days": 1}
     start = collect.now().replace(hour=9, minute=0) - dt.timedelta(days=90)
+    real_budget = collect.load_json("budget.json", None)
     for d in range(91):
         t = start + dt.timedelta(days=d)
         if d:
             m.step(d)
-        meta = collect.load_json("meta.json", {})
-        api = collect.Api("demo", meta, cfg, clock=lambda: t, transport=m.transport)
-        collect.Monitor(cfg, api, clock=lambda: t).run()
-    meta = collect.load_json("meta.json", {})
+        mon = collect.Monitor(dcfg, search, collect.Api("demo", {}, dcfg, clock=lambda: t, transport=m.transport), clock=lambda: t)
+        mon.search_if_due()
+        for fn, l in mon.required_queue() + mon.price_queue():
+            fn(l)
+        mon.finish(collect.load_names())
+    meta = collect.load_json("meta.json", {}, ddir)
     meta["demo"] = True
-    meta["budget"] = {"month": "", "used_month": 412, "used_day": 23, "day_allowance": 31}
-    collect.save_json("meta.json", meta)
-    print("демо-данные записаны в", collect.DATA_DIR)
+    collect.save_json("meta.json", meta, ddir)
+    if real_budget is not None:
+        collect.save_json("budget.json", real_budget)
+    cfg = collect.load_config()
+    if not any(s["id"] == "demo" for s in cfg["searches"]):
+        cfg["searches"].insert(0, {k: v for k, v in search.items()})
+        collect.save_config(cfg)
+    collect.write_index(cfg)
+    print("демо-данные записаны в", ddir)
 
 
 if __name__ == "__main__":
