@@ -1,0 +1,14 @@
+{
+ "title": "Mercedes-Benz GLE / GLE Coupe 2015–2018, бензин и газ",
+ "search_url": "https://auto.ria.com/uk/search/?search_type=1&category=1&all[0].any[0].brand=48&all[0].any[0].any[0].model=45217&all[0].any[0].any[1].model=67474&all[0].any[0].year[0]=2015&all[0].any[0].year[1]=2018&all[1].any[0].fuel[0]=1&all[1].any[0].fuel[1]=4&all[1].any[0].fuel[2]=3&all[1].any[0].fuel[3]=8&abroad=0&customs_cleared=1",
+ "api_params": {},
+ "monthly_request_limit": 1000,
+ "hourly_request_limit": 30,
+ "budget_reserve": 0.05,
+ "price_refresh_days": 3,
+ "missing_checks_before_hidden": 3,
+ "relist_window_days": 45,
+ "expected_count_on_site": {
+  "2026-11-18": 179
+ }
+}

@@ -1,0 +1,6080 @@
+{
+ "34101327": {
+  "city": "Житомир",
+  "closed_at": "2026-09-17",
+  "days_on_market": 27,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34101327",
+  "last_checked": "2026-09-17",
+  "last_seen": "2026-09-16",
+  "market_since": "2026-08-20",
+  "mileage": 118000,
+  "missing": 1,
+  "pending": false,
+  "price": 10700,
+  "price_history": [
+   [
+    "2026-08-20",
+    11700
+   ],
+   [
+    "2026-08-31",
+    10700
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2017
+ },
+ "34103715": {
+  "city": "Житомир",
+  "closed_at": "2026-08-25",
+  "days_on_market": 4,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34103715",
+  "last_checked": "2026-08-25",
+  "last_seen": "2026-08-24",
+  "market_since": "2026-08-20",
+  "mileage": 145000,
+  "missing": 1,
+  "pending": false,
+  "price": 9900,
+  "price_history": [
+   [
+    "2026-08-20",
+    9900
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2016
+ },
+ "34104068": {
+  "city": "Харків",
+  "closed_at": "2026-09-24",
+  "days_on_market": 34,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34104068",
+  "last_checked": "2026-09-24",
+  "last_seen": "2026-09-23",
+  "market_since": "2026-08-20",
+  "mileage": 78000,
+  "missing": 1,
+  "pending": false,
+  "price": 13800,
+  "price_history": [
+   [
+    "2026-08-20",
+    14800
+   ],
+   [
+    "2026-09-08",
+    13800
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2019
+ },
+ "34104576": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34104576",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-08-20",
+  "mileage": 122000,
+  "missing": 0,
+  "pending": false,
+  "price": 12800,
+  "price_history": [
+   [
+    "2026-08-20",
+    12800
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2018
+ },
+ "34106201": {
+  "city": "Київ",
+  "closed_at": "2026-09-15",
+  "days_on_market": 25,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34106201",
+  "last_checked": "2026-09-14",
+  "last_seen": "2026-09-14",
+  "market_since": "2026-08-20",
+  "mileage": 149000,
+  "missing": 1,
+  "pending": false,
+  "price": 8200,
+  "price_history": [
+   [
+    "2026-08-20",
+    9700
+   ],
+   [
+    "2026-08-25",
+    9200
+   ],
+   [
+    "2026-09-02",
+    8200
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2016
+ },
+ "34106792": {
+  "city": "Одеса",
+  "closed_at": "2026-08-26",
+  "days_on_market": 5,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34106792",
+  "last_checked": "2026-08-25",
+  "last_seen": "2026-08-25",
+  "market_since": "2026-08-20",
+  "mileage": 124000,
+  "missing": 1,
+  "pending": false,
+  "price": 10600,
+  "price_history": [
+   [
+    "2026-08-20",
+    10600
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2017
+ },
+ "34107533": {
+  "city": "Київ",
+  "closed_at": "2026-09-01",
+  "days_on_market": 11,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34107533",
+  "last_checked": "2026-09-01",
+  "last_seen": "2026-08-31",
+  "market_since": "2026-08-20",
+  "mileage": 88000,
+  "missing": 1,
+  "pending": false,
+  "price": 10100,
+  "price_history": [
+   [
+    "2026-08-20",
+    10100
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2017
+ },
+ "34107791": {
+  "city": "Львів",
+  "closed_at": "2026-09-04",
+  "days_on_market": 14,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34107791",
+  "last_checked": "2026-09-04",
+  "last_seen": "2026-09-03",
+  "market_since": "2026-08-20",
+  "mileage": 118000,
+  "missing": 1,
+  "pending": false,
+  "price": 9000,
+  "price_history": [
+   [
+    "2026-08-20",
+    9000
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2016
+ },
+ "34109969": {
+  "city": "Вінниця",
+  "closed_at": "2026-09-10",
+  "days_on_market": 20,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34109969",
+  "last_checked": "2026-09-10",
+  "last_seen": "2026-09-09",
+  "market_since": "2026-08-20",
+  "mileage": 103000,
+  "missing": 1,
+  "pending": false,
+  "price": 16100,
+  "price_history": [
+   [
+    "2026-08-20",
+    16100
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2019
+ },
+ "34110987": {
+  "city": "Львів",
+  "closed_at": "2026-09-06",
+  "days_on_market": 16,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34110987",
+  "last_checked": "2026-09-05",
+  "last_seen": "2026-09-05",
+  "market_since": "2026-08-20",
+  "mileage": 92000,
+  "missing": 1,
+  "pending": false,
+  "price": 11400,
+  "price_history": [
+   [
+    "2026-08-20",
+    11400
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2017
+ },
+ "34112217": {
+  "city": "Київ",
+  "closed_at": "2026-11-05",
+  "days_on_market": 76,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34112217",
+  "last_checked": "2026-11-05",
+  "last_seen": "2026-11-04",
+  "market_since": "2026-08-20",
+  "mileage": 118000,
+  "missing": 1,
+  "pending": false,
+  "price": 14500,
+  "price_history": [
+   [
+    "2026-08-20",
+    15200
+   ],
+   [
+    "2026-08-27",
+    15000
+   ],
+   [
+    "2026-09-11",
+    14500
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2020
+ },
+ "34113930": {
+  "city": "Дніпро",
+  "closed_at": "2026-08-23",
+  "days_on_market": 2,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34113930",
+  "last_checked": "2026-08-23",
+  "last_seen": "2026-08-22",
+  "market_since": "2026-08-20",
+  "mileage": 91000,
+  "missing": 1,
+  "pending": false,
+  "price": 11700,
+  "price_history": [
+   [
+    "2026-08-20",
+    11700
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2017
+ },
+ "34115658": {
+  "city": "Дніпро",
+  "closed_at": "2026-08-26",
+  "days_on_market": 5,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34115658",
+  "last_checked": "2026-08-26",
+  "last_seen": "2026-08-25",
+  "market_since": "2026-08-20",
+  "mileage": 151000,
+  "missing": 1,
+  "pending": false,
+  "price": 7400,
+  "price_history": [
+   [
+    "2026-08-20",
+    8400
+   ],
+   [
+    "2026-08-22",
+    7400
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2016
+ },
+ "34117093": {
+  "city": "Вінниця",
+  "closed_at": "2026-09-09",
+  "days_on_market": 19,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34117093",
+  "last_checked": "2026-09-09",
+  "last_seen": "2026-09-08",
+  "market_since": "2026-08-20",
+  "mileage": 81000,
+  "missing": 1,
+  "pending": false,
+  "price": 16700,
+  "price_history": [
+   [
+    "2026-08-20",
+    16700
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2020
+ },
+ "34120963": {
+  "city": "Одеса",
+  "closed_at": "2026-08-28",
+  "days_on_market": 7,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34120963",
+  "last_checked": "2026-08-28",
+  "last_seen": "2026-08-27",
+  "market_since": "2026-08-20",
+  "mileage": 68000,
+  "missing": 1,
+  "pending": false,
+  "price": 10700,
+  "price_history": [
+   [
+    "2026-08-20",
+    10900
+   ],
+   [
+    "2026-08-21",
+    10700
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2018
+ },
+ "34124330": {
+  "city": "Харків",
+  "closed_at": "2026-09-02",
+  "days_on_market": 12,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34124330",
+  "last_checked": "2026-09-02",
+  "last_seen": "2026-09-01",
+  "market_since": "2026-08-20",
+  "mileage": 91000,
+  "missing": 1,
+  "pending": false,
+  "price": 15400,
+  "price_history": [
+   [
+    "2026-08-20",
+    15400
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2020
+ },
+ "34128183": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34128183",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-08-20",
+  "mileage": 58000,
+  "missing": 0,
+  "pending": false,
+  "price": 10800,
+  "price_history": [
+   [
+    "2026-08-20",
+    16600
+   ],
+   [
+    "2026-09-09",
+    15600
+   ],
+   [
+    "2026-09-13",
+    15400
+   ],
+   [
+    "2026-09-21",
+    14900
+   ],
+   [
+    "2026-09-24",
+    14600
+   ],
+   [
+    "2026-09-27",
+    14100
+   ],
+   [
+    "2026-10-04",
+    13100
+   ],
+   [
+    "2026-10-29",
+    12600
+   ],
+   [
+    "2026-11-05",
+    12100
+   ],
+   [
+    "2026-11-06",
+    11100
+   ],
+   [
+    "2026-11-09",
+    10800
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2020
+ },
+ "34128713": {
+  "city": "Харків",
+  "closed_at": "2026-08-25",
+  "days_on_market": 4,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34128713",
+  "last_checked": "2026-08-25",
+  "last_seen": "2026-08-24",
+  "market_since": "2026-08-20",
+  "mileage": 144000,
+  "missing": 1,
+  "pending": false,
+  "price": 11600,
+  "price_history": [
+   [
+    "2026-08-20",
+    11600
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2018
+ },
+ "34129395": {
+  "city": "Харків",
+  "closed_at": "2026-09-20",
+  "days_on_market": 30,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34129395",
+  "last_checked": "2026-09-20",
+  "last_seen": "2026-09-19",
+  "market_since": "2026-08-20",
+  "mileage": 64000,
+  "missing": 1,
+  "pending": false,
+  "price": 14800,
+  "price_history": [
+   [
+    "2026-08-20",
+    15100
+   ],
+   [
+    "2026-09-10",
+    14800
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2020
+ },
+ "34132289": {
+  "city": "Харків",
+  "closed_at": "2026-10-16",
+  "days_on_market": 56,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34132289",
+  "last_checked": "2026-10-16",
+  "last_seen": "2026-10-15",
+  "market_since": "2026-08-20",
+  "mileage": 112000,
+  "missing": 1,
+  "pending": false,
+  "price": 11400,
+  "price_history": [
+   [
+    "2026-08-20",
+    13700
+   ],
+   [
+    "2026-09-07",
+    12700
+   ],
+   [
+    "2026-09-23",
+    12400
+   ],
+   [
+    "2026-09-28",
+    11400
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2019
+ },
+ "34132629": {
+  "city": "Вінниця",
+  "closed_at": "2026-09-02",
+  "days_on_market": 12,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34132629",
+  "last_checked": "2026-09-02",
+  "last_seen": "2026-09-01",
+  "market_since": "2026-08-20",
+  "mileage": 151000,
+  "missing": 1,
+  "pending": false,
+  "price": 7100,
+  "price_history": [
+   [
+    "2026-08-20",
+    8100
+   ],
+   [
+    "2026-08-29",
+    7100
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2017
+ },
+ "34133706": {
+  "city": "Київ",
+  "closed_at": "2026-10-11",
+  "days_on_market": 51,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34133706",
+  "last_checked": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "market_since": "2026-08-20",
+  "mileage": 147000,
+  "missing": 1,
+  "pending": false,
+  "price": 9500,
+  "price_history": [
+   [
+    "2026-08-20",
+    10000
+   ],
+   [
+    "2026-09-18",
+    9500
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2018
+ },
+ "34135219": {
+  "city": "Київ",
+  "closed_at": "2026-10-14",
+  "days_on_market": 54,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34135219",
+  "last_checked": "2026-10-14",
+  "last_seen": "2026-10-13",
+  "market_since": "2026-08-20",
+  "mileage": 141000,
+  "missing": 1,
+  "pending": false,
+  "price": 12200,
+  "price_history": [
+   [
+    "2026-08-20",
+    14000
+   ],
+   [
+    "2026-10-02",
+    13000
+   ],
+   [
+    "2026-10-03",
+    12700
+   ],
+   [
+    "2026-10-06",
+    12200
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2019
+ },
+ "34138488": {
+  "city": "Харків",
+  "closed_at": "2026-11-10",
+  "days_on_market": 81,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34138488",
+  "last_checked": "2026-11-09",
+  "last_seen": "2026-11-09",
+  "market_since": "2026-08-20",
+  "mileage": 84000,
+  "missing": 1,
+  "pending": false,
+  "price": 10400,
+  "price_history": [
+   [
+    "2026-08-20",
+    14100
+   ],
+   [
+    "2026-08-28",
+    13900
+   ],
+   [
+    "2026-09-21",
+    12900
+   ],
+   [
+    "2026-09-24",
+    12400
+   ],
+   [
+    "2026-10-03",
+    11900
+   ],
+   [
+    "2026-10-25",
+    11400
+   ],
+   [
+    "2026-10-31",
+    10400
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2019
+ },
+ "34140461": {
+  "city": "Вінниця",
+  "closed_at": "2026-10-28",
+  "days_on_market": 68,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34140461",
+  "last_checked": "2026-10-28",
+  "last_seen": "2026-10-27",
+  "market_since": "2026-08-20",
+  "mileage": 108000,
+  "missing": 1,
+  "pending": false,
+  "price": 12100,
+  "price_history": [
+   [
+    "2026-08-20",
+    13100
+   ],
+   [
+    "2026-08-26",
+    12600
+   ],
+   [
+    "2026-09-06",
+    12100
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2019
+ },
+ "34141854": {
+  "city": "Київ",
+  "closed_at": "2026-10-30",
+  "days_on_market": 70,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34141854",
+  "last_checked": "2026-10-30",
+  "last_seen": "2026-10-29",
+  "market_since": "2026-08-20",
+  "mileage": 144000,
+  "missing": 1,
+  "pending": false,
+  "price": 5600,
+  "price_history": [
+   [
+    "2026-08-20",
+    6600
+   ],
+   [
+    "2026-09-19",
+    6300
+   ],
+   [
+    "2026-09-28",
+    5800
+   ],
+   [
+    "2026-10-04",
+    5600
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2016
+ },
+ "34144052": {
+  "city": "Львів",
+  "closed_at": "2026-08-25",
+  "days_on_market": 4,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34144052",
+  "last_checked": "2026-08-24",
+  "last_seen": "2026-08-24",
+  "market_since": "2026-08-20",
+  "mileage": 165000,
+  "missing": 1,
+  "pending": false,
+  "price": 8200,
+  "price_history": [
+   [
+    "2026-08-20",
+    8200
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2017
+ },
+ "34144661": {
+  "city": "Дніпро",
+  "closed_at": "2026-08-22",
+  "days_on_market": 1,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34144661",
+  "last_checked": "2026-08-21",
+  "last_seen": "2026-08-21",
+  "market_since": "2026-08-20",
+  "mileage": 98000,
+  "missing": 1,
+  "pending": false,
+  "price": 14300,
+  "price_history": [
+   [
+    "2026-08-20",
+    14300
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2018
+ },
+ "34146604": {
+  "city": "Вінниця",
+  "closed_at": "2026-08-31",
+  "days_on_market": 10,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34146604",
+  "last_checked": "2026-08-31",
+  "last_seen": "2026-08-30",
+  "market_since": "2026-08-20",
+  "mileage": 151000,
+  "missing": 1,
+  "pending": false,
+  "price": 9900,
+  "price_history": [
+   [
+    "2026-08-20",
+    9900
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2017
+ },
+ "34146956": {
+  "city": "Дніпро",
+  "closed_at": "2026-09-16",
+  "days_on_market": 26,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34146956",
+  "last_checked": "2026-09-15",
+  "last_seen": "2026-09-15",
+  "market_since": "2026-08-20",
+  "mileage": 149000,
+  "missing": 1,
+  "pending": false,
+  "price": 8500,
+  "price_history": [
+   [
+    "2026-08-20",
+    8500
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2017
+ },
+ "34150351": {
+  "city": "Житомир",
+  "closed_at": "2026-09-04",
+  "days_on_market": 14,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34150351",
+  "last_checked": "2026-09-04",
+  "last_seen": "2026-09-03",
+  "market_since": "2026-08-20",
+  "mileage": 105000,
+  "missing": 1,
+  "pending": false,
+  "price": 12100,
+  "price_history": [
+   [
+    "2026-08-20",
+    12400
+   ],
+   [
+    "2026-08-25",
+    12100
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2017
+ },
+ "34153178": {
+  "city": "Житомир",
+  "closed_at": "2026-09-08",
+  "days_on_market": 18,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34153178",
+  "last_checked": "2026-09-08",
+  "last_seen": "2026-09-07",
+  "market_since": "2026-08-20",
+  "mileage": 137000,
+  "missing": 1,
+  "pending": false,
+  "price": 8400,
+  "price_history": [
+   [
+    "2026-08-20",
+    9400
+   ],
+   [
+    "2026-08-30",
+    8900
+   ],
+   [
+    "2026-09-07",
+    8400
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2016
+ },
+ "34156715": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34156715",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-08-20",
+  "mileage": 118000,
+  "missing": 0,
+  "pending": false,
+  "price": 9400,
+  "price_history": [
+   [
+    "2026-08-20",
+    9800
+   ],
+   [
+    "2026-09-28",
+    9600
+   ],
+   [
+    "2026-09-29",
+    9400
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2017
+ },
+ "34158897": {
+  "city": "Львів",
+  "closed_at": "2026-08-23",
+  "days_on_market": 2,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34158897",
+  "last_checked": "2026-08-22",
+  "last_seen": "2026-08-22",
+  "market_since": "2026-08-20",
+  "mileage": 75000,
+  "missing": 1,
+  "pending": false,
+  "price": 15100,
+  "price_history": [
+   [
+    "2026-08-20",
+    15100
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2019
+ },
+ "34162199": {
+  "city": "Львів",
+  "closed_at": "2026-08-23",
+  "days_on_market": 2,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34162199",
+  "last_checked": "2026-08-23",
+  "last_seen": "2026-08-22",
+  "market_since": "2026-08-20",
+  "mileage": 132000,
+  "missing": 1,
+  "pending": false,
+  "price": 11000,
+  "price_history": [
+   [
+    "2026-08-20",
+    11000
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2018
+ },
+ "34163656": {
+  "city": "Одеса",
+  "closed_at": "2026-09-10",
+  "days_on_market": 20,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34163656",
+  "last_checked": "2026-09-10",
+  "last_seen": "2026-09-09",
+  "market_since": "2026-08-20",
+  "mileage": 95000,
+  "missing": 1,
+  "pending": false,
+  "price": 6500,
+  "price_history": [
+   [
+    "2026-08-20",
+    6800
+   ],
+   [
+    "2026-08-21",
+    6500
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2016
+ },
+ "34164450": {
+  "city": "Дніпро",
+  "closed_at": "2026-08-21",
+  "days_on_market": 0,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34164450",
+  "last_checked": "2026-08-21",
+  "last_seen": "2026-08-20",
+  "market_since": "2026-08-20",
+  "mileage": 31000,
+  "missing": 1,
+  "pending": false,
+  "price": 14400,
+  "price_history": [
+   [
+    "2026-08-20",
+    14400
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2019
+ },
+ "34164869": {
+  "city": "Львів",
+  "closed_at": "2026-09-23",
+  "days_on_market": 33,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34164869",
+  "last_checked": "2026-09-23",
+  "last_seen": "2026-09-22",
+  "market_since": "2026-08-20",
+  "mileage": 134000,
+  "missing": 1,
+  "pending": false,
+  "price": 11200,
+  "price_history": [
+   [
+    "2026-08-20",
+    12000
+   ],
+   [
+    "2026-09-09",
+    11700
+   ],
+   [
+    "2026-09-15",
+    11200
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2018
+ },
+ "34166846": {
+  "city": "Київ",
+  "closed_at": "2026-08-22",
+  "days_on_market": 1,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34166846",
+  "last_checked": "2026-08-22",
+  "last_seen": "2026-08-21",
+  "market_since": "2026-08-20",
+  "mileage": 96000,
+  "missing": 1,
+  "pending": false,
+  "price": 9900,
+  "price_history": [
+   [
+    "2026-08-20",
+    9900
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2016
+ },
+ "34170051": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34170051",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-08-20",
+  "mileage": 117000,
+  "missing": 0,
+  "pending": false,
+  "price": 10200,
+  "price_history": [
+   [
+    "2026-08-20",
+    12200
+   ],
+   [
+    "2026-10-19",
+    11700
+   ],
+   [
+    "2026-10-20",
+    11200
+   ],
+   [
+    "2026-11-10",
+    10700
+   ],
+   [
+    "2026-11-14",
+    10200
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2018
+ },
+ "34171413": {
+  "city": "Вінниця",
+  "closed_at": "2026-09-15",
+  "days_on_market": 25,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34171413",
+  "last_checked": "2026-09-15",
+  "last_seen": "2026-09-14",
+  "market_since": "2026-08-20",
+  "mileage": 151000,
+  "missing": 1,
+  "pending": false,
+  "price": 7700,
+  "price_history": [
+   [
+    "2026-08-20",
+    9700
+   ],
+   [
+    "2026-08-21",
+    9200
+   ],
+   [
+    "2026-08-24",
+    8700
+   ],
+   [
+    "2026-08-28",
+    7700
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2017
+ },
+ "34175292": {
+  "city": "Київ",
+  "closed_at": "2026-09-09",
+  "days_on_market": 19,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34175292",
+  "last_checked": "2026-09-08",
+  "last_seen": "2026-09-08",
+  "market_since": "2026-08-20",
+  "mileage": 49000,
+  "missing": 1,
+  "pending": false,
+  "price": 11600,
+  "price_history": [
+   [
+    "2026-08-20",
+    11900
+   ],
+   [
+    "2026-09-08",
+    11600
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2017
+ },
+ "34175405": {
+  "city": "Київ",
+  "closed_at": "2026-09-27",
+  "days_on_market": 37,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34175405",
+  "last_checked": "2026-09-26",
+  "last_seen": "2026-09-26",
+  "market_since": "2026-08-20",
+  "mileage": 97000,
+  "missing": 1,
+  "pending": false,
+  "price": 8900,
+  "price_history": [
+   [
+    "2026-08-20",
+    11200
+   ],
+   [
+    "2026-08-25",
+    10700
+   ],
+   [
+    "2026-08-31",
+    9700
+   ],
+   [
+    "2026-09-09",
+    9200
+   ],
+   [
+    "2026-09-15",
+    8900
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2017
+ },
+ "34177348": {
+  "city": "Житомир",
+  "closed_at": "2026-08-28",
+  "days_on_market": 7,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34177348",
+  "last_checked": "2026-08-28",
+  "last_seen": "2026-08-27",
+  "market_since": "2026-08-20",
+  "mileage": 79000,
+  "missing": 1,
+  "pending": false,
+  "price": 13100,
+  "price_history": [
+   [
+    "2026-08-20",
+    13100
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2019
+ },
+ "34177436": {
+  "city": "Житомир",
+  "closed_at": "2026-08-23",
+  "days_on_market": 2,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34177436",
+  "last_checked": "2026-08-23",
+  "last_seen": "2026-08-22",
+  "market_since": "2026-08-20",
+  "mileage": 154000,
+  "missing": 1,
+  "pending": false,
+  "price": 6000,
+  "price_history": [
+   [
+    "2026-08-20",
+    6500
+   ],
+   [
+    "2026-08-22",
+    6000
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2016
+ },
+ "34181007": {
+  "city": "Львів",
+  "closed_at": "2026-08-31",
+  "days_on_market": 10,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34181007",
+  "last_checked": "2026-08-30",
+  "last_seen": "2026-08-30",
+  "market_since": "2026-08-20",
+  "mileage": 66000,
+  "missing": 1,
+  "pending": false,
+  "price": 13800,
+  "price_history": [
+   [
+    "2026-08-20",
+    14100
+   ],
+   [
+    "2026-08-26",
+    13800
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2018
+ },
+ "34181879": {
+  "city": "Одеса",
+  "closed_at": "2026-09-27",
+  "days_on_market": 37,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34181879",
+  "last_checked": "2026-09-27",
+  "last_seen": "2026-09-26",
+  "market_since": "2026-08-20",
+  "mileage": 61000,
+  "missing": 1,
+  "pending": false,
+  "price": 12100,
+  "price_history": [
+   [
+    "2026-08-20",
+    12100
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2018
+ },
+ "34185296": {
+  "city": "Дніпро",
+  "closed_at": "2026-08-25",
+  "days_on_market": 4,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34185296",
+  "last_checked": "2026-08-25",
+  "last_seen": "2026-08-24",
+  "market_since": "2026-08-20",
+  "mileage": 125000,
+  "missing": 1,
+  "pending": false,
+  "price": 8500,
+  "price_history": [
+   [
+    "2026-08-20",
+    8500
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2017
+ },
+ "34187686": {
+  "city": "Житомир",
+  "closed_at": "2026-09-17",
+  "days_on_market": 27,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34187686",
+  "last_checked": "2026-09-16",
+  "last_seen": "2026-09-16",
+  "market_since": "2026-08-20",
+  "mileage": 126000,
+  "missing": 1,
+  "pending": false,
+  "price": 12600,
+  "price_history": [
+   [
+    "2026-08-20",
+    12600
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2019
+ },
+ "34189778": {
+  "city": "Вінниця",
+  "closed_at": "2026-09-01",
+  "days_on_market": 11,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34189778",
+  "last_checked": "2026-08-31",
+  "last_seen": "2026-08-31",
+  "market_since": "2026-08-20",
+  "mileage": 85000,
+  "missing": 1,
+  "pending": false,
+  "price": 10300,
+  "price_history": [
+   [
+    "2026-08-20",
+    10300
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2016
+ },
+ "34189795": {
+  "city": "Київ",
+  "closed_at": "2026-09-20",
+  "days_on_market": 30,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34189795",
+  "last_checked": "2026-09-20",
+  "last_seen": "2026-09-19",
+  "market_since": "2026-08-20",
+  "mileage": 141000,
+  "missing": 1,
+  "pending": false,
+  "price": 9600,
+  "price_history": [
+   [
+    "2026-08-20",
+    11100
+   ],
+   [
+    "2026-08-25",
+    10600
+   ],
+   [
+    "2026-09-19",
+    9600
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2017
+ },
+ "34191131": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34191131",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-08-20",
+  "mileage": 114000,
+  "missing": 0,
+  "pending": false,
+  "price": 16500,
+  "price_history": [
+   [
+    "2026-08-20",
+    17300
+   ],
+   [
+    "2026-10-12",
+    17000
+   ],
+   [
+    "2026-10-14",
+    16500
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2020
+ },
+ "34192149": {
+  "city": "Вінниця",
+  "closed_at": "2026-08-29",
+  "days_on_market": 8,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34192149",
+  "last_checked": "2026-08-29",
+  "last_seen": "2026-08-28",
+  "market_since": "2026-08-20",
+  "mileage": 103000,
+  "missing": 1,
+  "pending": false,
+  "price": 12500,
+  "price_history": [
+   [
+    "2026-08-20",
+    12500
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2018
+ },
+ "34195262": {
+  "city": "Дніпро",
+  "closed_at": "2026-09-07",
+  "days_on_market": 17,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34195262",
+  "last_checked": "2026-09-07",
+  "last_seen": "2026-09-06",
+  "market_since": "2026-08-20",
+  "mileage": 176000,
+  "missing": 1,
+  "pending": false,
+  "price": 8600,
+  "price_history": [
+   [
+    "2026-08-20",
+    9600
+   ],
+   [
+    "2026-08-27",
+    9100
+   ],
+   [
+    "2026-09-03",
+    8600
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2017
+ },
+ "34197745": {
+  "city": "Вінниця",
+  "closed_at": "2026-09-25",
+  "days_on_market": 35,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34197745",
+  "last_checked": "2026-09-25",
+  "last_seen": "2026-09-24",
+  "market_since": "2026-08-20",
+  "mileage": 100000,
+  "missing": 1,
+  "pending": false,
+  "price": 10600,
+  "price_history": [
+   [
+    "2026-08-20",
+    12600
+   ],
+   [
+    "2026-09-09",
+    11600
+   ],
+   [
+    "2026-09-11",
+    10600
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2018
+ },
+ "34200609": {
+  "city": "Житомир",
+  "closed_at": "2026-09-01",
+  "days_on_market": 11,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34200609",
+  "last_checked": "2026-08-31",
+  "last_seen": "2026-08-31",
+  "market_since": "2026-08-20",
+  "mileage": 81000,
+  "missing": 1,
+  "pending": false,
+  "price": 14400,
+  "price_history": [
+   [
+    "2026-08-20",
+    14400
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2018
+ },
+ "34201171": {
+  "city": "Львів",
+  "closed_at": "2026-11-13",
+  "days_on_market": 84,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34201171",
+  "last_checked": "2026-11-13",
+  "last_seen": "2026-11-12",
+  "market_since": "2026-08-20",
+  "mileage": 121000,
+  "missing": 1,
+  "pending": false,
+  "price": 10800,
+  "price_history": [
+   [
+    "2026-08-20",
+    12400
+   ],
+   [
+    "2026-09-01",
+    12200
+   ],
+   [
+    "2026-09-04",
+    12000
+   ],
+   [
+    "2026-09-25",
+    11500
+   ],
+   [
+    "2026-10-09",
+    11300
+   ],
+   [
+    "2026-11-04",
+    10800
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2019
+ },
+ "34202043": {
+  "city": "Київ",
+  "closed_at": "2026-08-21",
+  "days_on_market": 0,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34202043",
+  "last_checked": "2026-08-21",
+  "last_seen": "2026-08-20",
+  "market_since": "2026-08-20",
+  "mileage": 134000,
+  "missing": 1,
+  "pending": false,
+  "price": 13300,
+  "price_history": [
+   [
+    "2026-08-20",
+    13300
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2018
+ },
+ "34204679": {
+  "city": "Вінниця",
+  "closed_at": "2026-08-26",
+  "days_on_market": 5,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34204679",
+  "last_checked": "2026-08-26",
+  "last_seen": "2026-08-25",
+  "market_since": "2026-08-20",
+  "mileage": 136000,
+  "missing": 1,
+  "pending": false,
+  "price": 15900,
+  "price_history": [
+   [
+    "2026-08-20",
+    15900
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2019
+ },
+ "34208581": {
+  "city": "Вінниця",
+  "closed_at": "2026-09-12",
+  "days_on_market": 22,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34208581",
+  "last_checked": "2026-09-12",
+  "last_seen": "2026-09-11",
+  "market_since": "2026-08-20",
+  "mileage": 174000,
+  "missing": 1,
+  "pending": false,
+  "price": 9500,
+  "price_history": [
+   [
+    "2026-08-20",
+    9500
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2017
+ },
+ "34211991": {
+  "city": "Харків",
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34211991",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-08-20",
+  "mileage": 128000,
+  "missing": 0,
+  "pending": false,
+  "price": 10600,
+  "price_history": [
+   [
+    "2026-08-20",
+    12300
+   ],
+   [
+    "2026-08-23",
+    12100
+   ],
+   [
+    "2026-09-11",
+    11600
+   ],
+   [
+    "2026-10-24",
+    11300
+   ],
+   [
+    "2026-11-07",
+    10800
+   ],
+   [
+    "2026-11-15",
+    10600
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2018
+ },
+ "34212793": {
+  "city": "Київ",
+  "closed_at": "2026-10-12",
+  "days_on_market": 52,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34212793",
+  "last_checked": "2026-10-12",
+  "last_seen": "2026-10-11",
+  "market_since": "2026-08-20",
+  "mileage": 125000,
+  "missing": 1,
+  "pending": false,
+  "price": 11400,
+  "price_history": [
+   [
+    "2026-08-20",
+    13400
+   ],
+   [
+    "2026-08-23",
+    12900
+   ],
+   [
+    "2026-09-01",
+    11900
+   ],
+   [
+    "2026-10-01",
+    11400
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2019
+ },
+ "34214178": {
+  "city": "Житомир",
+  "closed_at": "2026-09-03",
+  "days_on_market": 13,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34214178",
+  "last_checked": "2026-09-02",
+  "last_seen": "2026-09-02",
+  "market_since": "2026-08-20",
+  "mileage": 78000,
+  "missing": 1,
+  "pending": false,
+  "price": 15500,
+  "price_history": [
+   [
+    "2026-08-20",
+    15800
+   ],
+   [
+    "2026-08-28",
+    15500
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2020
+ },
+ "34216277": {
+  "city": "Львів",
+  "closed_at": "2026-08-21",
+  "days_on_market": 0,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34216277",
+  "last_checked": "2026-08-21",
+  "last_seen": "2026-08-20",
+  "market_since": "2026-08-20",
+  "mileage": 128000,
+  "missing": 1,
+  "pending": false,
+  "price": 8700,
+  "price_history": [
+   [
+    "2026-08-20",
+    8700
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2017
+ },
+ "34217365": {
+  "city": "Київ",
+  "closed_at": "2026-08-26",
+  "days_on_market": 5,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34217365",
+  "last_checked": "2026-08-25",
+  "last_seen": "2026-08-25",
+  "market_since": "2026-08-20",
+  "mileage": 162000,
+  "missing": 1,
+  "pending": false,
+  "price": 10900,
+  "price_history": [
+   [
+    "2026-08-20",
+    10900
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2018
+ },
+ "34220720": {
+  "city": "Київ",
+  "closed_at": "2026-09-02",
+  "days_on_market": 12,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34220720",
+  "last_checked": "2026-09-01",
+  "last_seen": "2026-09-01",
+  "market_since": "2026-08-20",
+  "mileage": 124000,
+  "missing": 1,
+  "pending": false,
+  "price": 11300,
+  "price_history": [
+   [
+    "2026-08-20",
+    11800
+   ],
+   [
+    "2026-08-29",
+    11300
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2018
+ },
+ "34223058": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34223058",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-08-20",
+  "mileage": 80000,
+  "missing": 0,
+  "pending": false,
+  "price": 14000,
+  "price_history": [
+   [
+    "2026-08-20",
+    14600
+   ],
+   [
+    "2026-08-31",
+    14400
+   ],
+   [
+    "2026-09-16",
+    14200
+   ],
+   [
+    "2026-10-14",
+    14000
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2020
+ },
+ "34224160": {
+  "city": "Київ",
+  "closed_at": "2026-08-22",
+  "days_on_market": 1,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34224160",
+  "last_checked": "2026-08-22",
+  "last_seen": "2026-08-21",
+  "market_since": "2026-08-20",
+  "mileage": 127000,
+  "missing": 1,
+  "pending": false,
+  "price": 8800,
+  "price_history": [
+   [
+    "2026-08-20",
+    9000
+   ],
+   [
+    "2026-08-21",
+    8800
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2016
+ },
+ "34226652": {
+  "city": "Київ",
+  "closed_at": "2026-09-18",
+  "days_on_market": 28,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34226652",
+  "last_checked": "2026-09-17",
+  "last_seen": "2026-09-17",
+  "market_since": "2026-08-20",
+  "mileage": 166000,
+  "missing": 1,
+  "pending": false,
+  "price": 11200,
+  "price_history": [
+   [
+    "2026-08-20",
+    11700
+   ],
+   [
+    "2026-08-22",
+    11200
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2018
+ },
+ "34228364": {
+  "city": "Київ",
+  "closed_at": "2026-09-03",
+  "days_on_market": 13,
+  "drive": "Передній",
+  "first_seen": "2026-08-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34228364",
+  "last_checked": "2026-09-03",
+  "last_seen": "2026-09-02",
+  "market_since": "2026-08-20",
+  "mileage": 136000,
+  "missing": 1,
+  "pending": false,
+  "price": 12600,
+  "price_history": [
+   [
+    "2026-08-20",
+    12600
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2018
+ },
+ "34232281": {
+  "city": "Харків",
+  "closed_at": "2026-09-10",
+  "days_on_market": 17,
+  "drive": "Передній",
+  "first_seen": "2026-08-23",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34232281",
+  "last_checked": "2026-09-09",
+  "last_seen": "2026-09-09",
+  "market_since": "2026-08-23",
+  "mileage": 138000,
+  "missing": 1,
+  "pending": false,
+  "price": 14000,
+  "price_history": [
+   [
+    "2026-08-23",
+    14500
+   ],
+   [
+    "2026-08-27",
+    14000
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2019
+ },
+ "34233115": {
+  "city": "Харків",
+  "closed_at": "2026-10-20",
+  "days_on_market": 57,
+  "drive": "Передній",
+  "first_seen": "2026-08-23",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34233115",
+  "last_checked": "2026-10-20",
+  "last_seen": "2026-10-19",
+  "market_since": "2026-08-23",
+  "mileage": 89000,
+  "missing": 1,
+  "pending": false,
+  "price": 7800,
+  "price_history": [
+   [
+    "2026-08-23",
+    8800
+   ],
+   [
+    "2026-08-29",
+    8500
+   ],
+   [
+    "2026-09-12",
+    8300
+   ],
+   [
+    "2026-09-19",
+    7800
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2017
+ },
+ "34236198": {
+  "city": "Житомир",
+  "closed_at": "2026-09-11",
+  "days_on_market": 18,
+  "drive": "Передній",
+  "first_seen": "2026-08-23",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34236198",
+  "last_checked": "2026-09-11",
+  "last_seen": "2026-09-10",
+  "market_since": "2026-08-23",
+  "mileage": 110000,
+  "missing": 1,
+  "pending": false,
+  "price": 7600,
+  "price_history": [
+   [
+    "2026-08-23",
+    8600
+   ],
+   [
+    "2026-08-27",
+    7600
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2017
+ },
+ "34238338": {
+  "city": "Вінниця",
+  "closed_at": "2026-10-02",
+  "days_on_market": 38,
+  "drive": "Передній",
+  "first_seen": "2026-08-24",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34238338",
+  "last_checked": "2026-10-02",
+  "last_seen": "2026-10-01",
+  "market_since": "2026-08-24",
+  "mileage": 106000,
+  "missing": 1,
+  "pending": false,
+  "price": 11800,
+  "price_history": [
+   [
+    "2026-08-24",
+    12300
+   ],
+   [
+    "2026-08-25",
+    12100
+   ],
+   [
+    "2026-09-16",
+    11800
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2017
+ },
+ "34239950": {
+  "city": "Київ",
+  "closed_at": "2026-09-20",
+  "days_on_market": 25,
+  "drive": "Передній",
+  "first_seen": "2026-08-25",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34239950",
+  "last_checked": "2026-09-19",
+  "last_seen": "2026-09-19",
+  "market_since": "2026-08-25",
+  "mileage": 133000,
+  "missing": 1,
+  "pending": false,
+  "price": 16900,
+  "price_history": [
+   [
+    "2026-08-25",
+    16900
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2020
+ },
+ "34239986": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-08-26",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34239986",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-08-26",
+  "mileage": 74000,
+  "missing": 0,
+  "pending": false,
+  "price": 11700,
+  "price_history": [
+   [
+    "2026-08-26",
+    14000
+   ],
+   [
+    "2026-09-06",
+    13000
+   ],
+   [
+    "2026-10-02",
+    12000
+   ],
+   [
+    "2026-11-15",
+    11700
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2018
+ },
+ "34242086": {
+  "city": "Київ",
+  "closed_at": "2026-09-30",
+  "days_on_market": 33,
+  "drive": "Передній",
+  "first_seen": "2026-08-27",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34242086",
+  "last_checked": "2026-09-30",
+  "last_seen": "2026-09-29",
+  "market_since": "2026-08-27",
+  "mileage": 103000,
+  "missing": 1,
+  "pending": false,
+  "price": 10000,
+  "price_history": [
+   [
+    "2026-08-27",
+    11700
+   ],
+   [
+    "2026-08-29",
+    10700
+   ],
+   [
+    "2026-09-01",
+    10500
+   ],
+   [
+    "2026-09-16",
+    10000
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2017
+ },
+ "34245173": {
+  "city": "Київ",
+  "closed_at": "2026-09-23",
+  "days_on_market": 25,
+  "drive": "Передній",
+  "first_seen": "2026-08-28",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34245173",
+  "last_checked": "2026-09-23",
+  "last_seen": "2026-09-22",
+  "market_since": "2026-08-28",
+  "mileage": 119000,
+  "missing": 1,
+  "pending": false,
+  "price": 11000,
+  "price_history": [
+   [
+    "2026-08-28",
+    11500
+   ],
+   [
+    "2026-08-30",
+    11000
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2018
+ },
+ "34249068": {
+  "city": "Київ",
+  "closed_at": "2026-10-06",
+  "days_on_market": 37,
+  "drive": "Передній",
+  "first_seen": "2026-08-29",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34249068",
+  "last_checked": "2026-10-06",
+  "last_seen": "2026-10-05",
+  "market_since": "2026-08-29",
+  "mileage": 136000,
+  "missing": 1,
+  "pending": false,
+  "price": 10200,
+  "price_history": [
+   [
+    "2026-08-29",
+    10700
+   ],
+   [
+    "2026-09-06",
+    10200
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2017
+ },
+ "34252696": {
+  "city": "Київ",
+  "closed_at": "2026-10-26",
+  "days_on_market": 57,
+  "drive": "Передній",
+  "first_seen": "2026-08-29",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34252696",
+  "last_checked": "2026-10-26",
+  "last_seen": "2026-10-25",
+  "market_since": "2026-08-29",
+  "mileage": 85000,
+  "missing": 1,
+  "pending": false,
+  "price": 15200,
+  "price_history": [
+   [
+    "2026-08-29",
+    15500
+   ],
+   [
+    "2026-10-02",
+    15200
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2020
+ },
+ "34252855": {
+  "city": "Одеса",
+  "closed_at": "2026-10-06",
+  "days_on_market": 35,
+  "drive": "Передній",
+  "first_seen": "2026-08-31",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34252855",
+  "last_checked": "2026-10-06",
+  "last_seen": "2026-10-05",
+  "market_since": "2026-08-31",
+  "mileage": 100000,
+  "missing": 1,
+  "pending": false,
+  "price": 9800,
+  "price_history": [
+   [
+    "2026-08-31",
+    11300
+   ],
+   [
+    "2026-09-06",
+    10800
+   ],
+   [
+    "2026-10-01",
+    10300
+   ],
+   [
+    "2026-10-03",
+    9800
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2017
+ },
+ "34255460": {
+  "city": "Житомир",
+  "closed_at": "2026-09-19",
+  "days_on_market": 18,
+  "drive": "Передній",
+  "first_seen": "2026-08-31",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34255460",
+  "last_checked": "2026-09-19",
+  "last_seen": "2026-09-18",
+  "market_since": "2026-08-31",
+  "mileage": 140000,
+  "missing": 1,
+  "pending": false,
+  "price": 13700,
+  "price_history": [
+   [
+    "2026-08-31",
+    14700
+   ],
+   [
+    "2026-09-09",
+    13700
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2019
+ },
+ "34258108": {
+  "city": "Київ",
+  "closed_at": "2026-09-26",
+  "days_on_market": 24,
+  "drive": "Передній",
+  "first_seen": "2026-09-01",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34258108",
+  "last_checked": "2026-09-26",
+  "last_seen": "2026-09-25",
+  "market_since": "2026-09-01",
+  "mileage": 104000,
+  "missing": 1,
+  "pending": false,
+  "price": 10400,
+  "price_history": [
+   [
+    "2026-09-01",
+    11400
+   ],
+   [
+    "2026-09-16",
+    10400
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2018
+ },
+ "34261918": {
+  "city": "Дніпро",
+  "closed_at": "2026-09-11",
+  "days_on_market": 9,
+  "drive": "Передній",
+  "first_seen": "2026-09-01",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34261918",
+  "last_checked": "2026-09-11",
+  "last_seen": "2026-09-10",
+  "market_since": "2026-09-01",
+  "mileage": 138000,
+  "missing": 1,
+  "pending": false,
+  "price": 10300,
+  "price_history": [
+   [
+    "2026-09-01",
+    10300
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2018
+ },
+ "34263982": {
+  "city": "Харків",
+  "drive": "Передній",
+  "first_seen": "2026-09-01",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34263982",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-09-01",
+  "mileage": 108000,
+  "missing": 0,
+  "pending": false,
+  "price": 11300,
+  "price_history": [
+   [
+    "2026-09-01",
+    14300
+   ],
+   [
+    "2026-09-09",
+    13300
+   ],
+   [
+    "2026-09-12",
+    12300
+   ],
+   [
+    "2026-10-25",
+    11300
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2020
+ },
+ "34265880": {
+  "city": "Одеса",
+  "closed_at": "2026-10-28",
+  "days_on_market": 55,
+  "drive": "Передній",
+  "first_seen": "2026-09-02",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34265880",
+  "last_checked": "2026-10-28",
+  "last_seen": "2026-10-27",
+  "market_since": "2026-09-02",
+  "mileage": 50000,
+  "missing": 1,
+  "pending": false,
+  "price": 17000,
+  "price_history": [
+   [
+    "2026-09-02",
+    17500
+   ],
+   [
+    "2026-09-07",
+    17300
+   ],
+   [
+    "2026-09-23",
+    17000
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2020
+ },
+ "34266281": {
+  "city": "Київ",
+  "closed_at": "2026-09-07",
+  "days_on_market": 3,
+  "drive": "Передній",
+  "first_seen": "2026-09-03",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34266281",
+  "last_checked": "2026-09-07",
+  "last_seen": "2026-09-06",
+  "market_since": "2026-09-03",
+  "mileage": 99000,
+  "missing": 1,
+  "pending": false,
+  "price": 15200,
+  "price_history": [
+   [
+    "2026-09-03",
+    15200
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2019
+ },
+ "34268259": {
+  "city": "Харків",
+  "closed_at": "2026-09-07",
+  "days_on_market": 3,
+  "drive": "Передній",
+  "first_seen": "2026-09-03",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34268259",
+  "last_checked": "2026-09-07",
+  "last_seen": "2026-09-06",
+  "market_since": "2026-09-03",
+  "mileage": 114000,
+  "missing": 1,
+  "pending": false,
+  "price": 14200,
+  "price_history": [
+   [
+    "2026-09-03",
+    14200
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2020
+ },
+ "34271517": {
+  "city": "Київ",
+  "closed_at": "2026-10-15",
+  "days_on_market": 40,
+  "drive": "Передній",
+  "first_seen": "2026-09-04",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34271517",
+  "last_checked": "2026-10-14",
+  "last_seen": "2026-10-14",
+  "market_since": "2026-09-04",
+  "mileage": 73000,
+  "missing": 1,
+  "pending": false,
+  "price": 14500,
+  "price_history": [
+   [
+    "2026-09-04",
+    14800
+   ],
+   [
+    "2026-10-05",
+    14500
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2019
+ },
+ "34274727": {
+  "city": "Харків",
+  "closed_at": "2026-10-20",
+  "days_on_market": 45,
+  "drive": "Передній",
+  "first_seen": "2026-09-04",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34274727",
+  "last_checked": "2026-10-20",
+  "last_seen": "2026-10-19",
+  "market_since": "2026-09-04",
+  "mileage": 116000,
+  "missing": 1,
+  "pending": false,
+  "price": 11100,
+  "price_history": [
+   [
+    "2026-09-04",
+    11400
+   ],
+   [
+    "2026-10-16",
+    11100
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2018
+ },
+ "34277508": {
+  "city": "Одеса",
+  "closed_at": "2026-10-12",
+  "days_on_market": 37,
+  "drive": "Передній",
+  "first_seen": "2026-09-04",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34277508",
+  "last_checked": "2026-10-12",
+  "last_seen": "2026-10-11",
+  "market_since": "2026-09-04",
+  "mileage": 72000,
+  "missing": 1,
+  "pending": false,
+  "price": 10700,
+  "price_history": [
+   [
+    "2026-09-04",
+    12000
+   ],
+   [
+    "2026-09-09",
+    11700
+   ],
+   [
+    "2026-09-29",
+    10700
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2017
+ },
+ "34280234": {
+  "city": "Вінниця",
+  "closed_at": "2026-09-13",
+  "days_on_market": 7,
+  "drive": "Передній",
+  "first_seen": "2026-09-05",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34280234",
+  "last_checked": "2026-09-13",
+  "last_seen": "2026-09-12",
+  "market_since": "2026-09-05",
+  "mileage": 118000,
+  "missing": 1,
+  "pending": false,
+  "price": 13700,
+  "price_history": [
+   [
+    "2026-09-05",
+    13700
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2018
+ },
+ "34282830": {
+  "city": "Київ",
+  "closed_at": "2026-09-09",
+  "days_on_market": 2,
+  "drive": "Передній",
+  "first_seen": "2026-09-06",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34282830",
+  "last_checked": "2026-09-09",
+  "last_seen": "2026-09-08",
+  "market_since": "2026-09-06",
+  "mileage": 70000,
+  "missing": 1,
+  "pending": false,
+  "price": 17200,
+  "price_history": [
+   [
+    "2026-09-06",
+    17200
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2020
+ },
+ "34286003": {
+  "city": "Київ",
+  "closed_at": "2026-09-12",
+  "days_on_market": 5,
+  "drive": "Передній",
+  "first_seen": "2026-09-06",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34286003",
+  "last_checked": "2026-09-12",
+  "last_seen": "2026-09-11",
+  "market_since": "2026-09-06",
+  "mileage": 112000,
+  "missing": 1,
+  "pending": false,
+  "price": 12100,
+  "price_history": [
+   [
+    "2026-09-06",
+    12100
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2017
+ },
+ "34289423": {
+  "city": "Вінниця",
+  "closed_at": "2026-09-27",
+  "days_on_market": 19,
+  "drive": "Передній",
+  "first_seen": "2026-09-07",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34289423",
+  "last_checked": "2026-09-27",
+  "last_seen": "2026-09-26",
+  "market_since": "2026-09-07",
+  "mileage": 63000,
+  "missing": 1,
+  "pending": false,
+  "price": 18400,
+  "price_history": [
+   [
+    "2026-09-07",
+    18400
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2020
+ },
+ "34290105": {
+  "city": "Київ",
+  "closed_at": "2026-09-14",
+  "days_on_market": 6,
+  "drive": "Передній",
+  "first_seen": "2026-09-07",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34290105",
+  "last_checked": "2026-09-14",
+  "last_seen": "2026-09-13",
+  "market_since": "2026-09-07",
+  "mileage": 109000,
+  "missing": 1,
+  "pending": false,
+  "price": 12400,
+  "price_history": [
+   [
+    "2026-09-07",
+    12400
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2017
+ },
+ "34290777": {
+  "city": "Одеса",
+  "closed_at": "2026-09-30",
+  "days_on_market": 22,
+  "drive": "Передній",
+  "first_seen": "2026-09-07",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34290777",
+  "last_checked": "2026-09-30",
+  "last_seen": "2026-09-29",
+  "market_since": "2026-09-07",
+  "mileage": 46000,
+  "missing": 1,
+  "pending": false,
+  "price": 14100,
+  "price_history": [
+   [
+    "2026-09-07",
+    14600
+   ],
+   [
+    "2026-09-21",
+    14100
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2019
+ },
+ "34291965": {
+  "city": "Дніпро",
+  "closed_at": "2026-10-25",
+  "days_on_market": 46,
+  "drive": "Передній",
+  "first_seen": "2026-09-08",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34291965",
+  "last_checked": "2026-10-24",
+  "last_seen": "2026-10-24",
+  "market_since": "2026-09-08",
+  "mileage": 105000,
+  "missing": 1,
+  "pending": false,
+  "price": 13100,
+  "price_history": [
+   [
+    "2026-09-08",
+    14600
+   ],
+   [
+    "2026-10-13",
+    13600
+   ],
+   [
+    "2026-10-16",
+    13100
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2019
+ },
+ "34295476": {
+  "city": "Дніпро",
+  "closed_at": "2026-09-26",
+  "days_on_market": 17,
+  "drive": "Передній",
+  "first_seen": "2026-09-08",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34295476",
+  "last_checked": "2026-09-25",
+  "last_seen": "2026-09-25",
+  "market_since": "2026-09-08",
+  "mileage": 127000,
+  "missing": 1,
+  "pending": false,
+  "price": 9900,
+  "price_history": [
+   [
+    "2026-09-08",
+    10300
+   ],
+   [
+    "2026-09-11",
+    10100
+   ],
+   [
+    "2026-09-22",
+    9900
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2017
+ },
+ "34296529": {
+  "city": "Дніпро",
+  "closed_at": "2026-09-22",
+  "days_on_market": 12,
+  "drive": "Передній",
+  "first_seen": "2026-09-09",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34296529",
+  "last_checked": "2026-09-22",
+  "last_seen": "2026-09-21",
+  "market_since": "2026-09-09",
+  "mileage": 165000,
+  "missing": 1,
+  "pending": false,
+  "price": 12200,
+  "price_history": [
+   [
+    "2026-09-09",
+    12200
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2019
+ },
+ "34299150": {
+  "city": "Київ",
+  "closed_at": "2026-10-31",
+  "days_on_market": 50,
+  "drive": "Передній",
+  "first_seen": "2026-09-10",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34299150",
+  "last_checked": "2026-10-30",
+  "last_seen": "2026-10-30",
+  "market_since": "2026-09-10",
+  "mileage": 106000,
+  "missing": 1,
+  "pending": false,
+  "price": 8100,
+  "price_history": [
+   [
+    "2026-09-10",
+    8600
+   ],
+   [
+    "2026-10-17",
+    8100
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2016
+ },
+ "34299256": {
+  "city": "Львів",
+  "closed_at": "2026-10-20",
+  "days_on_market": 38,
+  "drive": "Передній",
+  "first_seen": "2026-09-11",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34299256",
+  "last_checked": "2026-10-20",
+  "last_seen": "2026-10-19",
+  "market_since": "2026-09-11",
+  "mileage": 138000,
+  "missing": 1,
+  "pending": false,
+  "price": 6300,
+  "price_history": [
+   [
+    "2026-09-11",
+    8200
+   ],
+   [
+    "2026-09-26",
+    7200
+   ],
+   [
+    "2026-09-28",
+    7000
+   ],
+   [
+    "2026-10-07",
+    6800
+   ],
+   [
+    "2026-10-10",
+    6300
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2017
+ },
+ "34301792": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-09-11",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34301792",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-09-11",
+  "mileage": 138000,
+  "missing": 0,
+  "pending": false,
+  "price": 7400,
+  "price_history": [
+   [
+    "2026-09-11",
+    10400
+   ],
+   [
+    "2026-10-02",
+    9900
+   ],
+   [
+    "2026-10-08",
+    9400
+   ],
+   [
+    "2026-10-24",
+    8400
+   ],
+   [
+    "2026-10-28",
+    7400
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2017
+ },
+ "34304386": {
+  "city": "Київ",
+  "closed_at": "2026-10-28",
+  "days_on_market": 45,
+  "drive": "Передній",
+  "first_seen": "2026-09-12",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34304386",
+  "last_checked": "2026-10-28",
+  "last_seen": "2026-10-27",
+  "market_since": "2026-09-12",
+  "mileage": 162000,
+  "missing": 1,
+  "pending": false,
+  "price": 5700,
+  "price_history": [
+   [
+    "2026-09-12",
+    9400
+   ],
+   [
+    "2026-09-20",
+    8400
+   ],
+   [
+    "2026-09-28",
+    7400
+   ],
+   [
+    "2026-10-03",
+    6900
+   ],
+   [
+    "2026-10-16",
+    5900
+   ],
+   [
+    "2026-10-27",
+    5700
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2016
+ },
+ "34304747": {
+  "city": "Львів",
+  "closed_at": "2026-10-15",
+  "days_on_market": 30,
+  "drive": "Передній",
+  "first_seen": "2026-09-14",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34304747",
+  "last_checked": "2026-10-15",
+  "last_seen": "2026-10-14",
+  "market_since": "2026-09-14",
+  "mileage": 72000,
+  "missing": 1,
+  "pending": false,
+  "price": 14700,
+  "price_history": [
+   [
+    "2026-09-14",
+    16000
+   ],
+   [
+    "2026-09-27",
+    15700
+   ],
+   [
+    "2026-10-12",
+    14700
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2019
+ },
+ "34307708": {
+  "city": "Харків",
+  "drive": "Передній",
+  "first_seen": "2026-09-15",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34307708",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-09-15",
+  "mileage": 191000,
+  "missing": 0,
+  "pending": false,
+  "price": 7800,
+  "price_history": [
+   [
+    "2026-09-15",
+    8600
+   ],
+   [
+    "2026-09-25",
+    8100
+   ],
+   [
+    "2026-10-01",
+    7800
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2016
+ },
+ "34308965": {
+  "city": "Київ",
+  "closed_at": "2026-09-17",
+  "days_on_market": 1,
+  "drive": "Передній",
+  "first_seen": "2026-09-15",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34308965",
+  "last_checked": "2026-09-16",
+  "last_seen": "2026-09-16",
+  "market_since": "2026-09-15",
+  "mileage": 166000,
+  "missing": 1,
+  "pending": false,
+  "price": 6400,
+  "price_history": [
+   [
+    "2026-09-15",
+    6400
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2016
+ },
+ "34309324": {
+  "city": "Дніпро",
+  "closed_at": "2026-09-21",
+  "days_on_market": 4,
+  "drive": "Передній",
+  "first_seen": "2026-09-16",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34309324",
+  "last_checked": "2026-09-20",
+  "last_seen": "2026-09-20",
+  "market_since": "2026-09-16",
+  "mileage": 110000,
+  "missing": 1,
+  "pending": false,
+  "price": 9100,
+  "price_history": [
+   [
+    "2026-09-16",
+    9100
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2017
+ },
+ "34310597": {
+  "city": "Львів",
+  "closed_at": "2026-10-14",
+  "days_on_market": 26,
+  "drive": "Передній",
+  "first_seen": "2026-09-17",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34310597",
+  "last_checked": "2026-10-14",
+  "last_seen": "2026-10-13",
+  "market_since": "2026-09-17",
+  "mileage": 130000,
+  "missing": 1,
+  "pending": false,
+  "price": 6900,
+  "price_history": [
+   [
+    "2026-09-17",
+    7100
+   ],
+   [
+    "2026-10-05",
+    6900
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2016
+ },
+ "34313778": {
+  "city": "Київ",
+  "closed_at": "2026-09-19",
+  "days_on_market": 0,
+  "drive": "Передній",
+  "first_seen": "2026-09-18",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34313778",
+  "last_checked": "2026-09-19",
+  "last_seen": "2026-09-18",
+  "market_since": "2026-09-18",
+  "mileage": 120000,
+  "missing": 1,
+  "pending": false,
+  "price": 13900,
+  "price_history": [
+   [
+    "2026-09-18",
+    13900
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2018
+ },
+ "34316629": {
+  "city": "Дніпро",
+  "closed_at": "2026-10-23",
+  "days_on_market": 34,
+  "drive": "Передній",
+  "first_seen": "2026-09-18",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34316629",
+  "last_checked": "2026-10-22",
+  "last_seen": "2026-10-22",
+  "market_since": "2026-09-18",
+  "mileage": 184000,
+  "missing": 1,
+  "pending": false,
+  "price": 4700,
+  "price_history": [
+   [
+    "2026-09-18",
+    6000
+   ],
+   [
+    "2026-09-20",
+    5700
+   ],
+   [
+    "2026-09-27",
+    5200
+   ],
+   [
+    "2026-09-28",
+    4700
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2016
+ },
+ "34319700": {
+  "city": "Харків",
+  "closed_at": "2026-10-20",
+  "days_on_market": 31,
+  "drive": "Передній",
+  "first_seen": "2026-09-18",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34319700",
+  "last_checked": "2026-10-20",
+  "last_seen": "2026-10-19",
+  "market_since": "2026-09-18",
+  "mileage": 118000,
+  "missing": 1,
+  "pending": false,
+  "price": 8300,
+  "price_history": [
+   [
+    "2026-09-18",
+    10000
+   ],
+   [
+    "2026-09-19",
+    9500
+   ],
+   [
+    "2026-10-01",
+    9000
+   ],
+   [
+    "2026-10-07",
+    8500
+   ],
+   [
+    "2026-10-17",
+    8300
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2017
+ },
+ "34320508": {
+  "city": "Київ",
+  "closed_at": "2026-10-02",
+  "days_on_market": 12,
+  "drive": "Передній",
+  "first_seen": "2026-09-19",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34320508",
+  "last_checked": "2026-10-02",
+  "last_seen": "2026-10-01",
+  "market_since": "2026-09-19",
+  "mileage": 116000,
+  "missing": 1,
+  "pending": false,
+  "price": 8800,
+  "price_history": [
+   [
+    "2026-09-19",
+    8800
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2017
+ },
+ "34321736": {
+  "city": "Львів",
+  "closed_at": "2026-10-12",
+  "days_on_market": 21,
+  "drive": "Передній",
+  "first_seen": "2026-09-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34321736",
+  "last_checked": "2026-10-12",
+  "last_seen": "2026-10-11",
+  "market_since": "2026-09-20",
+  "mileage": 94000,
+  "missing": 1,
+  "pending": false,
+  "price": 9100,
+  "price_history": [
+   [
+    "2026-09-20",
+    9100
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2017
+ },
+ "34324009": {
+  "city": "Харків",
+  "closed_at": "2026-10-07",
+  "days_on_market": 15,
+  "drive": "Передній",
+  "first_seen": "2026-09-21",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34324009",
+  "last_checked": "2026-10-07",
+  "last_seen": "2026-10-06",
+  "market_since": "2026-09-21",
+  "mileage": 83000,
+  "missing": 1,
+  "pending": false,
+  "price": 14300,
+  "price_history": [
+   [
+    "2026-09-21",
+    14300
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2019
+ },
+ "34327456": {
+  "city": "Київ",
+  "closed_at": "2026-09-27",
+  "days_on_market": 4,
+  "drive": "Передній",
+  "first_seen": "2026-09-22",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34327456",
+  "last_checked": "2026-09-26",
+  "last_seen": "2026-09-26",
+  "market_since": "2026-09-22",
+  "mileage": 115000,
+  "missing": 1,
+  "pending": false,
+  "price": 15500,
+  "price_history": [
+   [
+    "2026-09-22",
+    15500
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2019
+ },
+ "34328437": {
+  "city": "Вінниця",
+  "closed_at": "2026-10-13",
+  "days_on_market": 20,
+  "drive": "Передній",
+  "first_seen": "2026-09-22",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34328437",
+  "last_checked": "2026-10-13",
+  "last_seen": "2026-10-12",
+  "market_since": "2026-09-22",
+  "mileage": 61000,
+  "missing": 1,
+  "pending": false,
+  "price": 13800,
+  "price_history": [
+   [
+    "2026-09-22",
+    14100
+   ],
+   [
+    "2026-10-01",
+    13800
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2019
+ },
+ "34328462": {
+  "city": "Вінниця",
+  "closed_at": "2026-09-25",
+  "days_on_market": 1,
+  "drive": "Передній",
+  "first_seen": "2026-09-23",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34328462",
+  "last_checked": "2026-09-24",
+  "last_seen": "2026-09-24",
+  "market_since": "2026-09-23",
+  "mileage": 94000,
+  "missing": 1,
+  "pending": false,
+  "price": 14700,
+  "price_history": [
+   [
+    "2026-09-23",
+    14700
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2019
+ },
+ "34329726": {
+  "city": "Дніпро",
+  "closed_at": "2026-10-21",
+  "days_on_market": 26,
+  "drive": "Передній",
+  "first_seen": "2026-09-24",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34329726",
+  "last_checked": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "market_since": "2026-09-24",
+  "mileage": 106000,
+  "missing": 1,
+  "pending": false,
+  "price": 13000,
+  "price_history": [
+   [
+    "2026-09-24",
+    14200
+   ],
+   [
+    "2026-09-29",
+    13200
+   ],
+   [
+    "2026-10-13",
+    13000
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2018
+ },
+ "34332116": {
+  "city": "Київ",
+  "closed_at": "2026-09-27",
+  "days_on_market": 2,
+  "drive": "Передній",
+  "first_seen": "2026-09-24",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34332116",
+  "last_checked": "2026-09-27",
+  "last_seen": "2026-09-26",
+  "market_since": "2026-09-24",
+  "mileage": 88000,
+  "missing": 1,
+  "pending": false,
+  "price": 11000,
+  "price_history": [
+   [
+    "2026-09-24",
+    11000
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2017
+ },
+ "34332346": {
+  "city": "Київ",
+  "closed_at": "2026-10-11",
+  "days_on_market": 15,
+  "drive": "Передній",
+  "first_seen": "2026-09-25",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34332346",
+  "last_checked": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "market_since": "2026-09-25",
+  "mileage": 61000,
+  "missing": 1,
+  "pending": false,
+  "price": 12700,
+  "price_history": [
+   [
+    "2026-09-25",
+    14000
+   ],
+   [
+    "2026-10-06",
+    13700
+   ],
+   [
+    "2026-10-09",
+    12700
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2019
+ },
+ "34336037": {
+  "city": "Львів",
+  "closed_at": "2026-10-17",
+  "days_on_market": 20,
+  "drive": "Передній",
+  "first_seen": "2026-09-26",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34336037",
+  "last_checked": "2026-10-17",
+  "last_seen": "2026-10-16",
+  "market_since": "2026-09-26",
+  "mileage": 66000,
+  "missing": 1,
+  "pending": false,
+  "price": 14500,
+  "price_history": [
+   [
+    "2026-09-26",
+    14500
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2019
+ },
+ "34337478": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-09-27",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34337478",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-09-27",
+  "mileage": 126000,
+  "missing": 0,
+  "pending": false,
+  "price": 9700,
+  "price_history": [
+   [
+    "2026-09-27",
+    9900
+   ],
+   [
+    "2026-11-03",
+    9700
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2017
+ },
+ "34340109": {
+  "city": "Дніпро",
+  "closed_at": "2026-11-10",
+  "days_on_market": 43,
+  "drive": "Передній",
+  "first_seen": "2026-09-27",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34340109",
+  "last_checked": "2026-11-10",
+  "last_seen": "2026-11-09",
+  "market_since": "2026-09-27",
+  "mileage": 64000,
+  "missing": 1,
+  "pending": false,
+  "price": 15700,
+  "price_history": [
+   [
+    "2026-09-27",
+    16200
+   ],
+   [
+    "2026-09-30",
+    15700
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2019
+ },
+ "34343226": {
+  "city": "Київ",
+  "closed_at": "2026-10-04",
+  "days_on_market": 5,
+  "drive": "Передній",
+  "first_seen": "2026-09-28",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34343226",
+  "last_checked": "2026-10-04",
+  "last_seen": "2026-10-03",
+  "market_since": "2026-09-28",
+  "mileage": 137000,
+  "missing": 1,
+  "pending": false,
+  "price": 15600,
+  "price_history": [
+   [
+    "2026-09-28",
+    15600
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2019
+ },
+ "34346593": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-09-29",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34346593",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-09-29",
+  "mileage": 47000,
+  "missing": 0,
+  "pending": false,
+  "price": 13400,
+  "price_history": [
+   [
+    "2026-09-29",
+    15400
+   ],
+   [
+    "2026-10-08",
+    14400
+   ],
+   [
+    "2026-10-30",
+    13900
+   ],
+   [
+    "2026-11-10",
+    13400
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2020
+ },
+ "34349915": {
+  "city": "Київ",
+  "closed_at": "2026-11-07",
+  "days_on_market": 37,
+  "drive": "Передній",
+  "first_seen": "2026-09-30",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34349915",
+  "last_checked": "2026-11-07",
+  "last_seen": "2026-11-06",
+  "market_since": "2026-09-30",
+  "mileage": 94000,
+  "missing": 1,
+  "pending": false,
+  "price": 11800,
+  "price_history": [
+   [
+    "2026-09-30",
+    12800
+   ],
+   [
+    "2026-10-13",
+    11800
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2018
+ },
+ "34353894": {
+  "city": "Львів",
+  "drive": "Передній",
+  "first_seen": "2026-09-30",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34353894",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-09-30",
+  "mileage": 121000,
+  "missing": 0,
+  "pending": false,
+  "price": 12400,
+  "price_history": [
+   [
+    "2026-09-30",
+    12400
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2019
+ },
+ "34356171": {
+  "city": "Одеса",
+  "drive": "Передній",
+  "first_seen": "2026-10-01",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34356171",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-01",
+  "mileage": 66000,
+  "missing": 0,
+  "pending": false,
+  "price": 10300,
+  "price_history": [
+   [
+    "2026-10-01",
+    12800
+   ],
+   [
+    "2026-10-22",
+    11800
+   ],
+   [
+    "2026-10-25",
+    11300
+   ],
+   [
+    "2026-11-12",
+    10300
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2019
+ },
+ "34359384": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-10-02",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34359384",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-02",
+  "mileage": 123000,
+  "missing": 0,
+  "pending": false,
+  "price": 12000,
+  "price_history": [
+   [
+    "2026-10-02",
+    12200
+   ],
+   [
+    "2026-10-24",
+    12000
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2017
+ },
+ "34363088": {
+  "city": "Київ",
+  "closed_at": "2026-10-14",
+  "days_on_market": 10,
+  "drive": "Передній",
+  "first_seen": "2026-10-03",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34363088",
+  "last_checked": "2026-10-13",
+  "last_seen": "2026-10-13",
+  "market_since": "2026-10-03",
+  "mileage": 89000,
+  "missing": 1,
+  "pending": false,
+  "price": 12900,
+  "price_history": [
+   [
+    "2026-10-03",
+    12900
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2018
+ },
+ "34363885": {
+  "city": "Одеса",
+  "closed_at": "2026-10-07",
+  "days_on_market": 3,
+  "drive": "Передній",
+  "first_seen": "2026-10-03",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34363885",
+  "last_checked": "2026-10-06",
+  "last_seen": "2026-10-06",
+  "market_since": "2026-10-03",
+  "mileage": 113000,
+  "missing": 1,
+  "pending": false,
+  "price": 11100,
+  "price_history": [
+   [
+    "2026-10-03",
+    11100
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2017
+ },
+ "34365250": {
+  "city": "Дніпро",
+  "closed_at": "2026-10-09",
+  "days_on_market": 5,
+  "drive": "Передній",
+  "first_seen": "2026-10-03",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34365250",
+  "last_checked": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "market_since": "2026-10-03",
+  "mileage": 76000,
+  "missing": 1,
+  "pending": false,
+  "price": 15600,
+  "price_history": [
+   [
+    "2026-10-03",
+    15600
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2019
+ },
+ "34365377": {
+  "city": "Житомир",
+  "closed_at": "2026-10-27",
+  "days_on_market": 22,
+  "drive": "Передній",
+  "first_seen": "2026-10-04",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34365377",
+  "last_checked": "2026-10-27",
+  "last_seen": "2026-10-26",
+  "market_since": "2026-10-04",
+  "mileage": 105000,
+  "missing": 1,
+  "pending": false,
+  "price": 13900,
+  "price_history": [
+   [
+    "2026-10-04",
+    13900
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2019
+ },
+ "34368219": {
+  "city": "Київ",
+  "closed_at": "2026-10-12",
+  "days_on_market": 6,
+  "drive": "Передній",
+  "first_seen": "2026-10-05",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34368219",
+  "last_checked": "2026-10-12",
+  "last_seen": "2026-10-11",
+  "market_since": "2026-10-05",
+  "mileage": 152000,
+  "missing": 1,
+  "pending": false,
+  "price": 13300,
+  "price_history": [
+   [
+    "2026-10-05",
+    13300
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2018
+ },
+ "34371599": {
+  "city": "Житомир",
+  "closed_at": "2026-10-24",
+  "days_on_market": 18,
+  "drive": "Передній",
+  "first_seen": "2026-10-05",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34371599",
+  "last_checked": "2026-10-23",
+  "last_seen": "2026-10-23",
+  "market_since": "2026-10-05",
+  "mileage": 84000,
+  "missing": 1,
+  "pending": false,
+  "price": 13600,
+  "price_history": [
+   [
+    "2026-10-05",
+    13600
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2018
+ },
+ "34375566": {
+  "city": "Львів",
+  "closed_at": "2026-11-14",
+  "days_on_market": 39,
+  "drive": "Передній",
+  "first_seen": "2026-10-05",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34375566",
+  "last_checked": "2026-11-14",
+  "last_seen": "2026-11-13",
+  "market_since": "2026-10-05",
+  "mileage": 112000,
+  "missing": 1,
+  "pending": false,
+  "price": 10600,
+  "price_history": [
+   [
+    "2026-10-05",
+    11300
+   ],
+   [
+    "2026-10-15",
+    11100
+   ],
+   [
+    "2026-10-20",
+    10900
+   ],
+   [
+    "2026-11-12",
+    10600
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2018
+ },
+ "34377726": {
+  "city": "Київ",
+  "closed_at": "2026-10-11",
+  "days_on_market": 4,
+  "drive": "Передній",
+  "first_seen": "2026-10-06",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34377726",
+  "last_checked": "2026-10-11",
+  "last_seen": "2026-10-10",
+  "market_since": "2026-10-06",
+  "mileage": 81000,
+  "missing": 1,
+  "pending": false,
+  "price": 6800,
+  "price_history": [
+   [
+    "2026-10-06",
+    6800
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2016
+ },
+ "34379202": {
+  "city": "Київ",
+  "closed_at": "2026-11-02",
+  "days_on_market": 25,
+  "drive": "Передній",
+  "first_seen": "2026-10-07",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34379202",
+  "last_checked": "2026-11-01",
+  "last_seen": "2026-11-01",
+  "market_since": "2026-10-07",
+  "mileage": 86000,
+  "missing": 1,
+  "pending": false,
+  "price": 11900,
+  "price_history": [
+   [
+    "2026-10-07",
+    12600
+   ],
+   [
+    "2026-10-22",
+    12100
+   ],
+   [
+    "2026-10-23",
+    11900
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2018
+ },
+ "34382863": {
+  "city": "Житомир",
+  "closed_at": "2026-11-13",
+  "days_on_market": 36,
+  "drive": "Передній",
+  "first_seen": "2026-10-07",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34382863",
+  "last_checked": "2026-11-13",
+  "last_seen": "2026-11-12",
+  "market_since": "2026-10-07",
+  "mileage": 176000,
+  "missing": 1,
+  "pending": false,
+  "price": 7600,
+  "price_history": [
+   [
+    "2026-10-07",
+    8600
+   ],
+   [
+    "2026-10-29",
+    7600
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2017
+ },
+ "34386826": {
+  "city": "Дніпро",
+  "drive": "Передній",
+  "first_seen": "2026-10-08",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34386826",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-08",
+  "mileage": 130000,
+  "missing": 0,
+  "pending": false,
+  "price": 11700,
+  "price_history": [
+   [
+    "2026-10-08",
+    12100
+   ],
+   [
+    "2026-10-20",
+    11900
+   ],
+   [
+    "2026-10-24",
+    11700
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2017
+ },
+ "34389244": {
+  "city": "Житомир",
+  "closed_at": "2026-10-23",
+  "days_on_market": 13,
+  "drive": "Передній",
+  "first_seen": "2026-10-09",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34389244",
+  "last_checked": "2026-10-23",
+  "last_seen": "2026-10-22",
+  "market_since": "2026-10-09",
+  "mileage": 110000,
+  "missing": 1,
+  "pending": false,
+  "price": 6700,
+  "price_history": [
+   [
+    "2026-10-09",
+    6700
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2016
+ },
+ "34389309": {
+  "city": "Житомир",
+  "drive": "Передній",
+  "first_seen": "2026-10-10",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34389309",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-10",
+  "mileage": 107000,
+  "missing": 0,
+  "pending": false,
+  "price": 11700,
+  "price_history": [
+   [
+    "2026-10-10",
+    11900
+   ],
+   [
+    "2026-10-26",
+    11700
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2017
+ },
+ "34390765": {
+  "city": "Дніпро",
+  "closed_at": "2026-11-05",
+  "days_on_market": 25,
+  "drive": "Передній",
+  "first_seen": "2026-10-10",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34390765",
+  "last_checked": "2026-11-04",
+  "last_seen": "2026-11-04",
+  "market_since": "2026-10-10",
+  "mileage": 150000,
+  "missing": 1,
+  "pending": false,
+  "price": 10400,
+  "price_history": [
+   [
+    "2026-10-10",
+    10400
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2017
+ },
+ "34392635": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-10-11",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34392635",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-11",
+  "mileage": 86000,
+  "missing": 0,
+  "pending": false,
+  "price": 15800,
+  "price_history": [
+   [
+    "2026-10-11",
+    17300
+   ],
+   [
+    "2026-10-12",
+    16300
+   ],
+   [
+    "2026-10-22",
+    15800
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2020
+ },
+ "34393827": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-10-12",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34393827",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-12",
+  "mileage": 45000,
+  "missing": 0,
+  "pending": false,
+  "price": 15100,
+  "price_history": [
+   [
+    "2026-10-12",
+    16300
+   ],
+   [
+    "2026-10-14",
+    16100
+   ],
+   [
+    "2026-10-26",
+    15100
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2020
+ },
+ "34394682": {
+  "city": "Вінниця",
+  "closed_at": "2026-10-29",
+  "days_on_market": 16,
+  "drive": "Передній",
+  "first_seen": "2026-10-12",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34394682",
+  "last_checked": "2026-10-29",
+  "last_seen": "2026-10-28",
+  "market_since": "2026-10-12",
+  "mileage": 153000,
+  "missing": 1,
+  "pending": false,
+  "price": 9600,
+  "price_history": [
+   [
+    "2026-10-12",
+    9600
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2016
+ },
+ "34397974": {
+  "city": "Харків",
+  "closed_at": "2026-10-17",
+  "days_on_market": 3,
+  "drive": "Передній",
+  "first_seen": "2026-10-13",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34397974",
+  "last_checked": "2026-10-16",
+  "last_seen": "2026-10-16",
+  "market_since": "2026-10-13",
+  "mileage": 144000,
+  "missing": 1,
+  "pending": false,
+  "price": 10100,
+  "price_history": [
+   [
+    "2026-10-13",
+    10100
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2018
+ },
+ "34398431": {
+  "city": "Харків",
+  "closed_at": "2026-11-12",
+  "days_on_market": 27,
+  "drive": "Передній",
+  "first_seen": "2026-10-15",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34398431",
+  "last_checked": "2026-11-12",
+  "last_seen": "2026-11-11",
+  "market_since": "2026-10-15",
+  "mileage": 127000,
+  "missing": 1,
+  "pending": false,
+  "price": 12800,
+  "price_history": [
+   [
+    "2026-10-15",
+    13300
+   ],
+   [
+    "2026-11-05",
+    12800
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2018
+ },
+ "34401088": {
+  "city": "Львів",
+  "closed_at": "2026-10-29",
+  "days_on_market": 13,
+  "drive": "Передній",
+  "first_seen": "2026-10-15",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34401088",
+  "last_checked": "2026-10-28",
+  "last_seen": "2026-10-28",
+  "market_since": "2026-10-15",
+  "mileage": 102000,
+  "missing": 1,
+  "pending": false,
+  "price": 14000,
+  "price_history": [
+   [
+    "2026-10-15",
+    14000
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2018
+ },
+ "34403176": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-10-16",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34403176",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-16",
+  "mileage": 101000,
+  "missing": 0,
+  "pending": false,
+  "price": 8300,
+  "price_history": [
+   [
+    "2026-10-16",
+    10300
+   ],
+   [
+    "2026-10-21",
+    9300
+   ],
+   [
+    "2026-11-17",
+    8300
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2016
+ },
+ "34403488": {
+  "city": "Харків",
+  "closed_at": "2026-11-02",
+  "days_on_market": 14,
+  "drive": "Передній",
+  "first_seen": "2026-10-18",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34403488",
+  "last_checked": "2026-11-01",
+  "last_seen": "2026-11-01",
+  "market_since": "2026-10-18",
+  "mileage": 72000,
+  "missing": 1,
+  "pending": false,
+  "price": 12700,
+  "price_history": [
+   [
+    "2026-10-18",
+    13000
+   ],
+   [
+    "2026-10-20",
+    12700
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2018
+ },
+ "34405003": {
+  "city": "Житомир",
+  "closed_at": "2026-11-02",
+  "days_on_market": 13,
+  "drive": "Передній",
+  "first_seen": "2026-10-19",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34405003",
+  "last_checked": "2026-11-01",
+  "last_seen": "2026-11-01",
+  "market_since": "2026-10-19",
+  "mileage": 175000,
+  "missing": 1,
+  "pending": false,
+  "price": 11200,
+  "price_history": [
+   [
+    "2026-10-19",
+    11200
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2017
+ },
+ "34406581": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-10-20",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34406581",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-20",
+  "mileage": 100000,
+  "missing": 0,
+  "pending": false,
+  "price": 12300,
+  "price_history": [
+   [
+    "2026-10-20",
+    13300
+   ],
+   [
+    "2026-10-28",
+    12800
+   ],
+   [
+    "2026-11-02",
+    12300
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2018
+ },
+ "34407201": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-10-21",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34407201",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-21",
+  "mileage": 181000,
+  "missing": 0,
+  "pending": false,
+  "price": 8400,
+  "price_history": [
+   [
+    "2026-10-21",
+    9700
+   ],
+   [
+    "2026-10-29",
+    8700
+   ],
+   [
+    "2026-10-31",
+    8400
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2017
+ },
+ "34410335": {
+  "city": "Дніпро",
+  "drive": "Передній",
+  "first_seen": "2026-10-22",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34410335",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-22",
+  "mileage": 72000,
+  "missing": 0,
+  "pending": false,
+  "price": 15200,
+  "price_history": [
+   [
+    "2026-10-22",
+    15500
+   ],
+   [
+    "2026-11-18",
+    15200
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2019
+ },
+ "34410387": {
+  "city": "Львів",
+  "closed_at": "2026-11-07",
+  "days_on_market": 14,
+  "drive": "Передній",
+  "first_seen": "2026-10-23",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34410387",
+  "last_checked": "2026-11-07",
+  "last_seen": "2026-11-06",
+  "market_since": "2026-10-23",
+  "mileage": 100000,
+  "missing": 1,
+  "pending": false,
+  "price": 14400,
+  "price_history": [
+   [
+    "2026-10-23",
+    14600
+   ],
+   [
+    "2026-11-04",
+    14400
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2019
+ },
+ "34412646": {
+  "city": "Дніпро",
+  "drive": "Передній",
+  "first_seen": "2026-10-25",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34412646",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-25",
+  "mileage": 74000,
+  "missing": 0,
+  "pending": false,
+  "price": 12300,
+  "price_history": [
+   [
+    "2026-10-25",
+    12300
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2017
+ },
+ "34413496": {
+  "city": "Львів",
+  "closed_at": "2026-11-17",
+  "days_on_market": 22,
+  "drive": "Передній",
+  "first_seen": "2026-10-25",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34413496",
+  "last_checked": "2026-11-17",
+  "last_seen": "2026-11-16",
+  "market_since": "2026-10-25",
+  "mileage": 187000,
+  "missing": 1,
+  "pending": false,
+  "price": 8700,
+  "price_history": [
+   [
+    "2026-10-25",
+    8700
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2016
+ },
+ "34414766": {
+  "city": "Львів",
+  "drive": "Передній",
+  "first_seen": "2026-10-26",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34414766",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-26",
+  "mileage": 91000,
+  "missing": 0,
+  "pending": false,
+  "price": 9700,
+  "price_history": [
+   [
+    "2026-10-26",
+    11200
+   ],
+   [
+    "2026-11-04",
+    10200
+   ],
+   [
+    "2026-11-18",
+    9700
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2017
+ },
+ "34417433": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-10-27",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34417433",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-27",
+  "mileage": 122000,
+  "missing": 0,
+  "pending": false,
+  "price": 11000,
+  "price_history": [
+   [
+    "2026-10-27",
+    12000
+   ],
+   [
+    "2026-11-09",
+    11000
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2017
+ },
+ "34420308": {
+  "city": "Дніпро",
+  "drive": "Передній",
+  "first_seen": "2026-10-29",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34420308",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-29",
+  "mileage": 155000,
+  "missing": 0,
+  "pending": false,
+  "price": 9400,
+  "price_history": [
+   [
+    "2026-10-29",
+    9600
+   ],
+   [
+    "2026-11-03",
+    9400
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2016
+ },
+ "34423050": {
+  "city": "Дніпро",
+  "closed_at": "2026-11-18",
+  "days_on_market": 19,
+  "drive": "Передній",
+  "first_seen": "2026-10-29",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34423050",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-17",
+  "market_since": "2026-10-29",
+  "mileage": 68000,
+  "missing": 1,
+  "pending": false,
+  "price": 11900,
+  "price_history": [
+   [
+    "2026-10-29",
+    12400
+   ],
+   [
+    "2026-11-13",
+    11900
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2018
+ },
+ "34426855": {
+  "city": "Харків",
+  "closed_at": "2026-11-13",
+  "days_on_market": 14,
+  "drive": "Передній",
+  "first_seen": "2026-10-29",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34426855",
+  "last_checked": "2026-11-12",
+  "last_seen": "2026-11-12",
+  "market_since": "2026-10-29",
+  "mileage": 105000,
+  "missing": 1,
+  "pending": false,
+  "price": 9800,
+  "price_history": [
+   [
+    "2026-10-29",
+    9800
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2017
+ },
+ "34430005": {
+  "city": "Вінниця",
+  "closed_at": "2026-11-12",
+  "days_on_market": 12,
+  "drive": "Передній",
+  "first_seen": "2026-10-30",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34430005",
+  "last_checked": "2026-11-11",
+  "last_seen": "2026-11-11",
+  "market_since": "2026-10-30",
+  "mileage": 54000,
+  "missing": 1,
+  "pending": false,
+  "price": 12500,
+  "price_history": [
+   [
+    "2026-10-30",
+    12500
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2018
+ },
+ "34431287": {
+  "city": "Харків",
+  "drive": "Передній",
+  "first_seen": "2026-10-31",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34431287",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-31",
+  "mileage": 156000,
+  "missing": 0,
+  "pending": false,
+  "price": 9100,
+  "price_history": [
+   [
+    "2026-10-31",
+    9100
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2016
+ },
+ "34433185": {
+  "city": "Одеса",
+  "closed_at": "2026-11-06",
+  "days_on_market": 5,
+  "drive": "Передній",
+  "first_seen": "2026-10-31",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34433185",
+  "last_checked": "2026-11-06",
+  "last_seen": "2026-11-05",
+  "market_since": "2026-10-31",
+  "mileage": 117000,
+  "missing": 1,
+  "pending": false,
+  "price": 17800,
+  "price_history": [
+   [
+    "2026-10-31",
+    17800
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2020
+ },
+ "34435987": {
+  "city": "Дніпро",
+  "drive": "Передній",
+  "first_seen": "2026-10-31",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34435987",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-10-31",
+  "mileage": 57000,
+  "missing": 0,
+  "pending": false,
+  "price": 11000,
+  "price_history": [
+   [
+    "2026-10-31",
+    11200
+   ],
+   [
+    "2026-11-16",
+    11000
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2017
+ },
+ "34439783": {
+  "city": "Київ",
+  "closed_at": "2026-11-09",
+  "days_on_market": 7,
+  "drive": "Передній",
+  "first_seen": "2026-11-01",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34439783",
+  "last_checked": "2026-11-09",
+  "last_seen": "2026-11-08",
+  "market_since": "2026-11-01",
+  "mileage": 171000,
+  "missing": 1,
+  "pending": false,
+  "price": 10800,
+  "price_history": [
+   [
+    "2026-11-01",
+    10800
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2017
+ },
+ "34440177": {
+  "city": "Вінниця",
+  "closed_at": "2026-11-06",
+  "days_on_market": 3,
+  "drive": "Передній",
+  "first_seen": "2026-11-02",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34440177",
+  "last_checked": "2026-11-06",
+  "last_seen": "2026-11-05",
+  "market_since": "2026-11-02",
+  "mileage": 81000,
+  "missing": 1,
+  "pending": false,
+  "price": 16100,
+  "price_history": [
+   [
+    "2026-11-02",
+    16100
+   ]
+  ],
+  "reason": "отмечено «продано»",
+  "status": "sold",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2020
+ },
+ "34443157": {
+  "city": "Київ",
+  "closed_at": "2026-11-14",
+  "days_on_market": 11,
+  "drive": "Передній",
+  "first_seen": "2026-11-02",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34443157",
+  "last_checked": "2026-11-13",
+  "last_seen": "2026-11-13",
+  "market_since": "2026-11-02",
+  "mileage": 141000,
+  "missing": 1,
+  "pending": false,
+  "price": 10000,
+  "price_history": [
+   [
+    "2026-11-02",
+    10000
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2016
+ },
+ "34443172": {
+  "city": "Харків",
+  "closed_at": "2026-11-10",
+  "days_on_market": 6,
+  "drive": "Передній",
+  "first_seen": "2026-11-03",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34443172",
+  "last_checked": "2026-11-09",
+  "last_seen": "2026-11-09",
+  "market_since": "2026-11-03",
+  "mileage": 128000,
+  "missing": 1,
+  "pending": false,
+  "price": 12900,
+  "price_history": [
+   [
+    "2026-11-03",
+    12900
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2018
+ },
+ "34445781": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-11-04",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34445781",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-04",
+  "mileage": 113000,
+  "missing": 0,
+  "pending": false,
+  "price": 8900,
+  "price_history": [
+   [
+    "2026-11-04",
+    8900
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2017
+ },
+ "34448461": {
+  "city": "Львів",
+  "drive": "Передній",
+  "first_seen": "2026-11-05",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34448461",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-05",
+  "mileage": 92000,
+  "missing": 0,
+  "pending": false,
+  "price": 13900,
+  "price_history": [
+   [
+    "2026-11-05",
+    13900
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2018
+ },
+ "34451472": {
+  "city": "Житомир",
+  "drive": "Передній",
+  "first_seen": "2026-11-05",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34451472",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-05",
+  "mileage": 81000,
+  "missing": 0,
+  "pending": false,
+  "price": 11700,
+  "price_history": [
+   [
+    "2026-11-05",
+    11700
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2018
+ },
+ "34452320": {
+  "city": "Львів",
+  "closed_at": "2026-11-08",
+  "days_on_market": 1,
+  "drive": "Передній",
+  "first_seen": "2026-11-06",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34452320",
+  "last_checked": "2026-11-07",
+  "last_seen": "2026-11-07",
+  "market_since": "2026-11-06",
+  "mileage": 105000,
+  "missing": 1,
+  "pending": false,
+  "price": 8900,
+  "price_history": [
+   [
+    "2026-11-06",
+    8900
+   ]
+  ],
+  "reason": "удалено с сайта",
+  "status": "removed",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2016
+ },
+ "34455955": {
+  "city": "Житомир",
+  "drive": "Передній",
+  "first_seen": "2026-11-08",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34455955",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-08",
+  "mileage": 79000,
+  "missing": 0,
+  "pending": false,
+  "price": 14500,
+  "price_history": [
+   [
+    "2026-11-08",
+    14500
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2019
+ },
+ "34457242": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-11-09",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34457242",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-09",
+  "mileage": 56000,
+  "missing": 0,
+  "pending": false,
+  "price": 15200,
+  "price_history": [
+   [
+    "2026-11-09",
+    15200
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2019
+ },
+ "34459275": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-11-10",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34459275",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-10",
+  "mileage": 126000,
+  "missing": 0,
+  "pending": false,
+  "price": 13800,
+  "price_history": [
+   [
+    "2026-11-10",
+    13800
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2019
+ },
+ "34461339": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-11-11",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34461339",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-11",
+  "mileage": 126000,
+  "missing": 0,
+  "pending": false,
+  "price": 17400,
+  "price_history": [
+   [
+    "2026-11-11",
+    17400
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2020
+ },
+ "34463159": {
+  "city": "Житомир",
+  "drive": "Передній",
+  "first_seen": "2026-11-11",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34463159",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-11",
+  "mileage": 173000,
+  "missing": 0,
+  "pending": false,
+  "price": 6400,
+  "price_history": [
+   [
+    "2026-11-11",
+    6400
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2016
+ },
+ "34464950": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-11-12",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34464950",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-12",
+  "mileage": 56000,
+  "missing": 0,
+  "pending": false,
+  "price": 15700,
+  "price_history": [
+   [
+    "2026-11-12",
+    15700
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2020
+ },
+ "34465815": {
+  "city": "Львів",
+  "drive": "Передній",
+  "first_seen": "2026-11-12",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34465815",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-12",
+  "mileage": 108000,
+  "missing": 0,
+  "pending": false,
+  "price": 8900,
+  "price_history": [
+   [
+    "2026-11-12",
+    8900
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "year": 2016
+ },
+ "34467133": {
+  "city": "Харків",
+  "drive": "Передній",
+  "first_seen": "2026-11-13",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34467133",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-13",
+  "mileage": 71000,
+  "missing": 0,
+  "pending": false,
+  "price": 17100,
+  "price_history": [
+   [
+    "2026-11-13",
+    17100
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2020
+ },
+ "34470780": {
+  "city": "Київ",
+  "drive": "Передній",
+  "first_seen": "2026-11-16",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34470780",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-16",
+  "mileage": 151000,
+  "missing": 0,
+  "pending": false,
+  "price": 8700,
+  "price_history": [
+   [
+    "2026-11-16",
+    8700
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Highline",
+  "year": 2017
+ },
+ "34472952": {
+  "city": "Дніпро",
+  "drive": "Передній",
+  "first_seen": "2026-11-16",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34472952",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-16",
+  "mileage": 75000,
+  "missing": 0,
+  "pending": false,
+  "price": 12600,
+  "price_history": [
+   [
+    "2026-11-16",
+    12600
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfort",
+  "year": 2018
+ },
+ "34473586": {
+  "city": "Дніпро",
+  "drive": "Передній",
+  "first_seen": "2026-11-16",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34473586",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-16",
+  "mileage": 121000,
+  "missing": 0,
+  "pending": false,
+  "price": 11800,
+  "price_history": [
+   [
+    "2026-11-16",
+    11800
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2017
+ },
+ "34475663": {
+  "city": "Дніпро",
+  "drive": "Передній",
+  "first_seen": "2026-11-17",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Ручна / Механіка",
+  "id": "34475663",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-17",
+  "mileage": 105000,
+  "missing": 0,
+  "pending": false,
+  "price": 8600,
+  "price_history": [
+   [
+    "2026-11-17",
+    8600
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Comfortline",
+  "year": 2017
+ },
+ "34475713": {
+  "city": "Вінниця",
+  "drive": "Передній",
+  "first_seen": "2026-11-18",
+  "fuel": "Дизель, 2 л.",
+  "gearbox": "Автомат",
+  "id": "34475713",
+  "last_checked": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "market_since": "2026-11-18",
+  "mileage": 148000,
+  "missing": 0,
+  "pending": false,
+  "price": 7900,
+  "price_history": [
+   [
+    "2026-11-18",
+    7900
+   ]
+  ],
+  "status": "active",
+  "title": "Демо Авто 2.0 TDI",
+  "url": "#",
+  "version": "Trendline",
+  "year": 2016
+ }
+}

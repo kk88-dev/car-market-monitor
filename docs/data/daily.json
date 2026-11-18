@@ -1,0 +1,730 @@
+[
+ {
+  "active": 70,
+  "date": "2026-08-20",
+  "median_price": 11850,
+  "new": 70,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 67,
+  "date": "2026-08-21",
+  "median_price": 11800,
+  "new": 0,
+  "removed": 0,
+  "sold": 3
+ },
+ {
+  "active": 64,
+  "date": "2026-08-22",
+  "median_price": 11850,
+  "new": 0,
+  "removed": 1,
+  "sold": 2
+ },
+ {
+  "active": 63,
+  "date": "2026-08-23",
+  "median_price": 11900,
+  "new": 3,
+  "removed": 1,
+  "sold": 3
+ },
+ {
+  "active": 64,
+  "date": "2026-08-24",
+  "median_price": 11950,
+  "new": 1,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 61,
+  "date": "2026-08-25",
+  "median_price": 12100,
+  "new": 1,
+  "removed": 1,
+  "sold": 3
+ },
+ {
+  "active": 58,
+  "date": "2026-08-26",
+  "median_price": 12100,
+  "new": 1,
+  "removed": 2,
+  "sold": 2
+ },
+ {
+  "active": 59,
+  "date": "2026-08-27",
+  "median_price": 12100,
+  "new": 1,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 58,
+  "date": "2026-08-28",
+  "median_price": 12100,
+  "new": 1,
+  "removed": 0,
+  "sold": 2
+ },
+ {
+  "active": 59,
+  "date": "2026-08-29",
+  "median_price": 12100,
+  "new": 2,
+  "removed": 0,
+  "sold": 1
+ },
+ {
+  "active": 59,
+  "date": "2026-08-30",
+  "median_price": 12100,
+  "new": 0,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 59,
+  "date": "2026-08-31",
+  "median_price": 12100,
+  "new": 2,
+  "removed": 1,
+  "sold": 1
+ },
+ {
+  "active": 59,
+  "date": "2026-09-01",
+  "median_price": 12100,
+  "new": 3,
+  "removed": 2,
+  "sold": 1
+ },
+ {
+  "active": 57,
+  "date": "2026-09-02",
+  "median_price": 12100,
+  "new": 1,
+  "removed": 1,
+  "sold": 2
+ },
+ {
+  "active": 57,
+  "date": "2026-09-03",
+  "median_price": 12100,
+  "new": 2,
+  "removed": 1,
+  "sold": 1
+ },
+ {
+  "active": 58,
+  "date": "2026-09-04",
+  "median_price": 12050,
+  "new": 3,
+  "removed": 0,
+  "sold": 2
+ },
+ {
+  "active": 59,
+  "date": "2026-09-05",
+  "median_price": 12100,
+  "new": 1,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 60,
+  "date": "2026-09-06",
+  "median_price": 12100,
+  "new": 2,
+  "removed": 1,
+  "sold": 0
+ },
+ {
+  "active": 60,
+  "date": "2026-09-07",
+  "median_price": 12100,
+  "new": 3,
+  "removed": 0,
+  "sold": 3
+ },
+ {
+  "active": 61,
+  "date": "2026-09-08",
+  "median_price": 12100,
+  "new": 2,
+  "removed": 0,
+  "sold": 1
+ },
+ {
+  "active": 59,
+  "date": "2026-09-09",
+  "median_price": 12100,
+  "new": 1,
+  "removed": 1,
+  "sold": 2
+ },
+ {
+  "active": 57,
+  "date": "2026-09-10",
+  "median_price": 12100,
+  "new": 1,
+  "removed": 1,
+  "sold": 2
+ },
+ {
+  "active": 57,
+  "date": "2026-09-11",
+  "median_price": 12100,
+  "new": 2,
+  "removed": 0,
+  "sold": 2
+ },
+ {
+  "active": 56,
+  "date": "2026-09-12",
+  "median_price": 12050,
+  "new": 1,
+  "removed": 0,
+  "sold": 2
+ },
+ {
+  "active": 55,
+  "date": "2026-09-13",
+  "median_price": 12000,
+  "new": 0,
+  "removed": 0,
+  "sold": 1
+ },
+ {
+  "active": 55,
+  "date": "2026-09-14",
+  "median_price": 12000,
+  "new": 1,
+  "removed": 0,
+  "sold": 1
+ },
+ {
+  "active": 55,
+  "date": "2026-09-15",
+  "median_price": 12000,
+  "new": 2,
+  "removed": 1,
+  "sold": 1
+ },
+ {
+  "active": 55,
+  "date": "2026-09-16",
+  "median_price": 11900,
+  "new": 1,
+  "removed": 1,
+  "sold": 0
+ },
+ {
+  "active": 53,
+  "date": "2026-09-17",
+  "median_price": 11900,
+  "new": 1,
+  "removed": 2,
+  "sold": 1
+ },
+ {
+  "active": 55,
+  "date": "2026-09-18",
+  "median_price": 11900,
+  "new": 3,
+  "removed": 1,
+  "sold": 0
+ },
+ {
+  "active": 54,
+  "date": "2026-09-19",
+  "median_price": 11750,
+  "new": 1,
+  "removed": 0,
+  "sold": 2
+ },
+ {
+  "active": 52,
+  "date": "2026-09-20",
+  "median_price": 11650,
+  "new": 1,
+  "removed": 1,
+  "sold": 2
+ },
+ {
+  "active": 52,
+  "date": "2026-09-21",
+  "median_price": 11750,
+  "new": 1,
+  "removed": 1,
+  "sold": 0
+ },
+ {
+  "active": 53,
+  "date": "2026-09-22",
+  "median_price": 11800,
+  "new": 2,
+  "removed": 0,
+  "sold": 1
+ },
+ {
+  "active": 52,
+  "date": "2026-09-23",
+  "median_price": 11950,
+  "new": 1,
+  "removed": 0,
+  "sold": 2
+ },
+ {
+  "active": 53,
+  "date": "2026-09-24",
+  "median_price": 11900,
+  "new": 2,
+  "removed": 0,
+  "sold": 1
+ },
+ {
+  "active": 52,
+  "date": "2026-09-25",
+  "median_price": 11850,
+  "new": 1,
+  "removed": 1,
+  "sold": 1
+ },
+ {
+  "active": 51,
+  "date": "2026-09-26",
+  "median_price": 12100,
+  "new": 1,
+  "removed": 1,
+  "sold": 1
+ },
+ {
+  "active": 48,
+  "date": "2026-09-27",
+  "median_price": 12000,
+  "new": 2,
+  "removed": 2,
+  "sold": 3
+ },
+ {
+  "active": 49,
+  "date": "2026-09-28",
+  "median_price": 11900,
+  "new": 1,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 50,
+  "date": "2026-09-29",
+  "median_price": 12000,
+  "new": 1,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 50,
+  "date": "2026-09-30",
+  "median_price": 12150,
+  "new": 2,
+  "removed": 0,
+  "sold": 2
+ },
+ {
+  "active": 51,
+  "date": "2026-10-01",
+  "median_price": 12200,
+  "new": 1,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 50,
+  "date": "2026-10-02",
+  "median_price": 12200,
+  "new": 1,
+  "removed": 0,
+  "sold": 2
+ },
+ {
+  "active": 53,
+  "date": "2026-10-03",
+  "median_price": 12200,
+  "new": 3,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 53,
+  "date": "2026-10-04",
+  "median_price": 12200,
+  "new": 1,
+  "removed": 0,
+  "sold": 1
+ },
+ {
+  "active": 56,
+  "date": "2026-10-05",
+  "median_price": 12200,
+  "new": 3,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 55,
+  "date": "2026-10-06",
+  "median_price": 12200,
+  "new": 1,
+  "removed": 0,
+  "sold": 2
+ },
+ {
+  "active": 55,
+  "date": "2026-10-07",
+  "median_price": 12200,
+  "new": 2,
+  "removed": 1,
+  "sold": 1
+ },
+ {
+  "active": 56,
+  "date": "2026-10-08",
+  "median_price": 12200,
+  "new": 1,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 56,
+  "date": "2026-10-09",
+  "median_price": 12150,
+  "new": 1,
+  "removed": 1,
+  "sold": 0
+ },
+ {
+  "active": 58,
+  "date": "2026-10-10",
+  "median_price": 12100,
+  "new": 2,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 56,
+  "date": "2026-10-11",
+  "median_price": 12150,
+  "new": 1,
+  "removed": 2,
+  "sold": 1
+ },
+ {
+  "active": 54,
+  "date": "2026-10-12",
+  "median_price": 12200,
+  "new": 2,
+  "removed": 0,
+  "sold": 4
+ },
+ {
+  "active": 54,
+  "date": "2026-10-13",
+  "median_price": 12100,
+  "new": 1,
+  "removed": 0,
+  "sold": 1
+ },
+ {
+  "active": 51,
+  "date": "2026-10-14",
+  "median_price": 12100,
+  "new": 0,
+  "removed": 1,
+  "sold": 2
+ },
+ {
+  "active": 51,
+  "date": "2026-10-15",
+  "median_price": 12100,
+  "new": 2,
+  "removed": 1,
+  "sold": 1
+ },
+ {
+  "active": 51,
+  "date": "2026-10-16",
+  "median_price": 12100,
+  "new": 1,
+  "removed": 0,
+  "sold": 1
+ },
+ {
+  "active": 49,
+  "date": "2026-10-17",
+  "median_price": 12100,
+  "new": 0,
+  "removed": 1,
+  "sold": 1
+ },
+ {
+  "active": 50,
+  "date": "2026-10-18",
+  "median_price": 12100,
+  "new": 1,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 51,
+  "date": "2026-10-19",
+  "median_price": 12000,
+  "new": 1,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 48,
+  "date": "2026-10-20",
+  "median_price": 12150,
+  "new": 1,
+  "removed": 0,
+  "sold": 4
+ },
+ {
+  "active": 48,
+  "date": "2026-10-21",
+  "median_price": 12050,
+  "new": 1,
+  "removed": 1,
+  "sold": 0
+ },
+ {
+  "active": 49,
+  "date": "2026-10-22",
+  "median_price": 12000,
+  "new": 1,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 48,
+  "date": "2026-10-23",
+  "median_price": 12050,
+  "new": 1,
+  "removed": 1,
+  "sold": 1
+ },
+ {
+  "active": 47,
+  "date": "2026-10-24",
+  "median_price": 12000,
+  "new": 0,
+  "removed": 1,
+  "sold": 0
+ },
+ {
+  "active": 48,
+  "date": "2026-10-25",
+  "median_price": 11900,
+  "new": 2,
+  "removed": 1,
+  "sold": 0
+ },
+ {
+  "active": 48,
+  "date": "2026-10-26",
+  "median_price": 11750,
+  "new": 1,
+  "removed": 0,
+  "sold": 1
+ },
+ {
+  "active": 48,
+  "date": "2026-10-27",
+  "median_price": 11750,
+  "new": 1,
+  "removed": 0,
+  "sold": 1
+ },
+ {
+  "active": 45,
+  "date": "2026-10-28",
+  "median_price": 11700,
+  "new": 0,
+  "removed": 0,
+  "sold": 3
+ },
+ {
+  "active": 46,
+  "date": "2026-10-29",
+  "median_price": 11700,
+  "new": 3,
+  "removed": 1,
+  "sold": 1
+ },
+ {
+  "active": 46,
+  "date": "2026-10-30",
+  "median_price": 11750,
+  "new": 1,
+  "removed": 0,
+  "sold": 1
+ },
+ {
+  "active": 48,
+  "date": "2026-10-31",
+  "median_price": 11750,
+  "new": 3,
+  "removed": 1,
+  "sold": 0
+ },
+ {
+  "active": 49,
+  "date": "2026-11-01",
+  "median_price": 11700,
+  "new": 1,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 48,
+  "date": "2026-11-02",
+  "median_price": 11700,
+  "new": 2,
+  "removed": 3,
+  "sold": 0
+ },
+ {
+  "active": 49,
+  "date": "2026-11-03",
+  "median_price": 11700,
+  "new": 1,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 50,
+  "date": "2026-11-04",
+  "median_price": 11700,
+  "new": 1,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 50,
+  "date": "2026-11-05",
+  "median_price": 11700,
+  "new": 2,
+  "removed": 1,
+  "sold": 1
+ },
+ {
+  "active": 49,
+  "date": "2026-11-06",
+  "median_price": 11300,
+  "new": 1,
+  "removed": 0,
+  "sold": 2
+ },
+ {
+  "active": 47,
+  "date": "2026-11-07",
+  "median_price": 11300,
+  "new": 0,
+  "removed": 0,
+  "sold": 2
+ },
+ {
+  "active": 47,
+  "date": "2026-11-08",
+  "median_price": 11300,
+  "new": 1,
+  "removed": 1,
+  "sold": 0
+ },
+ {
+  "active": 47,
+  "date": "2026-11-09",
+  "median_price": 11300,
+  "new": 1,
+  "removed": 0,
+  "sold": 1
+ },
+ {
+  "active": 45,
+  "date": "2026-11-10",
+  "median_price": 11300,
+  "new": 1,
+  "removed": 2,
+  "sold": 1
+ },
+ {
+  "active": 47,
+  "date": "2026-11-11",
+  "median_price": 11300,
+  "new": 2,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 47,
+  "date": "2026-11-12",
+  "median_price": 11200,
+  "new": 2,
+  "removed": 1,
+  "sold": 1
+ },
+ {
+  "active": 45,
+  "date": "2026-11-13",
+  "median_price": 11700,
+  "new": 1,
+  "removed": 1,
+  "sold": 2
+ },
+ {
+  "active": 43,
+  "date": "2026-11-14",
+  "median_price": 11700,
+  "new": 0,
+  "removed": 1,
+  "sold": 1
+ },
+ {
+  "active": 43,
+  "date": "2026-11-15",
+  "median_price": 11700,
+  "new": 0,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 46,
+  "date": "2026-11-16",
+  "median_price": 11700,
+  "new": 3,
+  "removed": 0,
+  "sold": 0
+ },
+ {
+  "active": 46,
+  "date": "2026-11-17",
+  "median_price": 11700,
+  "new": 1,
+  "removed": 0,
+  "sold": 1
+ },
+ {
+  "active": 46,
+  "date": "2026-11-18",
+  "median_price": 11700,
+  "new": 1,
+  "removed": 0,
+  "sold": 1
+ }
+]

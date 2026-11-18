@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Рынок авто</title>
+<meta name="robots" content="noindex">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f4f3f0;
+  --surface: #fcfcfb;
+  --border: #e3e2dd;
+  --grid: #ecebe7;
+  --text: #0b0b0b;
+  --text-2: #52514e;
+  --muted: #7a7974;
+  --s1: #2a78d6;      /* активные / новые */
+  --s2: #eb6834;      /* ушли с рынка */
+  --good: #006300;
+  --bad: #c22f2f;
+  --accent-bg: #eaf2fc;
+  --warn-bg: #fff4d6;
+  --warn-text: #6b4a00;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #111110; --surface: #1a1a19; --border: #2e2e2b; --grid: #262624;
+    --text: #f0efec; --text-2: #c3c2b7; --muted: #8f8e86;
+    --s1: #3987e5; --s2: #d95926; --good: #4cc24c; --bad: #ef7d7d;
+    --accent-bg: #1b2b40; --warn-bg: #3a2f12; --warn-text: #f5d58a;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #111110; --surface: #1a1a19; --border: #2e2e2b; --grid: #262624;
+  --text: #f0efec; --text-2: #c3c2b7; --muted: #8f8e86;
+  --s1: #3987e5; --s2: #d95926; --good: #4cc24c; --bad: #ef7d7d;
+  --accent-bg: #1b2b40; --warn-bg: #3a2f12; --warn-text: #f5d58a;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+.wrap { max-width: 1240px; margin: 0 auto; padding: 24px 16px 60px; }
+header { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; justify-content: space-between; margin-bottom: 20px; }
+h1 { font-size: 24px; margin: 0; letter-spacing: -0.01em; }
+.sub { color: var(--text-2); font-size: 13px; }
+.sub a { color: inherit; }
+.banner { background: var(--warn-bg); color: var(--warn-text); border-radius: 10px; padding: 10px 14px; margin-bottom: 16px; font-size: 14px; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; min-width: 0; }
+.kpi .label { color: var(--text-2); font-size: 13px; }
+.kpi .value { font-size: 28px; font-weight: 650; letter-spacing: -0.02em; margin-top: 2px; font-variant-numeric: tabular-nums; }
+.kpi .note { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+.charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.chart h2, .section h2 { font-size: 15px; margin: 0 0 2px; font-weight: 600; }
+.chart .hint { color: var(--muted); font-size: 12.5px; margin-bottom: 8px; }
+.chart .box { position: relative; height: 240px; }
+.tabs { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 12px; }
+.tab { border: 1px solid var(--border); background: var(--surface); color: var(--text-2); padding: 7px 14px; border-radius: 999px; cursor: pointer; font: inherit; font-size: 14px; }
+.tab[aria-selected="true"] { background: var(--text); color: var(--surface); border-color: var(--text); }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+.controls input, .controls select { font: inherit; font-size: 14px; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); }
+.controls input { flex: 1 1 200px; min-width: 0; }
+.tablewrap { overflow-x: auto; }
+table { width: 100%; min-width: 760px; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+th { text-align: left; font-weight: 600; color: var(--text-2); font-size: 12.5px; padding: 8px 10px; border-bottom: 1px solid var(--border); white-space: nowrap; cursor: pointer; user-select: none; }
+th.num, td.num { text-align: right; }
+th[data-dir="asc"]::after { content: " ↑"; } th[data-dir="desc"]::after { content: " ↓"; }
+td { padding: 8px 10px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+tr.row { cursor: pointer; }
+tr.row:hover td { background: var(--accent-bg); }
+td .t { font-weight: 550; }
+td:first-child { min-width: 200px; }
+td .v { color: var(--muted); font-size: 12.5px; }
+.down { color: var(--good); } .up { color: var(--bad); }
+.pill { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-2); white-space: nowrap; }
+.pill.sold { border-color: var(--s2); }
+tr.detail td { background: var(--bg); color: var(--text-2); font-size: 13px; }
+.hist { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+a.ext { color: var(--s1); text-decoration: none; white-space: nowrap; }
+.empty { color: var(--muted); padding: 24px 10px; text-align: center; }
+.feed { list-style: none; margin: 0; padding: 0; }
+.feed li { display: grid; grid-template-columns: 88px 1fr auto; gap: 10px; padding: 8px 2px; border-bottom: 1px solid var(--grid); font-size: 14px; align-items: baseline; }
+.feed .d { color: var(--muted); font-size: 12.5px; }
+.foot { color: var(--muted); font-size: 12.5px; margin-top: 24px; }
+@media (max-width: 560px) {
+  .kpi .value { font-size: 23px; }
+  .card { padding: 12px; }
+  .charts { grid-template-columns: 1fr; }
+  .feed li { grid-template-columns: 70px 1fr; }
+  .feed li .r { grid-column: 2; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1 id="title">Рынок авто</h1>
+      <div class="sub" id="sub">Загрузка…</div>
+    </div>
+    <div class="sub" id="budget"></div>
+  </header>
+  <div id="banner"></div>
+
+  <section class="kpis" id="kpis"></section>
+
+  <section class="charts">
+    <div class="card chart"><h2>Медианная цена в продаже, $</h2><div class="hint">По дням, среди активных объявлений</div><div class="box"><canvas id="c-price"></canvas></div></div>
+    <div class="card chart"><h2>Объявлений в продаже</h2><div class="hint">Сколько машин было в выдаче каждый день</div><div class="box"><canvas id="c-count"></canvas></div></div>
+    <div class="card chart"><h2>Цена и пробег</h2><div class="hint">Каждая точка — машина. Ушедшие — по последней цене</div><div class="box"><canvas id="c-scatter"></canvas></div></div>
+    <div class="card chart"><h2>Новые и ушедшие по неделям</h2><div class="hint">Ушедшие = продано + снято</div><div class="box"><canvas id="c-flow"></canvas></div></div>
+  </section>
+
+  <section class="card section">
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" data-tab="active" aria-selected="true">В продаже</button>
+      <button class="tab" role="tab" data-tab="closed" aria-selected="false">Ушли с рынка</button>
+      <button class="tab" role="tab" data-tab="events" aria-selected="false">События</button>
+    </div>
+    <div class="controls" id="controls">
+      <input id="q" type="search" placeholder="Поиск: город, версия, КПП…">
+      <select id="year"><option value="">Все годы</option></select>
+      <select id="closedKind" hidden><option value="">Продано и снято</option><option value="sold">Только «продано»</option><option value="removed">Только снятые</option></select>
+    </div>
+    <div class="tablewrap" id="tablewrap"></div>
+  </section>
+
+  <div class="foot">Данные: API AUTO.RIA. «Продано» — продавец отметил продажу. «Снято» — объявление удалено или архивировано (часто тоже продажа). Перевыставленные объявления склеиваются с исходными по VIN или по совпадению характеристик.</div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const fmt = n => n == null ? "—" : Math.round(n).toLocaleString("ru-RU").replace(/,/g, " ");
+const usd = n => n == null ? "—" : "$" + fmt(n);
+const km = n => n == null ? "—" : fmt(n / 1000) + " тыс. км";
+const median = a => { if (!a.length) return null; const s = [...a].sort((x, y) => x - y), m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; };
+const daysAgo = (d, ref) => Math.round((new Date(ref) - new Date(d)) / 864e5);
+const dfmt = d => d ? new Date(d + "T00:00:00").toLocaleDateString("ru-RU", { day: "numeric", month: "short" }) : "—";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+let D = null, tab = "active", sort = { active: ["days", "desc"], closed: ["closed_at", "desc"] }, charts = [];
+
+async function load() {
+  const get = n => fetch("data/" + n + "?t=" + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null);
+  const [listings, events, daily, meta] = await Promise.all(["listings.json", "events.json", "daily.json", "meta.json"].map(get));
+  if (!meta) { $("#sub").textContent = "Данных пока нет — первый сбор ещё не прошёл."; return; }
+  const L = Object.values(listings || {});
+  const today = (meta.updated_at || "").slice(0, 10) || new Date().toISOString().slice(0, 10);
+  L.forEach(l => {
+    const h = l.price_history || [];
+    l.first_price = h.length ? h[0][1] : l.price;
+    l.change = (h.length && l.price) ? l.price - h[0][1] : 0;
+    l.days = l.status === "active" ? daysAgo(l.market_since || l.first_seen, today) : l.days_on_market;
+  });
+  D = { L, events: events || [], daily: daily || [], meta, today };
+  render();
+}
+
+function render() {
+  const { L, meta, today, daily } = D;
+  $("#title").textContent = meta.title || "Рынок авто";
+  document.title = meta.title ? meta.title + " — рынок" : "Рынок авто";
+  const upd = meta.updated_at ? new Date(meta.updated_at).toLocaleString("ru-RU", { day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" }) : "—";
+  $("#sub").innerHTML = `Обновлено ${esc(upd)}` + (meta.search_url && !meta.demo ? ` · <a href="${esc(meta.search_url)}" target="_blank" rel="noopener">поиск на AUTO.RIA</a>` : "") + (daily.length ? ` · наблюдаем ${daily.length} дн.` : "");
+  const b = meta.budget || {};
+  $("#budget").textContent = b.used_month != null ? `Запросов API за месяц: ${b.used_month}` : "";
+  $("#banner").innerHTML = (meta.demo ? `<div class="banner">Это <b>демо-данные</b>: вымышленные объявления, чтобы показать, как будет выглядеть дашборд. После первого настоящего сбора они исчезнут.</div>` : "")
+    + ((meta.unknown_filters || []).length ? `<div class="banner">Часть фильтров из ссылки не распознана и не применяется: ${esc(meta.unknown_filters.join(", "))}</div>` : "");
+
+  const active = L.filter(l => l.status === "active");
+  const closed = L.filter(l => l.status === "sold" || l.status === "removed");
+  const recent = (arr, f, n) => arr.filter(l => l[f] && daysAgo(l[f], today) < n);
+  const closed30 = recent(closed, "closed_at", 30), new7 = recent(L.filter(l => l.status !== "relisted"), "first_seen", 7);
+  const sold30 = closed30.filter(l => l.status === "sold").length;
+  const closed90 = recent(closed, "closed_at", 90);
+  const withPrice = closed90.filter(l => l.first_price && l.price);
+  const cuts = withPrice.filter(l => l.price < l.first_price).map(l => (l.first_price - l.price) / l.first_price * 100);
+  const prices = active.map(l => l.price).filter(Boolean);
+  const kpis = [
+    ["В продаже", fmt(active.length), `+${new7.length} новых за 7 дней`],
+    ["Медианная цена", usd(median(prices)), prices.length ? `от ${usd(Math.min(...prices))} до ${usd(Math.max(...prices))}` : ""],
+    ["Ушли с рынка за 30 дней", fmt(closed30.length), `${sold30} продано, ${closed30.length - sold30} снято`],
+    ["Срок продажи (медиана)", closed90.length ? fmt(median(closed90.map(l => l.days_on_market))) + " дн." : "—", "по ушедшим за 90 дней"],
+    ["Снижали цену перед уходом", withPrice.length ? Math.round(cuts.length / withPrice.length * 100) + "%" : "—", cuts.length ? `в среднем на ${median(cuts).toFixed(1).replace(".", ",")}% от первой цены` : "по ушедшим за 90 дней"],
+  ];
+  $("#kpis").innerHTML = kpis.map(([a, b, c]) => `<div class="card kpi"><div class="label">${a}</div><div class="value">${b}</div><div class="note">${c}</div></div>`).join("");
+
+  const years = [...new Set(L.map(l => l.year).filter(Boolean))].sort();
+  const ysel = $("#year"), keep = ysel.value;
+  ysel.innerHTML = `<option value="">Все годы</option>` + years.map(y => `<option${String(y) === keep ? " selected" : ""}>${y}</option>`).join("");
+  drawCharts(active, closed);
+  renderTab();
+}
+
+function drawCharts(active, closed) {
+  charts.forEach(c => c.destroy()); charts = [];
+  const { daily } = D;
+  const s1 = css("--s1"), s2 = css("--s2"), grid = css("--grid"), text2 = css("--text-2"), surface = css("--surface"), textc = css("--text");
+  Chart.defaults.font.family = getComputedStyle(document.body).fontFamily;
+  Chart.defaults.color = text2;
+  const tooltip = { backgroundColor: surface, titleColor: textc, bodyColor: textc, borderColor: css("--border"), borderWidth: 1, padding: 10, boxPadding: 4, usePointStyle: true };
+  const axes = (yfmt, xtype = "category") => ({
+    x: { type: xtype, grid: { display: false }, border: { color: grid }, ticks: { maxRotation: 0, autoSkipPadding: 16 } },
+    y: { grid: { color: grid }, border: { display: false }, ticks: { callback: yfmt, maxTicksLimit: 6 } },
+  });
+  const labels = daily.map(r => dfmt(r.date));
+  const line = (id, data, yfmt, tfmt) => charts.push(new Chart($(id), {
+    type: "line",
+    data: { labels, datasets: [{ data, borderColor: s1, backgroundColor: s1, borderWidth: 2, pointRadius: 0, pointHoverRadius: 5, pointHoverBorderColor: surface, pointHoverBorderWidth: 2, tension: 0.25, spanGaps: true }] },
+    options: { maintainAspectRatio: false, interaction: { mode: "index", intersect: false }, plugins: { legend: { display: false }, tooltip: { ...tooltip, callbacks: { label: c => tfmt(c.parsed.y) } } }, scales: axes(yfmt) },
+  }));
+  line("#c-price", daily.map(r => r.median_price), v => usd(v), v => usd(v));
+  line("#c-count", daily.map(r => r.active), v => fmt(v), v => fmt(v) + " объявл.");
+
+  const pt = l => ({ x: l.mileage / 1000, y: l.price, l });
+  charts.push(new Chart($("#c-scatter"), {
+    type: "scatter",
+    data: { datasets: [
+      { label: "В продаже", data: active.filter(l => l.price && l.mileage != null).map(pt), backgroundColor: s1, borderColor: surface, borderWidth: 1.5, pointRadius: 5, pointHoverRadius: 7 },
+      { label: "Ушли", data: closed.filter(l => l.price && l.mileage != null).map(pt), backgroundColor: s2, borderColor: surface, borderWidth: 1.5, pointRadius: 4, pointHoverRadius: 7, pointStyle: "rectRot" },
+    ] },
+    options: { maintainAspectRatio: false, plugins: {
+      legend: { position: "top", align: "start", labels: { usePointStyle: true, boxWidth: 8, padding: 14 } },
+      tooltip: { ...tooltip, callbacks: { title: () => "", label: c => { const l = c.raw.l; return [`${l.year} · ${km(l.mileage)}`, `${usd(l.price)} · ${l.city || ""}`, l.status === "active" ? `в продаже ${l.days} дн.` : `ушла за ${l.days_on_market} дн.`]; } } } },
+      scales: { x: { ...axes().x, type: "linear", title: { display: true, text: "пробег, тыс. км" } }, y: axes(v => usd(v)).y } },
+  }));
+
+  const weeks = {}, wk = d => { const t = new Date(d + "T00:00:00"); t.setDate(t.getDate() - ((t.getDay() + 6) % 7)); return t.toISOString().slice(0, 10); };
+  D.L.forEach(l => {
+    if (l.status !== "relisted" && !l.relisted_from && l.first_seen !== D.daily[0]?.date) (weeks[wk(l.first_seen)] ??= [0, 0])[0]++;
+    if ((l.status === "sold" || l.status === "removed") && l.closed_at) (weeks[wk(l.closed_at)] ??= [0, 0])[1]++;
+  });
+  const wkeys = Object.keys(weeks).sort();
+  const bar = { borderRadius: 4, borderSkipped: "bottom", categoryPercentage: 0.7, barPercentage: 0.9, borderColor: surface, borderWidth: { left: 1, right: 1 } };
+  charts.push(new Chart($("#c-flow"), {
+    type: "bar",
+    data: { labels: wkeys.map(k => "с " + dfmt(k)), datasets: [
+      { label: "Новые", data: wkeys.map(k => weeks[k][0]), backgroundColor: s1, ...bar },
+      { label: "Ушли", data: wkeys.map(k => weeks[k][1]), backgroundColor: s2, ...bar },
+    ] },
+    options: { maintainAspectRatio: false, interaction: { mode: "index", intersect: false },
+      plugins: { legend: { position: "top", align: "start", labels: { usePointStyle: true, pointStyle: "rectRounded", boxWidth: 10, padding: 14 } }, tooltip },
+      scales: axes(v => fmt(v)) },
+  }));
+}
+
+function filtered(rows) {
+  const q = $("#q").value.trim().toLowerCase(), y = $("#year").value, k = $("#closedKind").value;
+  return rows.filter(l => (!y || String(l.year) === y) && (!k || l.status === k) &&
+    (!q || [l.title, l.version, l.city, l.gearbox, l.fuel, l.drive, l.vin, l.id].join(" ").toLowerCase().includes(q)));
+}
+
+function renderTab() {
+  document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === tab));
+  $("#closedKind").hidden = tab !== "closed";
+  $("#controls").style.display = tab === "events" ? "none" : "";
+  const w = $("#tablewrap");
+  if (tab === "events") return renderEvents(w);
+  const rows = filtered(D.L.filter(l => tab === "active" ? l.status === "active" : (l.status === "sold" || l.status === "removed")));
+  const cols = tab === "active"
+    ? [["title", "Машина"], ["year", "Год", 1], ["mileage", "Пробег", 1], ["city", "Город"], ["price", "Цена", 1], ["change", "Изм. цены", 1], ["days", "Дней в продаже", 1], ["url", ""]]
+    : [["title", "Машина"], ["year", "Год", 1], ["mileage", "Пробег", 1], ["city", "Город"], ["price", "Посл. цена", 1], ["change", "Снижение", 1], ["days_on_market", "Дней на рынке", 1], ["closed_at", "Ушла", 1], ["status", "Как"]];
+  const [sk, sd] = sort[tab];
+  rows.sort((a, b) => { const x = a[sk] ?? -Infinity, y = b[sk] ?? -Infinity; return (x > y ? 1 : x < y ? -1 : 0) * (sd === "asc" ? 1 : -1); });
+  if (!rows.length) { w.innerHTML = `<div class="empty">Ничего не найдено</div>`; return; }
+  const cell = (l, k) => {
+    switch (k) {
+      case "title": return `<div class="t">${esc(l.title)}</div><div class="v">${esc([l.version, l.fuel, l.gearbox].filter(Boolean).join(" · "))}</div>`;
+      case "mileage": return l.mileage == null ? "—" : fmt(l.mileage / 1000) + " тыс.";
+      case "price": return usd(l.price);
+      case "change": return l.change ? `<span class="${l.change < 0 ? "down" : "up"}">${l.change < 0 ? "−" : "+"}${usd(Math.abs(l.change))}</span>` : `<span class="v">—</span>`;
+      case "days": case "days_on_market": return fmt(l[k]);
+      case "closed_at": return dfmt(l.closed_at);
+      case "status": return `<span class="pill ${l.status}">${l.status === "sold" ? "продано" : "снято"}</span>`;
+      case "url": return l.url && l.url !== "#" ? `<a class="ext" href="${esc(l.url)}" target="_blank" rel="noopener">открыть ↗</a>` : "";
+      default: return esc(l[k] ?? "—");
+    }
+  };
+  w.innerHTML = `<table><thead><tr>${cols.map(([k, n, num]) => `<th data-k="${k}" class="${num ? "num" : ""}"${k === sk ? ` data-dir="${sd}"` : ""}>${n}</th>`).join("")}</tr></thead><tbody>` +
+    rows.map(l => `<tr class="row" data-id="${esc(l.id)}">${cols.map(([k, , num]) => `<td class="${num ? "num" : ""}">${cell(l, k)}</td>`).join("")}</tr>`).join("") + `</tbody></table>`;
+  w.querySelectorAll("th").forEach(th => th.onclick = () => {
+    const k = th.dataset.k; if (k === "url") return;
+    sort[tab] = [k, sort[tab][0] === k && sort[tab][1] === "desc" ? "asc" : "desc"]; renderTab();
+  });
+  w.querySelectorAll("tr.row").forEach(tr => tr.onclick = e => {
+    if (e.target.closest("a")) return;
+    const nx = tr.nextElementSibling;
+    if (nx && nx.classList.contains("detail")) return nx.remove();
+    const l = D.L.find(x => x.id === tr.dataset.id), h = l.price_history || [];
+    const extra = [l.vin && `VIN ${l.vin}`, l.drive && `привод: ${l.drive}`, `впервые: ${dfmt(l.first_seen)}`, l.relisted_from && `перевыставлено (было #${l.relisted_from})`, l.reason, `ID ${l.id}`].filter(Boolean);
+    const d = document.createElement("tr"); d.className = "detail";
+    d.innerHTML = `<td colspan="${cols.length}"><div class="hist"><b>История цены:</b> ${h.map(([dt, p]) => `<span>${dfmt(dt)}: ${usd(p)}</span>`).join("") || "—"}</div><div class="hist" style="margin-top:4px">${extra.map(esc).map(s => `<span>${s}</span>`).join("")}</div></td>`;
+    tr.after(d);
+  });
+}
+
+function renderEvents(w) {
+  const names = { new: "Новое объявление", price: "Цена изменилась", sold: "Продано", removed: "Снято с продажи", hidden: "Вышло из фильтра", relist: "Перевыставлено", back: "Вернулось в продажу" };
+  const ev = [...D.events].reverse().slice(0, 300);
+  if (!ev.length) { w.innerHTML = `<div class="empty">Событий пока нет</div>`; return; }
+  w.innerHTML = `<ul class="feed">` + ev.map(e => {
+    let r = usd(e.price);
+    if (e.type === "price") r = `${usd(e.old)} → ${usd(e.new)} <span class="${e.diff < 0 ? "down" : "up"}">(${e.diff < 0 ? "−" : "+"}${usd(Math.abs(e.diff))})</span>`;
+    if (e.type === "sold" || e.type === "removed") r = `${usd(e.price)} · ${e.days} дн.`;
+    return `<li><span class="d">${dfmt(e.date)}</span><span><b>${names[e.type] || e.type}</b> · ${esc(e.title)}${e.year ? ", " + e.year : ""}</span><span class="r">${r}</span></li>`;
+  }).join("") + `</ul>`;
+}
+
+document.querySelectorAll(".tab").forEach(b => b.onclick = () => { tab = b.dataset.tab; renderTab(); });
+["#q", "#year", "#closedKind"].forEach(s => $(s).addEventListener("input", () => D && renderTab()));
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => D && render());
+load();
+</script>
+</body>
+</html>
