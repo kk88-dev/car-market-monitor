@@ -64,6 +64,10 @@ class FakeMarket:
             ids = sorted(i for i, a in self.ads.items() if a["state"] == "active")
             page, size = int(params["page"]), int(params["countpage"])
             return 200, {"result": {"search_result": {"ids": ids[page * size:(page + 1) * size], "count": len(ids)}}}
+        if path == "/average_price":
+            ids = [i for i, a in self.ads.items() if a["state"] == "active" and a["year"] == int(params["yers"])]
+            return 200, {"total": len(ids), "classifieds": [int(i) for i in ids],
+                         "prices": [self.ads[i]["price"] for i in ids], "percentiles": {"50.0": 0}}
         if path.startswith("/categories"):
             return 200, [{"name": "Toyota", "value": 79}]
         a = self.ads.get(params["auto_id"])
@@ -127,5 +131,35 @@ def main():
     print("OK")
 
 
+def stats_scenario():
+    """Поиск с моделью и годами: цены должны обновляться через /average_price."""
+    tmp = tempfile.mkdtemp()
+    collect.DATA_DIR = tmp
+    market = FakeMarket(seed=3)
+    url = ("https://auto.ria.com/uk/search/?all[0].any[0].brand=79&all[0].any[0].any[0].model=1"
+           "&all[0].any[0].year[0]=2016&all[0].any[0].year[1]=2019")
+    cfg = {"searches": [{"id": "t2", "search_url": url}]}
+    t = dt.datetime(2026, 11, 20, 0, 17, tzinfo=collect.TZ)
+    for run in range(15 * 8):
+        if t.hour == 0 and t.date() > dt.date(2026, 11, 20):
+            market.step_day((t.date() - dt.date(2026, 11, 20)).days)
+        api = collect.Api("x", collect.load_json("budget.json", {}), cfg, clock=lambda: t, transport=market.transport)
+        collect.run_all(cfg, api, clock=lambda: t)
+        t += dt.timedelta(hours=3)
+    d = os.path.join(tmp, "s", "t2")
+    L, meta = collect.load_json("listings.json", {}, d), collect.load_json("meta.json", {}, d)
+    active = [l for l in L.values() if l["status"] == "active"]
+    stale = [l for l in active if l["price"] != market.ads[l["id"]]["price"]]
+    info_calls = market.calls.count("/info")
+    print(f"статистика: доверие={meta.get('stats_trusted')}, покрытие={meta.get('stats_coverage')}, "
+          f"устаревших цен {len(stale)} из {len(active)}, запросов /info {info_calls}, "
+          f"/average_price {market.calls.count('/average_price')}, ошибка оценки {meta.get('model_error_pct')}%")
+    assert meta.get("stats_trusted") is True
+    assert not stale, "цены должны быть актуальны каждый день"
+    assert all("deal_pct" in l for l in active), "у активных машин должна быть оценка"
+    print("OK (статистика)")
+
+
 if __name__ == "__main__":
     main()
+    stats_scenario()

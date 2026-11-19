@@ -25,10 +25,12 @@ class DemoMarket:
         self.n += self.rnd.randint(1, 4000)
         year = self.rnd.choice([2016, 2017, 2017, 2018, 2018, 2019, 2019, 2020])
         mileage = max(20, int(self.rnd.gauss(14 * (2026 - year), 30)))
-        price = 9000 + (year - 2016) * 1900 - mileage * 9 + self.rnd.randint(-1500, 2500)
+        engine = self.rnd.choice(["1.6", "2.0", "2.0"])
+        price = 9000 + (year - 2016) * 1900 - mileage * 9 + (1500 if engine == "2.0" else 0) + self.rnd.randint(-1500, 2500)
         self.ads[str(self.n)] = {"year": year, "mileage": mileage, "price": round(price, -2), "state": "active",
                                  "city": self.rnd.choice(CITIES), "version": self.rnd.choice(VERSIONS),
-                                 "gearbox": self.rnd.choice(["Автомат", "Автомат", "Ручна / Механіка"])}
+                                 "gearbox": self.rnd.choice(["Автомат", "Автомат", "Ручна / Механіка"]), "engine": engine,
+                                 "dealer": self.rnd.random() < 0.2}
 
     def step(self, day):
         for a in self.ads.values():
@@ -53,9 +55,9 @@ class DemoMarket:
         a = self.ads.get(params["auto_id"])
         if not a or a["state"] == "deleted":
             return 404, {}
-        return 200, {"title": "Демо Авто 2.0 TDI", "USD": a["price"], "VIN": "",
+        return 200, {"modelId": 1, "dealer": {"id": 7 if a["dealer"] else 0}, "title": "Демо Авто", "USD": a["price"], "VIN": "",
                      "linkToView": "#", "locationCityName": a["city"],
-                     "autoData": {"year": a["year"], "raceInt": a["mileage"], "fuelName": "Дизель, 2 л.",
+                     "autoData": {"year": a["year"], "raceInt": a["mileage"], "fuelName": f"Дизель, {a['engine']} л.",
                                   "gearboxName": a["gearbox"], "driveName": "Передній", "version": a["version"],
                                   "isSold": a["state"] == "sold", "statusId": 0, "fromArchive": False}}
 

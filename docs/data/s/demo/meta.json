@@ -4,8 +4,9 @@
   "2016–2020 г.",
   "Дизель"
  ],
- "last_search": "2026-11-18",
+ "last_search": "2026-11-19",
  "last_search_count": 46,
+ "model_error_pct": 8.6,
  "search_params": {
   "category_id": "1",
   "po_yers[0]": "2020",
@@ -15,5 +16,5 @@
  "search_url": "",
  "title": "Демо: вымышленная модель",
  "unknown_filters": [],
- "updated_at": "2026-11-18T09:00+02:00"
+ "updated_at": "2026-11-19T09:00+02:00"
 }

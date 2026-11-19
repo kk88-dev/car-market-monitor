@@ -76,6 +76,10 @@ td .t { font-weight: 550; }
 td:first-child { min-width: 200px; }
 td .v { color: var(--muted); font-size: 12.5px; }
 .down { color: var(--good); } .up { color: var(--bad); }
+.deal { display: inline-block; font-size: 12.5px; padding: 1px 7px; border-radius: 6px; font-weight: 600; }
+.deal.good { background: color-mix(in srgb, var(--good) 15%, transparent); color: var(--good); }
+.deal.bad { background: color-mix(in srgb, var(--bad) 13%, transparent); color: var(--bad); }
+.deal.mid { color: var(--muted); font-weight: 500; }
 .pill { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-2); white-space: nowrap; }
 .pill.sold { border-color: var(--s2); }
 tr.detail td { background: var(--bg); color: var(--text-2); font-size: 13px; }
@@ -149,6 +153,8 @@ dialog textarea { min-height: 70px; resize: vertical; }
     <div class="controls" id="controls">
       <input id="q" type="search" placeholder="Поиск: город, версия, КПП…">
       <select id="year"><option value="">Все годы</option></select>
+      <select id="engine"><option value="">Все двигатели</option></select>
+      <select id="deal"><option value="">Любая цена</option><option value="-10">Ниже рынка на 10%+</option><option value="-5">Ниже рынка на 5%+</option><option value="10">Выше рынка на 10%+</option></select>
       <select id="closedKind" hidden><option value="">Продано и снято</option><option value="sold">Только «продано»</option><option value="removed">Только снятые</option></select>
     </div>
     <div class="tablewrap" id="tablewrap"></div>
@@ -184,7 +190,7 @@ const dfmt = d => d ? new Date(d + "T00:00:00").toLocaleDateString("ru-RU", { da
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 
-let D = null, tab = "active", sort = { active: ["days", "desc"], closed: ["closed_at", "desc"] }, charts = [];
+let D = null, tab = "active", sort = { active: ["days", "desc"], closed: ["sold_on", "desc"] }, charts = [];
 
 const get = p => fetch("data/" + p + "?t=" + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null);
 let IDX = { searches: [] }, NAMES = { marks: {}, models: {} }, CUR = null;
@@ -202,6 +208,7 @@ async function boot() {
   let saved = decodeURIComponent(location.hash.slice(1));
   if (!saved) { try { saved = localStorage.getItem("search") || ""; } catch (e) {} }
   const list = IDX.searches;
+  NAMES.generations ??= {}; NAMES.modifications ??= {};
   const pick = list.find(x => x.id === saved) || list.find(x => !x.demo && x.updated_at) || list.find(x => x.updated_at) || list[0];
   if (!pick) { renderSwitch(); $("#title").textContent = "Поисков пока нет"; $("#sub").textContent = "Нажмите «＋ Добавить поиск»."; $("#dash").hidden = true; return; }
   select(pick.id);
@@ -228,6 +235,10 @@ async function select(id) {
     l.first_price = h.length ? h[0][1] : l.price;
     l.change = (h.length && l.price) ? l.price - h[0][1] : 0;
     l.days = l.status === "active" ? daysAgo(l.market_since || l.first_seen, today) : l.days_on_market;
+    l.gen_name = NAMES.generations?.[l.generation_id] || "";
+    l.mod_name = NAMES.modifications?.[l.modification_id] || "";
+    l.engine_label = [l.fuel_type || (l.fuel || "").split(",")[0], l.engine && l.engine + " л"].filter(Boolean).join(" ");
+    l.sold_on = l.sold_date && l.sold_date > "1971" ? l.sold_date : l.closed_at;
   });
   D = { L, events: events || [], daily: daily || [], meta: meta || {}, today };
   renderHeader();
@@ -356,6 +367,8 @@ function render() {
     ["Медианная цена", usd(median(prices)), prices.length ? `от ${usd(Math.min(...prices))} до ${usd(Math.max(...prices))}` : ""],
     ["Ушли с рынка за 30 дней", fmt(closed30.length), `${sold30} продано, ${closed30.length - sold30} снято`],
     ["Срок продажи (медиана)", closed90.length ? fmt(median(closed90.map(l => l.days_on_market))) + " дн." : "—", "по ушедшим за 90 дней"],
+    ["Ниже рынка на 10%+", active.some(l => l.deal_pct != null) ? fmt(active.filter(l => l.deal_pct <= -10).length) : "—",
+      meta.model_error_pct != null ? `оценка по году, пробегу и двигателю; точность ±${String(meta.model_error_pct).replace(".", ",")}%` : "нужно от 15 машин с ценой"],
     ["Снижали цену перед уходом", withPrice.length ? Math.round(cuts.length / withPrice.length * 100) + "%" : "—", cuts.length ? `в среднем на ${median(cuts).toFixed(1).replace(".", ",")}% от первой цены` : "по ушедшим за 90 дней"],
   ];
   $("#kpis").innerHTML = kpis.map(([a, b, c]) => `<div class="card kpi"><div class="label">${a}</div><div class="value">${b}</div><div class="note">${c}</div></div>`).join("");
@@ -363,6 +376,10 @@ function render() {
   const years = [...new Set(L.map(l => l.year).filter(Boolean))].sort();
   const ysel = $("#year"), keep = ysel.value;
   ysel.innerHTML = `<option value="">Все годы</option>` + years.map(y => `<option${String(y) === keep ? " selected" : ""}>${y}</option>`).join("");
+  const engines = [...new Set(L.map(l => l.engine_label).filter(Boolean))].sort();
+  const esel = $("#engine"), ekeep = esel.value;
+  esel.innerHTML = `<option value="">Все двигатели</option>` + engines.map(e => `<option${e === ekeep ? " selected" : ""}>${esc(e)}</option>`).join("");
+  esel.hidden = engines.length < 2;
   drawCharts(active, closed);
   renderTab();
 }
@@ -421,26 +438,35 @@ function drawCharts(active, closed) {
 
 function filtered(rows) {
   const q = $("#q").value.trim().toLowerCase(), y = $("#year").value, k = $("#closedKind").value;
-  return rows.filter(l => (!y || String(l.year) === y) && (!k || l.status === k) &&
-    (!q || [l.title, l.version, l.city, l.gearbox, l.fuel, l.drive, l.vin, l.id].join(" ").toLowerCase().includes(q)));
+  const e = $("#engine").value, dv = $("#deal").value, dn = +dv;
+  return rows.filter(l => (!y || String(l.year) === y) && (!k || l.status === k) && (!e || l.engine_label === e) &&
+    (!dv || (l.deal_pct != null && (dn < 0 ? l.deal_pct <= dn : l.deal_pct >= dn))) &&
+    (!q || [l.title, l.version, l.mod_name, l.gen_name, l.city, l.gearbox, l.fuel, l.drive, l.vin, l.id].join(" ").toLowerCase().includes(q)));
 }
 
 function renderTab() {
   document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === tab));
   $("#closedKind").hidden = tab !== "closed";
+  $("#deal").hidden = tab !== "active";
   $("#controls").style.display = tab === "events" ? "none" : "";
   const w = $("#tablewrap");
   if (tab === "events") return renderEvents(w);
   const rows = filtered(D.L.filter(l => tab === "active" ? l.status === "active" : (l.status === "sold" || l.status === "removed")));
   const cols = tab === "active"
-    ? [["title", "Машина"], ["year", "Год", 1], ["mileage", "Пробег", 1], ["city", "Город"], ["price", "Цена", 1], ["change", "Изм. цены", 1], ["days", "Дней в продаже", 1], ["url", ""]]
-    : [["title", "Машина"], ["year", "Год", 1], ["mileage", "Пробег", 1], ["city", "Город"], ["price", "Посл. цена", 1], ["change", "Снижение", 1], ["days_on_market", "Дней на рынке", 1], ["closed_at", "Ушла", 1], ["status", "Как"]];
+    ? [["title", "Машина"], ["year", "Год", 1], ["mileage", "Пробег", 1], ["city", "Город"], ["price", "Цена", 1], ["deal_pct", "К рынку", 1], ["change", "Изм. цены", 1], ["days", "Дней в продаже", 1], ["url", ""]]
+    : [["title", "Машина"], ["year", "Год", 1], ["mileage", "Пробег", 1], ["city", "Город"], ["price", "Посл. цена", 1], ["change", "Снижение", 1], ["days_on_market", "Дней на рынке", 1], ["sold_on", "Ушла", 1], ["status", "Как"]];
   const [sk, sd] = sort[tab];
   rows.sort((a, b) => { const x = a[sk] ?? -Infinity, y = b[sk] ?? -Infinity; return (x > y ? 1 : x < y ? -1 : 0) * (sd === "asc" ? 1 : -1); });
   if (!rows.length) { w.innerHTML = `<div class="empty">Ничего не найдено</div>`; return; }
   const cell = (l, k) => {
     switch (k) {
-      case "title": return `<div class="t">${esc(l.title)}</div><div class="v">${esc([l.version, l.fuel, l.gearbox].filter(Boolean).join(" · "))}</div>`;
+      case "title": return `<div class="t">${esc(l.title)}${l.gen_name ? ` <span class="v">${esc(l.gen_name)}</span>` : ""}</div><div class="v">${esc([l.mod_name || l.version, l.engine_label, l.gearbox, l.dealer ? "дилер" : ""].filter(Boolean).join(" · "))}</div>`;
+      case "deal_pct": {
+        if (l.deal_pct == null) return `<span class="v">—</span>`;
+        const c = l.deal_pct <= -5 ? "good" : l.deal_pct >= 5 ? "bad" : "mid";
+        return `<span class="deal ${c}" title="Оценка рынка: ${usd(l.fair_price)}">${l.deal_pct > 0 ? "+" : l.deal_pct < 0 ? "−" : ""}${Math.abs(Math.round(l.deal_pct))}%</span>`;
+      }
+      case "sold_on": return dfmt(l.sold_on);
       case "mileage": return l.mileage == null ? "—" : fmt(l.mileage / 1000) + " тыс.";
       case "price": return usd(l.price);
       case "change": return l.change ? `<span class="${l.change < 0 ? "down" : "up"}">${l.change < 0 ? "−" : "+"}${usd(Math.abs(l.change))}</span>` : `<span class="v">—</span>`;
@@ -462,7 +488,10 @@ function renderTab() {
     const nx = tr.nextElementSibling;
     if (nx && nx.classList.contains("detail")) return nx.remove();
     const l = D.L.find(x => x.id === tr.dataset.id), h = l.price_history || [];
-    const extra = [l.vin && `VIN ${l.vin}`, l.drive && `привод: ${l.drive}`, `впервые: ${dfmt(l.first_seen)}`, l.relisted_from && `перевыставлено (было #${l.relisted_from})`, l.reason, `ID ${l.id}`].filter(Boolean);
+    const extra = [l.fair_price && `оценка рынка: ${usd(l.fair_price)} (${l.deal_pct > 0 ? "+" : ""}${l.deal_pct}%)`,
+      l.gen_name && `поколение: ${l.gen_name}`, l.mod_name && `модификация: ${l.mod_name}`,
+      l.dealer ? "продаёт дилер" : "частник", l.tech_checked && "техсостояние проверено",
+      l.updated && `продавец обновлял: ${dfmt(l.updated.slice(0, 10))}`, l.vin && `VIN ${l.vin}`, l.drive && `привод: ${l.drive}`, `впервые: ${dfmt(l.first_seen)}`, l.relisted_from && `перевыставлено (было #${l.relisted_from})`, l.reason, `ID ${l.id}`].filter(Boolean);
     const d = document.createElement("tr"); d.className = "detail";
     d.innerHTML = `<td colspan="${cols.length}"><div class="hist"><b>История цены:</b> ${h.map(([dt, p]) => `<span>${dfmt(dt)}: ${usd(p)}</span>`).join("") || "—"}</div><div class="hist" style="margin-top:4px">${extra.map(esc).map(s => `<span>${s}</span>`).join("")}</div></td>`;
     tr.after(d);
@@ -482,7 +511,7 @@ function renderEvents(w) {
 }
 
 document.querySelectorAll(".tab").forEach(b => b.onclick = () => { tab = b.dataset.tab; renderTab(); });
-["#q", "#year", "#closedKind"].forEach(s => $(s).addEventListener("input", () => D && renderTab()));
+["#q", "#year", "#closedKind", "#engine", "#deal"].forEach(s => $(s).addEventListener("input", () => D && renderTab()));
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => D && !$("#dash").hidden && render());
 boot();
 </script>

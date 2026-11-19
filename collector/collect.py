@@ -271,7 +271,8 @@ class Api:
     # -- transport --------------------------------------------------------
     def _http(self, path, params):
         q = urllib.parse.urlencode({**params, "api_key": self.key})
-        req = urllib.request.Request(f"{API}{path}?{q}", headers={"User-Agent": "car-market-monitor/1.0"})
+        base = "https://developers.ria.com" if path.startswith(("/generations", "/modifications")) else API
+        req = urllib.request.Request(f"{base}{path}?{q}", headers={"User-Agent": "car-market-monitor/1.0"})
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
                 return r.status, json.loads(r.read().decode("utf-8"))
@@ -327,6 +328,11 @@ def _num(v):
         return None
 
 
+def _engine(fuel_name):
+    m = re.search(r"(\d+(?:[.,]\d+)?)\s*л", fuel_name or "")
+    return f"{float(m.group(1).replace(',', '.')):.1f}" if m else ""
+
+
 def parse_info(auto_id, j):
     ad = j.get("autoData") or {}
     race = _num(ad.get("raceInt"))
@@ -346,6 +352,15 @@ def parse_info(auto_id, j):
         "url": ("https://auto.ria.com" + link) if link.startswith("/") else (link or f"https://auto.ria.com/auto___{auto_id}.html"),
         "photo": photo.get("seoLinkM") or photo.get("seoLinkB") or "",
         "added": j.get("addDate") or "",
+        "model_id": str(j.get("modelId") or ""),
+        "generation_id": ad.get("generationId"),
+        "modification_id": ad.get("modificationId"),
+        "fuel_type": (ad.get("fuelName") or "").split(",")[0].strip(),
+        "engine": _engine(ad.get("fuelName")),
+        "sold_date": (j.get("soldDate") or "")[:10],
+        "updated": j.get("updateDate") or "",
+        "dealer": bool((j.get("dealer") or {}).get("id")),
+        "tech_checked": bool(j.get("technicalChecked")),
         "is_sold": bool(ad.get("isSold")),
         "archived": bool(ad.get("fromArchive")),
         "status_id": ad.get("statusId"),
@@ -361,7 +376,32 @@ DRIVE_NAMES = {"1": "Полный", "2": "Передний", "3": "Задний"
 
 
 def load_names():
-    return load_json("names.json", {"marks": {}, "models": {}})
+    n = load_json("names.json", {})
+    for k in ("marks", "models", "generations", "modifications", "_loaded"):
+        n.setdefault(k, {})
+    return n
+
+
+def resolve_listing_names(api, monitors, names):
+    """Названия поколений и модификаций (1 запрос на модель / поколение, кэшируется)."""
+    try:
+        for m in monitors:
+            for l in m.listings.values():
+                g, md, mod = l.get("generation_id"), l.get("model_id"), l.get("modification_id")
+                if g and str(g) not in names["generations"] and md and f"gen:{md}" not in names["_loaded"]:
+                    names["_loaded"][f"gen:{md}"] = 1
+                    _, data = api.get(f"/generations/by/models/{md}/generations", {})
+                    for block in data if isinstance(data, list) else []:
+                        for gen in block.get("generations") or []:
+                            names["generations"][str(gen.get("generationId"))] = gen.get("name")
+                if mod and g and str(mod) not in names["modifications"] and f"mod:{g}" not in names["_loaded"]:
+                    names["_loaded"][f"mod:{g}"] = 1
+                    _, data = api.get(f"/modifications/by/generation/{g}/modifications", {})
+                    for x in data if isinstance(data, list) else []:
+                        names["modifications"][str(x.get("value"))] = x.get("name")
+    except (BudgetExhausted, RateLimited):
+        pass
+    save_json("names.json", names)
 
 
 def resolve_names(api, params, names):
@@ -378,7 +418,7 @@ def resolve_names(api, params, names):
                 _, data = api.get(f"/categories/{cat}/marks/{mk}/models", {})
                 for m in data if isinstance(data, list) else []:
                     names["models"][f"{mk}:{m.get('value')}"] = m.get("name")
-                names["models"].setdefault(f"{mk}:_loaded", "1")
+                names["models"][f"{mk}:_loaded"] = "1"
     except (BudgetExhausted, RateLimited):
         pass
     save_json("names.json", names)
@@ -428,7 +468,8 @@ def describe(params, names=None):
 
 
 DETAIL_FIELDS = ("title", "version", "year", "mileage", "fuel", "gearbox", "drive",
-                 "city", "vin", "url", "photo", "added")
+                 "city", "vin", "url", "photo", "added", "model_id", "generation_id",
+                 "modification_id", "fuel_type", "engine", "sold_date", "updated", "dealer", "tech_checked")
 
 
 class Monitor:
@@ -486,15 +527,18 @@ class Monitor:
             if d.get(k) not in (None, ""):
                 l[k] = d[k]
         l["last_checked"] = self.today
-        price = d.get("price")
-        if price:
-            hist = l.setdefault("price_history", [])
-            old = hist[-1][1] if hist else None
-            if old != price:
-                hist.append([self.today, price])
-                if old is not None:
-                    self.event("price", l, old=old, new=price, diff=price - old)
-            l["price"] = price
+        if d.get("price"):
+            self.set_price(l, d["price"])
+
+    def set_price(self, l, price):
+        l["price_checked"] = self.today
+        hist = l.setdefault("price_history", [])
+        old = hist[-1][1] if hist else None
+        if old != price:
+            hist.append([self.today, price])
+            if old is not None:
+                self.event("price", l, old=old, new=price, diff=price - old)
+        l["price"] = price
 
     def close(self, l, status, reason):
         l.update(status=status, closed_at=self.today, reason=reason, pending=False)
@@ -581,9 +625,56 @@ class Monitor:
                    if l.get("missing", 0) > 0 and l.get("last_checked") != self.today])
 
     def price_queue(self):
+        def checked(l):
+            return l.get("price_checked") or l.get("last_checked")
         due = [l for l in self._active() if not l.get("pending") and not l.get("missing")
-               and (not l.get("last_checked") or days_between(l["last_checked"], self.today) >= self.refresh_days)]
-        return [(self.check_price, l) for l in sorted(due, key=lambda l: l.get("last_checked") or "")]
+               and (not checked(l) or days_between(checked(l), self.today) >= self.refresh_days)]
+        return [(self.check_price, l) for l in sorted(due, key=lambda l: checked(l) or "")]
+
+    # -- prices from /average_price ------------------------------------------
+    def stat_groups(self):
+        """(марка, модель, год) для запросов статистики; пусто, если фильтр слишком широкий."""
+        p, groups = self.params, []
+        for k, mk in p.items():
+            m = re.fullmatch(r"marka_id\[(\d+)\]", k)
+            if not m:
+                continue
+            i = m.group(1)
+            md, lo, hi = p.get(f"model_id[{i}]", "0"), p.get(f"s_yers[{i}]"), p.get(f"po_yers[{i}]")
+            if md in ("0", "") or not lo or not hi:
+                return []
+            groups += [(mk, md, y) for y in range(int(lo), int(hi) + 1)]
+        return groups if len(groups) <= int(self.cfg.get("stats_max_groups", 12)) else []
+
+    def prices_from_stats(self):
+        """Один запрос на (модель, год) отдаёт цены всех объявлений — дешевле, чем по карточке."""
+        if self.meta.get("last_stats") == self.today or self.meta.get("stats_disabled"):
+            return
+        groups = self.stat_groups()
+        if not groups:
+            return
+        found, stats = {}, {}
+        for mk, md, y in groups:
+            status, j = self.api.get("/average_price", {"marka_id": mk, "model_id": md, "yers": y})
+            if status != 200 or not isinstance(j, dict):
+                continue
+            for aid, price in zip(j.get("classifieds") or [], j.get("prices") or []):
+                found[str(aid)] = int(price)
+            stats[f"{md}:{y}"] = {"model_id": md, "year": y, "total": j.get("total"),
+                                  "mean": j.get("arithmeticMean"), "percentiles": j.get("percentiles")}
+        known = [l for l in self._active() if not l.get("pending") and l.get("price")]
+        hits = [l for l in known if l["id"] in found]
+        same = sum(1 for l in hits if l["price"] == found[l["id"]])
+        # Доверяем статистике, только если на знакомых машинах цены в основном совпадают.
+        trusted = len(hits) < 5 or same >= 0.6 * len(hits)
+        self.meta.update(last_stats=self.today, price_stats=stats, stats_trusted=trusted,
+                         stats_coverage=round(len(hits) / len(known), 2) if known else None)
+        if not trusted:
+            log(f"[{self.search['id']}] цены из статистики не совпадают с карточками — не использую")
+            return
+        for l in hits:
+            self.set_price(l, found[l["id"]])
+        log(f"[{self.search['id']}] статистика: обновлено цен {len(hits)} из {len(known)}")
 
     def finish(self, names):
         self.meta["updated_at"] = self.clock().isoformat(timespec="minutes")
@@ -604,6 +695,9 @@ class Monitor:
             "sold": sum(1 for e in todays if e["type"] == "sold"),
             "removed": sum(1 for e in todays if e["type"] == "removed"),
         }
+        self.meta["model_error_pct"] = fair_prices(self.listings)
+        row["deals"] = sum(1 for l in self.listings.values()
+                           if l["status"] == "active" and (l.get("deal_pct") or 0) <= -10)
         if self.meta.get("last_search"):
             self.daily = [r for r in self.daily if r["date"] != self.today] + [row]
         self.events = self.events[-5000:]
@@ -611,6 +705,62 @@ class Monitor:
         save_json("events.json", self.events, self.dir)
         save_json("daily.json", self.daily, self.dir)
         save_json("meta.json", self.meta, self.dir)
+
+
+def _solve(a, b):
+    """Решение системы линейных уравнений методом Гаусса."""
+    n = len(b)
+    m = [row[:] + [b[i]] for i, row in enumerate(a)]
+    for c in range(n):
+        piv = max(range(c, n), key=lambda r: abs(m[r][c]))
+        m[c], m[piv] = m[piv], m[c]
+        if abs(m[c][c]) < 1e-12:
+            return None
+        for r in range(n):
+            if r != c:
+                f = m[r][c] / m[c][c]
+                m[r] = [x - f * y for x, y in zip(m[r], m[c])]
+    return [m[i][n] / m[i][i] for i in range(n)]
+
+
+def fair_prices(listings):
+    """
+    «Рыночная цена» каждой активной машины: регрессия log(цены) по году, пробегу,
+    модели и объёму двигателя на активных объявлениях этого же поиска.
+    deal_pct < 0 — машина дешевле рынка. Возвращает медианную ошибку модели, %.
+    """
+    import math
+    rows = [l for l in listings.values() if l["status"] == "active" and l.get("price")
+            and l.get("year") and l.get("mileage") is not None]
+    for l in listings.values():
+        l.pop("fair_price", None), l.pop("deal_pct", None)
+    if len(rows) < 15:
+        return None
+    cats = {}
+    for key in ("year", "model_id", "engine"):
+        vals = sorted({str(l.get(key) or "") for l in rows})
+        cats[key] = vals[1:]  # первая категория — базовая
+    def x(l):
+        v = [1.0, l["mileage"] / 100000]
+        for key, vals in cats.items():
+            v += [1.0 if str(l.get(key) or "") == c else 0.0 for c in vals]
+        return v
+    X = [x(l) for l in rows]
+    y = [math.log(l["price"]) for l in rows]
+    k = len(X[0])
+    lam = 0.5  # небольшая регуляризация: категорий с 1–2 машинами не переобучаемся
+    A = [[sum(r[i] * r[j] for r in X) + (lam if i == j and i > 0 else 0) for j in range(k)] for i in range(k)]
+    B = [sum(r[i] * t for r, t in zip(X, y)) for i in range(k)]
+    w = _solve(A, B)
+    if not w:
+        return None
+    errs = []
+    for l in rows:
+        fair = math.exp(sum(a * b for a, b in zip(w, x(l))))
+        l["fair_price"] = int(round(fair, -2))
+        l["deal_pct"] = round((l["price"] / fair - 1) * 100, 1)
+        errs.append(abs(l["deal_pct"]))
+    return round(statistics.median(errs), 1)
 
 
 def auto_title(params, names):
@@ -635,6 +785,9 @@ def run_all(cfg, api, clock=None):
         for m in monitors:
             for fn, l in m.required_queue():
                 fn(l)
+        for m in monitors:
+            m.prices_from_stats()
+        resolve_listing_names(api, monitors, names)
         queues = [m.price_queue() for m in monitors]
         while any(queues):
             for q in queues:
