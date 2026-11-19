@@ -1,0 +1,34 @@
+{
+ "demo": false,
+ "filters": [
+  "Mercedes-Benz GLE-Class, GLE-Class Coupe",
+  "2015–2018 г.",
+  "Бензин, Газ пропан-бутан / Бензин, Газ, Газ метан / Бензин",
+  "только в Украине",
+  "растаможенные"
+ ],
+ "last_search": "2026-11-19",
+ "last_search_count": 175,
+ "model_error_pct": 8.7,
+ "search_params": {
+  "abroad": "2",
+  "category_id": "1",
+  "custom": "1",
+  "marka_id[0]": "48",
+  "marka_id[1]": "48",
+  "model_id[0]": "45217",
+  "model_id[1]": "67474",
+  "po_yers[0]": "2018",
+  "po_yers[1]": "2018",
+  "s_yers[0]": "2015",
+  "s_yers[1]": "2015",
+  "type[0]": "1",
+  "type[1]": "4",
+  "type[2]": "3",
+  "type[3]": "8"
+ },
+ "search_url": "https://auto.ria.com/uk/search/?search_type=1&category=1&all[0].any[0].brand=48&all[0].any[0].any[0].model=45217&all[0].any[0].any[1].model=67474&all[0].any[0].year[0]=2015&all[0].any[0].year[1]=2018&all[1].any[0].fuel[0]=1&all[1].any[0].fuel[1]=4&all[1].any[0].fuel[2]=3&all[1].any[0].fuel[3]=8&abroad=0&customs_cleared=1",
+ "title": "Mercedes-Benz GLE-Class, GLE-Class Coupe, 2015–2018",
+ "unknown_filters": [],
+ "updated_at": "2026-11-19T22:37+02:00"
+}

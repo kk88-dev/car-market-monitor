@@ -1,25 +1,44 @@
 {
- "budget": {},
+ "budget": {
+  "day": "2026-11-19",
+  "day_allowance": 79,
+  "month": "2026-11",
+  "recent": [
+   1795120631.529727,
+   1795120632.516279,
+   1795120633.146318,
+   1795120635.89,
+   1795120637.003804,
+   1795120637.915814,
+   1795120638.801951,
+   1795120639.613306,
+   1795120640.59292,
+   1795120641.376358,
+   1795120642.114752,
+   1795120642.859771,
+   1795120643.52007,
+   1795120644.322241,
+   1795120645.386966,
+   1795120646.594514,
+   1795120647.709689,
+   1795120648.499782,
+   1795120649.599646,
+   1795120650.522311,
+   1795120651.405949,
+   1795120652.153036,
+   1795120652.938031,
+   1795120653.671188,
+   1795120654.927011
+  ],
+  "used_day": 25,
+  "used_month": 25
+ },
  "monthly_limit": 1000,
  "repo": "kk88-dev/car-market-monitor",
  "searches": [
   {
-   "added": null,
-   "count": 46,
-   "demo": true,
-   "filters": [
-    "2016–2020 г.",
-    "Дизель"
-   ],
-   "id": "demo",
-   "search_url": "",
-   "title": "Демо: вымышленная модель",
-   "unknown_filters": [],
-   "updated_at": "2026-11-19T09:00+02:00"
-  },
-  {
    "added": "2026-11-18",
-   "count": null,
+   "count": 175,
    "demo": false,
    "filters": [
     "Mercedes-Benz GLE-Class, GLE-Class Coupe",
@@ -32,7 +51,7 @@
    "search_url": "https://auto.ria.com/uk/search/?search_type=1&category=1&all[0].any[0].brand=48&all[0].any[0].any[0].model=45217&all[0].any[0].any[1].model=67474&all[0].any[0].year[0]=2015&all[0].any[0].year[1]=2018&all[1].any[0].fuel[0]=1&all[1].any[0].fuel[1]=4&all[1].any[0].fuel[2]=3&all[1].any[0].fuel[3]=8&abroad=0&customs_cleared=1",
    "title": "Mercedes-Benz GLE-Class, GLE-Class Coupe, 2015–2018",
    "unknown_filters": [],
-   "updated_at": null
+   "updated_at": "2026-11-19T22:37+02:00"
   }
  ]
 }

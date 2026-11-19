@@ -1,1 +1,12 @@
-{"marks": {"48": "Mercedes-Benz"}, "models": {"48:45217": "GLE-Class", "48:67474": "GLE-Class Coupe"}}
+{
+ "_loaded": {},
+ "generations": {},
+ "marks": {
+  "48": "Mercedes-Benz"
+ },
+ "models": {
+  "48:45217": "GLE-Class",
+  "48:67474": "GLE-Class Coupe"
+ },
+ "modifications": {}
+}
