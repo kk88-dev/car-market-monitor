@@ -7,5 +7,14 @@
   "new": 50,
   "removed": 0,
   "sold": 0
+ },
+ {
+  "active": 175,
+  "date": "2026-11-20",
+  "deals": 20,
+  "median_price": 31000,
+  "new": 26,
+  "removed": 0,
+  "sold": 0
  }
 ]
