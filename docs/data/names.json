@@ -1,6 +1,24 @@
 {
- "_loaded": {},
- "generations": {},
+ "_loaded": {
+  "gen:45217": 1,
+  "gen:67474": 1,
+  "mod:19338": 1,
+  "mod:200": 1,
+  "mod:201": 1
+ },
+ "generations": {
+  "15464": "V167 (FL)",
+  "15465": "C167 (FL)",
+  "19338": "C292",
+  "19339": "C167",
+  "19340": "C167 (FL)",
+  "200": "W166",
+  "201": "C292",
+  "21829": "V167 (2nd FL)",
+  "21830": "C167 (2nd FL)",
+  "6140": "V167",
+  "7656": "C167"
+ },
  "marks": {
   "48": "Mercedes-Benz"
  },
@@ -8,5 +26,39 @@
   "48:45217": "GLE-Class",
   "48:67474": "GLE-Class Coupe"
  },
- "modifications": {}
+ "modifications": {
+  "115984": "250d G-tronic (204 к.с.) 4Matic",
+  "117077": "500 G-tronic (455 к.с.) 4Matic",
+  "117078": "AMG 63 G-tronic (557 к.с.) 4Matic",
+  "117079": "AMG 450 G-tronic (367 к.с.) 4Matic",
+  "117080": "400 G-tronic (333 к.с.) 4Matic",
+  "117725": "350d G-tronic (258 к.с.) 4Matic",
+  "118745": "300d G-tronic (204 к.с.) 4Matic",
+  "118879": "Coupe 500 G-tronic (455 к.с.) 4Matic",
+  "118881": "AMG 63S G-tronic (585 к.с.) 4Matic",
+  "123266": "Coupe AMG 450 G-tronic (367 к.с.) 4Matic",
+  "125082": "Coupe AMG 43 G-tronic (367 к.с.) 4Matic",
+  "125242": "AMG 43 G-tronic (367 к.с.) 4Matic",
+  "126888": "350d G-tronic (249 к.с.) 4Matic",
+  "130703": "500e PHEV AT (442 к.с.) 4Matic",
+  "131399": "320 G-tronic (272 к.с.) 4Matic",
+  "131400": "AMG 43 G-tronic (390 к.с.) 4Matic",
+  "131401": "Coupe AMG 43 G-tronic (390 к.с.) 4Matic",
+  "131525": "500 G-tronic (435 к.с.) 4Matic",
+  "159247": "Coupe 500 G-tronic (456 к.с.) 4Matic",
+  "249355": "350d G-tronic (258 к.с.) 4Matic",
+  "249356": "400 G-tronic (333 к.с.) 4Matic",
+  "249357": "AMG 63 G-tronic (557 к.с.) 4Matic",
+  "249358": "AMG 63S G-tronic (585 к.с.) 4Matic",
+  "249359": "500 G-tronic (455 к.с.) 4Matic",
+  "249360": "AMG 450 G-tronic (367 к.с.) 4Matic",
+  "249361": "AMG 43 G-tronic (367 к.с.) 4Matic",
+  "249362": "AMG 43 G-tronic (390 к.с.) 4Matic",
+  "249363": "500 G-tronic (456 к.с.) 4Matic",
+  "258674": "550e PHEV AT (442 к.с.) 4Matic",
+  "43711": "Coupe 350d G-tronic (258 к.с.) 4Matic",
+  "43719": "Coupe 400 G-tronic (333 к.с.) 4Matic",
+  "43721": "Coupe AMG 63 G-tronic (557 к.с.) 4Matic",
+  "43722": "Coupe AMG 63S G-tronic (585 к.с.) 4Matic"
+ }
 }

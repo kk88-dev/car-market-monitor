@@ -22,7 +22,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__441919521m.jpg",
   "price": 30000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -40,11 +40,11 @@
  "33392219": {
   "added": "2026-10-22 17:01:09",
   "city": "Львів",
-  "deal_pct": 42.2,
+  "deal_pct": 42.4,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 42200,
+  "fair_price": 42100,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -59,7 +59,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__468558643m.jpg",
   "price": 60000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -98,7 +98,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__663553579m.jpg",
   "price": 38500,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -116,7 +116,7 @@
  "34210909": {
   "added": "2026-11-01 15:01:09",
   "city": "Дніпро (Дніпропетровськ)",
-  "deal_pct": 7.4,
+  "deal_pct": 7.3,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -136,7 +136,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__559164206m.jpg",
   "price": 49500,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -154,7 +154,7 @@
  "34511975": {
   "added": "2026-11-09 12:01:37",
   "city": "Дніпро (Дніпропетровськ)",
-  "deal_pct": 26.9,
+  "deal_pct": 27.1,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -175,7 +175,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__496820747m.jpg",
   "price": 55000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -193,7 +193,7 @@
  "34691948": {
   "added": "2026-11-01 02:01:06",
   "city": "Дніпро (Дніпропетровськ)",
-  "deal_pct": 13.2,
+  "deal_pct": 13.1,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
@@ -214,7 +214,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__501538092m.jpg",
   "price": 26100,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -252,7 +252,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__514731925m.jpg",
   "price": 31000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -289,7 +289,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__521196196m.jpg",
   "price": 30000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -307,7 +307,7 @@
  "36046582": {
   "added": "2026-11-01 06:01:13",
   "city": "Стрий",
-  "deal_pct": 10.1,
+  "deal_pct": 10.0,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
@@ -327,7 +327,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__536786466m.jpg",
   "price": 28900,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -345,7 +345,7 @@
  "36259153": {
   "added": "2026-11-06 07:01:21",
   "city": "Київ",
-  "deal_pct": 16.4,
+  "deal_pct": 16.2,
   "dealer": false,
   "drive": "Задній",
   "engine": "3.5",
@@ -365,7 +365,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__542491488m.jpg",
   "price": 31500,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -383,11 +383,11 @@
  "36412147": {
   "added": "2026-10-31 22:01:10",
   "city": "Тернопіль",
-  "deal_pct": 45.7,
+  "deal_pct": 46.0,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 38900,
+  "fair_price": 38800,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -404,7 +404,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__546694366m.jpg",
   "price": 56700,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -422,11 +422,11 @@
  "36725975": {
   "added": "2026-11-06 04:28:37",
   "city": "Вінниця",
-  "deal_pct": -17.3,
+  "deal_pct": -17.1,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 36300,
+  "fair_price": 36200,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -443,7 +443,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__663721304m.jpg",
   "price": 30000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -461,7 +461,7 @@
  "36740129": {
   "added": "2026-11-01 06:01:13",
   "city": "Івано-Франківськ",
-  "deal_pct": 26.5,
+  "deal_pct": 26.7,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -482,7 +482,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__555623730m.jpg",
   "price": 48000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -500,11 +500,11 @@
  "36825662": {
   "added": "2026-10-27 10:01:11",
   "city": "Звенигородка",
-  "deal_pct": -3.8,
+  "deal_pct": -9.8,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 32200,
+  "fair_price": 32100,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -520,12 +520,16 @@
   "modification_id": 117080,
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__642601089m.jpg",
-  "price": 31000,
-  "price_checked": "2026-11-19",
+  "price": 29000,
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
     31000
+   ],
+   [
+    "2026-11-21",
+    29000
    ]
   ],
   "status": "active",
@@ -539,11 +543,11 @@
  "36910693": {
   "added": "2026-11-08 00:01:24",
   "city": "Бориспіль",
-  "deal_pct": -9.2,
+  "deal_pct": -9.0,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 35300,
+  "fair_price": 35200,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -559,7 +563,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__560333867m.jpg",
   "price": 32000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -597,7 +601,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__560561958m.jpg",
   "price": 26499,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -615,7 +619,7 @@
  "37091091": {
   "added": "2026-11-19 04:01:07",
   "city": "Дніпро (Дніпропетровськ)",
-  "deal_pct": 2.6,
+  "deal_pct": 2.0,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -635,12 +639,16 @@
   "modification_id": 43719,
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__565276858m.jpg",
-  "price": 27600,
-  "price_checked": "2026-11-19",
+  "price": 27400,
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
     27600
+   ],
+   [
+    "2026-11-21",
+    27400
    ]
   ],
   "status": "active",
@@ -654,11 +662,11 @@
  "37142195": {
   "added": "2026-10-28 23:01:05",
   "city": "Київ",
-  "deal_pct": -1.7,
+  "deal_pct": -1.6,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
-  "fair_price": 24400,
+  "fair_price": 24300,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3.5 л.",
   "fuel_type": "Бензин",
@@ -674,7 +682,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__649684878m.jpg",
   "price": 23950,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -692,11 +700,11 @@
  "37505863": {
   "added": "2026-11-12 14:01:22",
   "city": "Полтава",
-  "deal_pct": -8.3,
+  "deal_pct": -8.2,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 33300,
+  "fair_price": 33200,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -713,7 +721,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__576790171m.jpg",
   "price": 30500,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -731,7 +739,7 @@
  "37559915": {
   "added": "2026-10-24 22:01:22",
   "city": "Харків",
-  "deal_pct": 4.9,
+  "deal_pct": 5.0,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -752,7 +760,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__578243825m.jpg",
   "price": 37500,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -790,7 +798,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__584525462m.jpg",
   "price": 29500,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -808,7 +816,7 @@
  "37887889": {
   "added": "2026-11-11 13:24:32",
   "city": "Одеса",
-  "deal_pct": 5.7,
+  "deal_pct": 5.8,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -829,7 +837,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__587364996m.jpg",
   "price": 32000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -847,11 +855,11 @@
  "38109602": {
   "added": "2026-11-07 10:33:10",
   "city": "Одеса",
-  "deal_pct": 10.6,
+  "deal_pct": 11.0,
   "dealer": false,
   "drive": "Повний",
   "engine": "4.7",
-  "fair_price": 28800,
+  "fair_price": 28700,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 4.66 л.",
   "fuel_type": "Бензин",
@@ -868,7 +876,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__663856948m.jpg",
   "price": 31900,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -886,11 +894,11 @@
  "38123877": {
   "added": "2026-11-13 20:12:31",
   "city": "Кривий Ріг",
-  "deal_pct": 7.2,
+  "deal_pct": 7.5,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 33100,
+  "fair_price": 33000,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -907,7 +915,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__641807328m.jpg",
   "price": 35500,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -925,11 +933,11 @@
  "38130329": {
   "added": "2026-10-24 10:01:18",
   "city": "Фастів",
-  "deal_pct": -7.6,
+  "deal_pct": -7.7,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
-  "fair_price": 26700,
+  "fair_price": 26800,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3.5 л.",
   "fuel_type": "Бензин",
@@ -945,7 +953,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__641560202m.jpg",
   "price": 24700,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -963,11 +971,11 @@
  "38130663": {
   "added": "2026-10-29 15:12:06",
   "city": "Одеса",
-  "deal_pct": -9.5,
+  "deal_pct": -10.0,
   "dealer": false,
   "drive": "Повний",
   "engine": "4.7",
-  "fair_price": 27100,
+  "fair_price": 27000,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 4.66 л.",
   "fuel_type": "Бензин",
@@ -983,12 +991,16 @@
   "modification_id": 249359,
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__625272897m.jpg",
-  "price": 24500,
-  "price_checked": "2026-11-19",
+  "price": 24300,
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
     24500
+   ],
+   [
+    "2026-11-21",
+    24300
    ]
   ],
   "status": "active",
@@ -1002,11 +1014,11 @@
  "38150200": {
   "added": "2026-11-19 02:01:07",
   "city": "Київ",
-  "deal_pct": 37.8,
+  "deal_pct": 37.9,
   "dealer": false,
   "drive": "Не вказано",
   "engine": "3.0",
-  "fair_price": 32700,
+  "fair_price": 32600,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -1022,7 +1034,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__594765721m.jpg",
   "price": 45000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -1040,11 +1052,11 @@
  "38178024": {
   "added": "2026-10-22 10:01:19",
   "city": "Київ",
-  "deal_pct": 4.6,
+  "deal_pct": 4.5,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
-  "fair_price": 25000,
+  "fair_price": 25100,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3.5 л.",
   "fuel_type": "Бензин",
@@ -1059,7 +1071,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__650254191m.jpg",
   "price": 26200,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -1097,7 +1109,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__596280800m.jpg",
   "price": 28000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -1115,7 +1127,7 @@
  "38266830": {
   "added": "2026-10-31 13:01:27",
   "city": "Бориспіль",
-  "deal_pct": 20.0,
+  "deal_pct": 20.1,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -1136,7 +1148,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__598009505m.jpg",
   "price": 34500,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -1154,7 +1166,7 @@
  "38281379": {
   "added": "2026-10-23 02:01:20",
   "city": "Івано-Франківськ",
-  "deal_pct": 16.5,
+  "deal_pct": 16.7,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -1175,7 +1187,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__600136426m.jpg",
   "price": 41500,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -1193,11 +1205,11 @@
  "38306867": {
   "added": "2026-11-07 09:44:13",
   "city": "Львів",
-  "deal_pct": 39.1,
+  "deal_pct": 39.0,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 43100,
+  "fair_price": 43200,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -1214,7 +1226,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__599087814m.jpg",
   "price": 60000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1232,7 +1244,7 @@
  "38366852": {
   "added": "2026-11-14 12:49:18",
   "city": "Чернівці",
-  "deal_pct": -16.1,
+  "deal_pct": -16.0,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
@@ -1253,7 +1265,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__643617437m.jpg",
   "price": 33000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1271,11 +1283,11 @@
  "38385873": {
   "added": "2026-10-28 15:04:04",
   "city": "Тернопіль",
-  "deal_pct": -7.4,
+  "deal_pct": -7.2,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 32400,
+  "fair_price": 32300,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -1292,7 +1304,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__601260593m.jpg",
   "price": 29999,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1310,7 +1322,7 @@
  "38424362": {
   "added": "2026-11-03 16:01:08",
   "city": "Київ",
-  "deal_pct": -25.4,
+  "deal_pct": -22.4,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -1330,12 +1342,16 @@
   "modification_id": 131400,
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__663802553m.jpg",
-  "price": 25500,
-  "price_checked": "2026-11-20",
+  "price": 26500,
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
     25500
+   ],
+   [
+    "2026-11-21",
+    26500
    ]
   ],
   "status": "active",
@@ -1349,7 +1365,7 @@
  "38460127": {
   "added": "2026-10-29 00:26:05",
   "city": "Київ",
-  "deal_pct": 0.7,
+  "deal_pct": 0.6,
   "dealer": false,
   "drive": "Повний",
   "engine": "5.5",
@@ -1370,7 +1386,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__603449169m.jpg",
   "price": 44000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1408,7 +1424,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__640481330m.jpg",
   "price": 25900,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -1426,7 +1442,7 @@
  "38509104": {
   "added": "2026-10-29 22:04:31",
   "city": "Одеса",
-  "deal_pct": 8.1,
+  "deal_pct": 8.2,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
@@ -1446,7 +1462,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__607345736m.jpg",
   "price": 27000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1464,7 +1480,7 @@
  "38606731": {
   "added": "2026-11-13 22:01:13",
   "city": "Вінниця",
-  "deal_pct": 9.6,
+  "deal_pct": 9.7,
   "dealer": false,
   "drive": "Повний",
   "engine": "5.5",
@@ -1485,7 +1501,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__607549982m.jpg",
   "price": 50900,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1503,11 +1519,11 @@
  "38629539": {
   "added": "2026-10-21 04:01:25",
   "city": "Миколаїв",
-  "deal_pct": -2.8,
+  "deal_pct": -2.6,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 30900,
+  "fair_price": 30800,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -1524,7 +1540,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__608156760m.jpg",
   "price": 30000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1542,7 +1558,7 @@
  "38721492": {
   "added": "2026-11-06 01:04:00",
   "city": "Київ",
-  "deal_pct": 1.0,
+  "deal_pct": 1.1,
   "dealer": false,
   "drive": "Не вказано",
   "engine": "3.5",
@@ -1561,7 +1577,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__610665919m.jpg",
   "price": 28000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1599,7 +1615,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__649763334m.jpg",
   "price": 28800,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1617,7 +1633,7 @@
  "38821150": {
   "added": "2026-11-07 02:01:15",
   "city": "Харків",
-  "deal_pct": -5.0,
+  "deal_pct": -5.1,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.5",
@@ -1637,7 +1653,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__613364586m.jpg",
   "price": 25990,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -1675,7 +1691,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__664421736m.jpg",
   "price": 26000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -1714,7 +1730,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__636146473m.jpg",
   "price": 36999,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -1753,7 +1769,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__651647374m.jpg",
   "price": 31000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1771,7 +1787,7 @@
  "39024673": {
   "added": "2026-11-09 12:03:40",
   "city": "Київ",
-  "deal_pct": 14.3,
+  "deal_pct": 14.5,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -1792,7 +1808,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__618733969m.jpg",
   "price": 29999,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1810,7 +1826,7 @@
  "39053710": {
   "added": "2026-11-15 03:01:12",
   "city": "Київ",
-  "deal_pct": 7.5,
+  "deal_pct": 7.6,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -1831,7 +1847,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__619530180m.jpg",
   "price": 36000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1870,7 +1886,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__619575204m.jpg",
   "price": 65000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1888,11 +1904,11 @@
  "39132783": {
   "added": "2026-10-23 03:01:28",
   "city": "Київ",
-  "deal_pct": 6.0,
+  "deal_pct": 6.1,
   "dealer": false,
   "drive": "Не вказано",
   "engine": "3.5",
-  "fair_price": 25700,
+  "fair_price": 25600,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3.5 л.",
   "fuel_type": "Бензин",
@@ -1908,7 +1924,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__621703175m.jpg",
   "price": 27200,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1926,11 +1942,11 @@
  "39171900": {
   "added": "2026-11-16 17:01:23",
   "city": "Тернопіль",
-  "deal_pct": -6.9,
+  "deal_pct": -6.8,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 29900,
+  "fair_price": 29800,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -1947,7 +1963,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__626313934m.jpg",
   "price": 27800,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -1986,7 +2002,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__622865661m.jpg",
   "price": 39000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2004,7 +2020,7 @@
  "39213500": {
   "added": "2026-10-30 01:01:28",
   "city": "Дніпро (Дніпропетровськ)",
-  "deal_pct": 17.3,
+  "deal_pct": 17.2,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -2024,7 +2040,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__623923819m.jpg",
   "price": 47000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2042,7 +2058,7 @@
  "39250817": {
   "added": "2026-10-31 21:01:28",
   "city": "Київ",
-  "deal_pct": 52.5,
+  "deal_pct": 52.6,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -2062,7 +2078,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__624974065m.jpg",
   "price": 42000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2100,7 +2116,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__626475971m.jpg",
   "price": 31000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2158,7 +2174,7 @@
  "39383886": {
   "added": "2026-10-25 19:01:43",
   "city": "Київ",
-  "deal_pct": 24.3,
+  "deal_pct": 24.5,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -2178,7 +2194,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__628657676m.jpg",
   "price": 47500,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2196,11 +2212,11 @@
  "39441499": {
   "added": "2026-10-30 23:01:29",
   "city": "Запоріжжя",
-  "deal_pct": 13.1,
+  "deal_pct": 13.3,
   "dealer": false,
   "drive": "Не вказано",
   "engine": "3.0",
-  "fair_price": 35400,
+  "fair_price": 35300,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -2216,7 +2232,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__630269423m.jpg",
   "price": 40000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2234,7 +2250,7 @@
  "39463652": {
   "added": "2026-11-12 02:01:45",
   "city": "Харків",
-  "deal_pct": 11.3,
+  "deal_pct": 11.2,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
@@ -2253,7 +2269,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__630888458m.jpg",
   "price": 31000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2271,7 +2287,7 @@
  "39488778": {
   "added": "2026-11-19 13:02:05",
   "city": "Одеса",
-  "deal_pct": -18.8,
+  "deal_pct": -18.7,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
@@ -2292,7 +2308,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__631588828m.jpg",
   "price": 32500,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -2331,7 +2347,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__635077930m.jpg",
   "price": 21000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2349,7 +2365,7 @@
  "39543433": {
   "added": "2026-11-05 16:01:28",
   "city": "Кропивницький (Кіровоград)",
-  "deal_pct": -2.5,
+  "deal_pct": -2.6,
   "dealer": false,
   "drive": "Не вказано",
   "fair_price": 31800,
@@ -2368,7 +2384,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__642691788m.jpg",
   "price": 31000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2398,7 +2414,7 @@
  "39582725": {
   "added": "2026-11-03 16:12:04",
   "city": "Київ",
-  "deal_pct": 30.7,
+  "deal_pct": 30.6,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
@@ -2418,7 +2434,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__634230687m.jpg",
   "price": 35000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2436,11 +2452,11 @@
  "39686251": {
   "added": "2026-11-07 20:01:35",
   "city": "Київ",
-  "deal_pct": 21.6,
+  "deal_pct": 21.8,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 41400,
+  "fair_price": 41300,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -2457,7 +2473,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__637244529m.jpg",
   "price": 50300,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2475,7 +2491,7 @@
  "39734144": {
   "added": "2026-11-10 13:30:48",
   "city": "Полтава",
-  "deal_pct": -6.1,
+  "deal_pct": -6.0,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
@@ -2495,7 +2511,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__638580746m.jpg",
   "price": 25999,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2534,7 +2550,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__642221796m.jpg",
   "price": 35900,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2552,7 +2568,7 @@
  "39755177": {
   "added": "2026-10-27 03:01:38",
   "city": "Одеса",
-  "deal_pct": 0.6,
+  "deal_pct": 0.7,
   "dealer": false,
   "drive": "Повний",
   "engine": "5.5",
@@ -2573,7 +2589,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__639183877m.jpg",
   "price": 48000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2591,11 +2607,11 @@
  "39773454": {
   "added": "2026-11-06 10:23:24",
   "city": "Київ",
-  "deal_pct": 7.2,
+  "deal_pct": 7.4,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 33600,
+  "fair_price": 33500,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -2612,7 +2628,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__639687682m.jpg",
   "price": 36000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2650,7 +2666,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__639705639m.jpg",
   "price": 26900,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -2688,7 +2704,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__639982762m.jpg",
   "price": 40000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2726,7 +2742,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__640444518m.jpg",
   "price": 19000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2748,7 +2764,7 @@
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
-  "fair_price": 24100,
+  "fair_price": 24000,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3.5 л.",
   "fuel_type": "Бензин",
@@ -2764,7 +2780,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__640830919m.jpg",
   "price": 28999,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2782,7 +2798,7 @@
  "39817233": {
   "added": "2026-10-28 22:01:35",
   "city": "Дніпро (Дніпропетровськ)",
-  "deal_pct": 5.5,
+  "deal_pct": 5.6,
   "dealer": false,
   "drive": "Повний",
   "engine": "5.5",
@@ -2803,7 +2819,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__640917140m.jpg",
   "price": 53500,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2821,11 +2837,11 @@
  "39818195": {
   "added": "2026-10-30 19:01:29",
   "city": "Київ",
-  "deal_pct": -14.1,
+  "deal_pct": -13.9,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 33800,
+  "fair_price": 33700,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -2841,7 +2857,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__640955432m.jpg",
   "price": 29000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2859,7 +2875,7 @@
  "39846729": {
   "added": "2026-10-23 02:21:55",
   "city": "Київ",
-  "deal_pct": -11.8,
+  "deal_pct": -11.7,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -2879,7 +2895,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__641764644m.jpg",
   "price": 27800,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2897,11 +2913,11 @@
  "39863624": {
   "added": "2026-11-07 18:01:44",
   "city": "Київ",
-  "deal_pct": -6.8,
+  "deal_pct": -6.7,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 29000,
+  "fair_price": 28900,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -2917,7 +2933,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__641891895m.jpg",
   "price": 26999,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -2935,7 +2951,7 @@
  "39896792": {
   "added": "2026-11-18 10:11:06",
   "city": "Коломия",
-  "deal_pct": -0.6,
+  "deal_pct": -0.7,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.5",
@@ -2956,7 +2972,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__643148702m.jpg",
   "price": 24399,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -2994,7 +3010,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__643165541m.jpg",
   "price": 37800,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3012,7 +3028,7 @@
  "39904244": {
   "added": "2026-10-22 15:23:48",
   "city": "Житомир",
-  "deal_pct": 25.7,
+  "deal_pct": 25.9,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -3033,7 +3049,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__643350766m.jpg",
   "price": 42500,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3051,7 +3067,7 @@
  "39940141": {
   "added": "2026-11-12 10:06:04",
   "city": "Чернігів",
-  "deal_pct": 7.2,
+  "deal_pct": 7.3,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -3072,7 +3088,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__644330708m.jpg",
   "price": 30000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3090,7 +3106,7 @@
  "39959288": {
   "added": "2026-10-29 15:01:16",
   "city": "Дніпро (Дніпропетровськ)",
-  "deal_pct": 57.2,
+  "deal_pct": 57.4,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -3110,7 +3126,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__644869227m.jpg",
   "price": 54900,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3128,11 +3144,11 @@
  "39990257": {
   "added": "2026-11-05 03:01:36",
   "city": "Чернігів",
-  "deal_pct": 19.8,
+  "deal_pct": 20.1,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 35900,
+  "fair_price": 35800,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -3149,7 +3165,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__645716376m.jpg",
   "price": 43000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3167,7 +3183,7 @@
  "39993371": {
   "added": "2026-11-05 22:01:46",
   "city": "Чернівці",
-  "deal_pct": -5.5,
+  "deal_pct": -5.6,
   "dealer": false,
   "drive": "Задній",
   "engine": "3.5",
@@ -3187,7 +3203,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__645794453m.jpg",
   "price": 28500,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3205,11 +3221,11 @@
  "40009633": {
   "added": "2026-11-10 07:30:04",
   "city": "Полтава",
-  "deal_pct": 0.0,
+  "deal_pct": 0.2,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 35000,
+  "fair_price": 34900,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -3226,7 +3242,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__646250243m.jpg",
   "price": 35000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3306,7 +3322,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__647020020m.jpg",
   "price": 19000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3345,7 +3361,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__647777020m.jpg",
   "price": 42500,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3363,11 +3379,11 @@
  "40066662": {
   "added": "2026-11-09 11:30:02",
   "city": "Чернівці",
-  "deal_pct": -13.2,
+  "deal_pct": -13.1,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 39800,
+  "fair_price": 39700,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -3384,7 +3400,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__647791146m.jpg",
   "price": 34500,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3402,7 +3418,7 @@
  "40072157": {
   "added": "2026-10-23 21:01:36",
   "city": "Переяслав",
-  "deal_pct": -11.4,
+  "deal_pct": -11.5,
   "dealer": false,
   "drive": "Задній",
   "engine": "3.5",
@@ -3422,7 +3438,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__663456232m.jpg",
   "price": 25000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3440,7 +3456,7 @@
  "40090699": {
   "added": "2026-11-13 10:33:14",
   "city": "Кривий Ріг",
-  "deal_pct": -21.2,
+  "deal_pct": -21.3,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.5",
@@ -3460,7 +3476,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__648448857m.jpg",
   "price": 18500,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3478,11 +3494,11 @@
  "40113735": {
   "added": "2026-11-02 17:01:41",
   "city": "Київ",
-  "deal_pct": -14.7,
+  "deal_pct": -14.5,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 38600,
+  "fair_price": 38500,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -3499,7 +3515,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__649079928m.jpg",
   "price": 32900,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3517,7 +3533,7 @@
  "40123376": {
   "added": "2026-11-04 20:01:31",
   "city": "Київ",
-  "deal_pct": 5.9,
+  "deal_pct": 6.0,
   "dealer": false,
   "drive": "Не вказано",
   "fair_price": 28300,
@@ -3536,7 +3552,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__649419864m.jpg",
   "price": 30000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3554,11 +3570,11 @@
  "40134357": {
   "added": "2026-11-07 14:39:51",
   "city": "Київ",
-  "deal_pct": -28.6,
+  "deal_pct": -28.4,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 38900,
+  "fair_price": 38800,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -3575,7 +3591,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__649626012m.jpg",
   "price": 27800,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3593,11 +3609,11 @@
  "40135267": {
   "added": "2026-10-23 13:42:17",
   "city": "Чернівці",
-  "deal_pct": 5.6,
+  "deal_pct": 5.7,
   "dealer": true,
   "drive": "Не вказано",
   "engine": "3.0",
-  "fair_price": 48800,
+  "fair_price": 48700,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -3613,7 +3629,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__649649074m.jpg",
   "price": 51500,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3635,7 +3651,7 @@
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 33900,
+  "fair_price": 33800,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -3651,7 +3667,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__663337542m.jpg",
   "price": 29999,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3669,11 +3685,11 @@
  "40159882": {
   "added": "2026-11-05 00:41:03",
   "city": "Київ",
-  "deal_pct": -8.0,
+  "deal_pct": -7.9,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 40600,
+  "fair_price": 40500,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -3690,7 +3706,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__650307222m.jpg",
   "price": 37300,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3708,7 +3724,7 @@
  "40161525": {
   "added": "2026-11-16 11:18:07",
   "city": "Харків",
-  "deal_pct": -14.0,
+  "deal_pct": -13.9,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -3728,7 +3744,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__650352674m.jpg",
   "price": 31000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -3746,7 +3762,7 @@
  "40213908": {
   "added": "2026-10-23 18:16:10",
   "city": "Чернівці",
-  "deal_pct": 11.2,
+  "deal_pct": 11.1,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
@@ -3767,7 +3783,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__661212791m.jpg",
   "price": 29900,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3805,7 +3821,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__651818154m.jpg",
   "price": 29900,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3844,7 +3860,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__651888342m.jpg",
   "price": 27800,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3882,7 +3898,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__657666378m.jpg",
   "price": 18700,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -3900,7 +3916,7 @@
  "40262226": {
   "added": "2026-11-06 23:43:00",
   "city": "Київ",
-  "deal_pct": -4.4,
+  "deal_pct": -4.3,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
@@ -3921,7 +3937,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__653076483m.jpg",
   "price": 36900,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -3960,7 +3976,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__653521404m.jpg",
   "price": 45999,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -3978,7 +3994,7 @@
  "40287983": {
   "added": "2026-10-27 15:01:48",
   "city": "Дніпро (Дніпропетровськ)",
-  "deal_pct": 4.4,
+  "deal_pct": 4.5,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
@@ -3998,7 +4014,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__653771938m.jpg",
   "price": 24400,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -4036,7 +4052,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__654835054m.jpg",
   "price": 21500,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -4072,7 +4088,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__654968398m.jpg",
   "price": 24900,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -4111,7 +4127,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__655558946m.jpg",
   "price": 33500,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -4129,11 +4145,11 @@
  "40352820": {
   "added": "2026-10-27 08:23:13",
   "city": "Харків",
-  "deal_pct": -0.8,
+  "deal_pct": -0.9,
   "dealer": true,
   "drive": "Повний",
   "engine": "5.5",
-  "fair_price": 52400,
+  "fair_price": 52500,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 5.5 л.",
   "fuel_type": "Бензин",
@@ -4150,7 +4166,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__655568094m.jpg",
   "price": 52000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -4188,7 +4204,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__655577641m.jpg",
   "price": 20900,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -4206,11 +4222,11 @@
  "40373184": {
   "added": "2026-11-04 11:01:18",
   "city": "Дніпро (Дніпропетровськ)",
-  "deal_pct": -22.0,
+  "deal_pct": -21.8,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 36700,
+  "fair_price": 36600,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -4227,7 +4243,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__656112806m.jpg",
   "price": 28600,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -4265,7 +4281,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__656231724m.jpg",
   "price": 19990,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -4283,7 +4299,7 @@
  "40381197": {
   "added": "2026-11-12 18:46:03",
   "city": "Львів",
-  "deal_pct": 5.3,
+  "deal_pct": 5.5,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -4304,7 +4320,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__656330635m.jpg",
   "price": 31000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -4322,7 +4338,7 @@
  "40401299": {
   "added": "2026-11-07 23:54:05",
   "city": "Миколаїв",
-  "deal_pct": -0.8,
+  "deal_pct": -0.7,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -4342,7 +4358,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__656888284m.jpg",
   "price": 28000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -4360,7 +4376,7 @@
  "40406509": {
   "added": "2026-10-28 12:36:06",
   "city": "Ужгород",
-  "deal_pct": -19.1,
+  "deal_pct": -19.2,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -4381,7 +4397,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__657026231m.jpg",
   "price": 29999,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -4419,7 +4435,7 @@
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__657311944m.jpg",
   "price": 22700,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -4437,11 +4453,11 @@
  "40417144": {
   "added": "2026-11-17 11:41:44",
   "city": "Івано-Франківськ",
-  "deal_pct": 27.3,
+  "deal_pct": 27.6,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 29800,
+  "fair_price": 29700,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -4458,7 +4474,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__657314798m.jpg",
   "price": 37900,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -4476,7 +4492,7 @@
  "40418733": {
   "added": "2026-10-26 17:28:11",
   "city": "Одеса",
-  "deal_pct": -11.3,
+  "deal_pct": -11.2,
   "dealer": false,
   "drive": "Не вказано",
   "fair_price": 24800,
@@ -4495,7 +4511,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__657357931m.jpg",
   "price": 21999,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -4513,7 +4529,7 @@
  "40422759": {
   "added": "2026-10-27 15:38:04",
   "city": "Хмельницький",
-  "deal_pct": -6.5,
+  "deal_pct": -9.0,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -4532,12 +4548,16 @@
   "model_id": "45217",
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__657471317m.jpg",
-  "price": 36000,
-  "price_checked": "2026-11-20",
+  "price": 35000,
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
     36000
+   ],
+   [
+    "2026-11-21",
+    35000
    ]
   ],
   "status": "active",
@@ -4592,7 +4612,7 @@
  "40463324": {
   "added": "2026-10-21 20:02:05",
   "city": "Дніпро (Дніпропетровськ)",
-  "deal_pct": -4.2,
+  "deal_pct": -4.1,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -4613,7 +4633,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__658543197m.jpg",
   "price": 31500,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -4652,7 +4672,7 @@
   "pending": false,
   "photo": "https://cdn2.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__658816447m.jpg",
   "price": 30500,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -4691,7 +4711,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__658846138m.jpg",
   "price": 51500,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -4709,11 +4729,11 @@
  "40478579": {
   "added": "2026-11-12 17:02:47",
   "city": "Львів",
-  "deal_pct": -4.9,
+  "deal_pct": -4.8,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 40000,
+  "fair_price": 39900,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -4730,7 +4750,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__658962970m.jpg",
   "price": 38000,
-  "price_checked": "2026-11-20",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-20",
@@ -4748,7 +4768,7 @@
  "40492124": {
   "added": "2026-10-28 16:02:17",
   "city": "Горішні Плавні (Комсомольськ)",
-  "deal_pct": 16.7,
+  "deal_pct": 16.6,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -4825,11 +4845,11 @@
  "40508818": {
   "added": "2026-11-02 15:47:14",
   "city": "Одеса",
-  "deal_pct": -5.4,
+  "deal_pct": -5.2,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 37000,
+  "fair_price": 36900,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -4864,11 +4884,11 @@
  "40514074": {
   "added": "2026-11-05 20:22:51",
   "city": "Харків",
-  "deal_pct": -12.0,
+  "deal_pct": -11.8,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 29600,
+  "fair_price": 29500,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -4922,7 +4942,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class-coupe__660254265m.jpg",
   "price": 33200,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -4978,11 +4998,11 @@
  "40528221": {
   "added": "2026-10-30 08:41:45",
   "city": "Одеса",
-  "deal_pct": 9.7,
+  "deal_pct": 9.8,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 39700,
+  "fair_price": 39600,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -5017,11 +5037,11 @@
  "40528393": {
   "added": "2026-11-06 14:24:38",
   "city": "Київ",
-  "deal_pct": -14.4,
+  "deal_pct": -14.2,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 36800,
+  "fair_price": 36700,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -5056,7 +5076,7 @@
  "40535145": {
   "added": "2026-10-30 08:40:40",
   "city": "Одеса",
-  "deal_pct": -19.2,
+  "deal_pct": -19.1,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
@@ -5095,11 +5115,11 @@
  "40537846": {
   "added": "2026-11-09 17:58:14",
   "city": "Київ",
-  "deal_pct": -22.7,
+  "deal_pct": -22.5,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 35600,
+  "fair_price": 35500,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -5134,7 +5154,7 @@
  "40541721": {
   "added": "2026-11-09 22:32:03",
   "city": "Одеса",
-  "deal_pct": -7.2,
+  "deal_pct": -7.1,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -5173,11 +5193,11 @@
  "40547364": {
   "added": "2026-11-10 17:34:06",
   "city": "Біла Церква",
-  "deal_pct": 3.8,
+  "deal_pct": 3.9,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 42200,
+  "fair_price": 42100,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -5212,7 +5232,7 @@
  "40547817": {
   "added": "2026-11-16 09:51:07",
   "city": "Одеса",
-  "deal_pct": -5.7,
+  "deal_pct": -5.6,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -5289,11 +5309,11 @@
  "40551287": {
   "added": "2026-10-25 08:26:04",
   "city": "Одеса",
-  "deal_pct": 21.6,
+  "deal_pct": 21.8,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 36600,
+  "fair_price": 36500,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -5326,7 +5346,7 @@
  "40552280": {
   "added": "2026-11-12 11:40:55",
   "city": "Львів",
-  "deal_pct": -43.7,
+  "deal_pct": -43.6,
   "dealer": false,
   "drive": "Не вказано",
   "fair_price": 28900,
@@ -5363,7 +5383,7 @@
  "40557957": {
   "added": "2026-11-12 15:52:39",
   "city": "Київ",
-  "deal_pct": 20.1,
+  "deal_pct": 20.4,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -5477,7 +5497,7 @@
  "40590236": {
   "added": "2026-10-21 16:47:07",
   "city": "Київ",
-  "deal_pct": -1.0,
+  "deal_pct": -0.9,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
@@ -5516,7 +5536,7 @@
  "40602059": {
   "added": "2026-10-24 16:48:01",
   "city": "Львів",
-  "deal_pct": 0.6,
+  "deal_pct": 0.5,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
@@ -5554,7 +5574,7 @@
  "40611509": {
   "added": "2026-11-02 08:52:04",
   "city": "Львів",
-  "deal_pct": -8.2,
+  "deal_pct": -8.1,
   "dealer": false,
   "drive": "Задній",
   "engine": "3.5",
@@ -5592,11 +5612,11 @@
  "40615477": {
   "added": "2026-10-27 19:26:05",
   "city": "Київ",
-  "deal_pct": -22.7,
+  "deal_pct": -22.6,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 36900,
+  "fair_price": 36800,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -5635,7 +5655,7 @@
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 31200,
+  "fair_price": 31300,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -5709,7 +5729,7 @@
  "40617459": {
   "added": "2026-10-28 12:22:07",
   "city": "Борислав",
-  "deal_pct": 6.3,
+  "deal_pct": 6.2,
   "dealer": false,
   "drive": "Задній",
   "engine": "3.5",
@@ -5822,7 +5842,7 @@
  "40624605": {
   "added": "2026-10-29 22:12:10",
   "city": "Київ",
-  "deal_pct": 14.6,
+  "deal_pct": 14.7,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -5899,7 +5919,7 @@
  "40630403": {
   "added": "2026-11-02 10:31:17",
   "city": "Харків",
-  "deal_pct": -15.9,
+  "deal_pct": -16.0,
   "dealer": true,
   "drive": "Задній",
   "engine": "3.5",
@@ -5974,7 +5994,7 @@
  "40641972": {
   "added": "2026-11-05 12:50:07",
   "city": "Луцьк",
-  "deal_pct": -0.2,
+  "deal_pct": -0.1,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
@@ -6016,7 +6036,7 @@
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 34700,
+  "fair_price": 34600,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -6051,7 +6071,7 @@
  "40648751": {
   "added": "2026-11-05 11:10:06",
   "city": "Черкаси",
-  "deal_pct": 8.6,
+  "deal_pct": 8.7,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
@@ -6090,7 +6110,7 @@
  "40654412": {
   "added": "2026-11-06 16:39:21",
   "city": "Івано-Франківськ",
-  "deal_pct": 9.0,
+  "deal_pct": 9.1,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
@@ -6207,7 +6227,7 @@
  "40662043": {
   "added": "2026-11-08 16:54:06",
   "city": "Київ",
-  "deal_pct": -8.0,
+  "deal_pct": -7.9,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -6246,11 +6266,11 @@
  "40665820": {
   "added": "2026-11-10 11:41:19",
   "city": "Київ",
-  "deal_pct": -18.6,
+  "deal_pct": -18.5,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.5",
-  "fair_price": 25700,
+  "fair_price": 25600,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3.5 л.",
   "fuel_type": "Бензин",
@@ -6284,11 +6304,11 @@
  "40666153": {
   "added": "2026-11-09 15:35:21",
   "city": "Київ",
-  "deal_pct": -0.3,
+  "deal_pct": -0.1,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 30000,
+  "fair_price": 29900,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -6321,11 +6341,11 @@
  "40666622": {
   "added": "2026-11-09 16:44:34",
   "city": "Харків",
-  "deal_pct": -22.1,
+  "deal_pct": -22.0,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 30200,
+  "fair_price": 30100,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -6437,11 +6457,11 @@
  "40677969": {
   "added": "2026-11-12 14:06:08",
   "city": "Одеса",
-  "deal_pct": 3.8,
+  "deal_pct": 3.9,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 40500,
+  "fair_price": 40400,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -6474,11 +6494,11 @@
  "40678192": {
   "added": "2026-11-12 15:01:16",
   "city": "Львів",
-  "deal_pct": -6.3,
+  "deal_pct": -10.2,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 36800,
+  "fair_price": 36700,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -6494,12 +6514,16 @@
   "modification_id": 117080,
   "pending": false,
   "photo": "https://cdn4.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__664441709m.jpg",
-  "price": 34490,
-  "price_checked": "2026-11-19",
+  "price": 32990,
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
     34490
+   ],
+   [
+    "2026-11-21",
+    32990
    ]
   ],
   "status": "active",
@@ -6513,7 +6537,7 @@
  "40688378": {
   "added": "2026-11-15 12:24:16",
   "city": "Київ",
-  "deal_pct": 37.1,
+  "deal_pct": 37.2,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.5",
@@ -6552,11 +6576,11 @@
  "40690173": {
   "added": "2026-11-15 17:23:43",
   "city": "Київ",
-  "deal_pct": -3.4,
+  "deal_pct": -3.2,
   "dealer": true,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 38300,
+  "fair_price": 38200,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
@@ -6609,7 +6633,7 @@
   "pending": false,
   "photo": "https://cdn3.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__665086153m.jpg",
   "price": 28500,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -6627,11 +6651,11 @@
  "40702638": {
   "added": "2026-11-18 17:20:12",
   "city": "Одеса",
-  "deal_pct": 20.5,
+  "deal_pct": 20.6,
   "dealer": false,
   "drive": "Повний",
   "engine": "5.5",
-  "fair_price": 52300,
+  "fair_price": 52200,
   "first_seen": "2026-11-19",
   "fuel": "Бензин, 5.46 л.",
   "fuel_type": "Бензин",
@@ -6686,7 +6710,7 @@
   "pending": false,
   "photo": "https://cdn0.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__665163730m.jpg",
   "price": 33000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -6704,7 +6728,7 @@
  "40706707": {
   "added": "2026-11-19 18:03:13",
   "city": "Київ",
-  "deal_pct": 19.1,
+  "deal_pct": 19.4,
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
@@ -6725,7 +6749,7 @@
   "pending": false,
   "photo": "https://cdn1.riastatic.com/photosnew/auto/photo/mercedes-benz_gle-class__665212901m.jpg",
   "price": 44000,
-  "price_checked": "2026-11-19",
+  "price_checked": "2026-11-21",
   "price_history": [
    [
     "2026-11-19",
@@ -6747,7 +6771,7 @@
   "dealer": false,
   "drive": "Повний",
   "engine": "3.0",
-  "fair_price": 33000,
+  "fair_price": 33100,
   "first_seen": "2026-11-21",
   "fuel": "Бензин, 3 л.",
   "fuel_type": "Бензин",
