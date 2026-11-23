@@ -1609,5 +1609,137 @@
   "title": "Mercedes-Benz GLE-Class Coupe",
   "type": "price",
   "year": 2018
+ },
+ {
+  "date": "2026-11-23",
+  "id": "40407167",
+  "price": 33950,
+  "title": "Mercedes-Benz GLE-Class",
+  "type": "new",
+  "year": 2018
+ },
+ {
+  "date": "2026-11-23",
+  "id": "40717393",
+  "price": 27000,
+  "title": "Mercedes-Benz GLE-Class",
+  "type": "new",
+  "year": 2016
+ },
+ {
+  "date": "2026-11-23",
+  "id": "40716087",
+  "origin": "40032652",
+  "origin_status": "sold",
+  "price": 30500,
+  "title": "Mercedes-Benz GLE-Class",
+  "type": "relist",
+  "year": 2016
+ },
+ {
+  "date": "2026-11-23",
+  "days": 3,
+  "id": "38130329",
+  "price": 24700,
+  "reason": "отмечено «продано»",
+  "title": "Mercedes-Benz GLE-Class",
+  "type": "sold",
+  "year": 2017
+ },
+ {
+  "date": "2026-11-23",
+  "days": 3,
+  "id": "40065880",
+  "price": 42500,
+  "reason": "снято с продажи",
+  "title": "Mercedes-Benz GLE-Class Coupe",
+  "type": "removed",
+  "year": 2017
+ },
+ {
+  "date": "2026-11-23",
+  "days": 3,
+  "id": "40135267",
+  "price": 51500,
+  "reason": "снято с продажи",
+  "title": "Mercedes-Benz GLE-Class Coupe",
+  "type": "removed",
+  "year": 2018
+ },
+ {
+  "date": "2026-11-23",
+  "days": 3,
+  "id": "40216307",
+  "price": 29900,
+  "reason": "снято с продажи",
+  "title": "Mercedes-Benz GLE-Class",
+  "type": "removed",
+  "year": 2018
+ },
+ {
+  "date": "2026-11-23",
+  "diff": -500,
+  "id": "39940141",
+  "new": 29500,
+  "old": 30000,
+  "price": 30000,
+  "title": "Mercedes-Benz GLE-Class",
+  "type": "price",
+  "year": 2015
+ },
+ {
+  "date": "2026-11-23",
+  "diff": -2000,
+  "id": "40401299",
+  "new": 26000,
+  "old": 28000,
+  "price": 28000,
+  "title": "Mercedes-Benz GLE-Class Coupe",
+  "type": "price",
+  "year": 2016
+ },
+ {
+  "date": "2026-11-23",
+  "diff": -2700,
+  "id": "40492124",
+  "new": 44300,
+  "old": 47000,
+  "price": 47000,
+  "title": "Mercedes-Benz GLE-Class Coupe",
+  "type": "price",
+  "year": 2017
+ },
+ {
+  "date": "2026-11-23",
+  "diff": 1500,
+  "id": "40583589",
+  "new": 43000,
+  "old": 41500,
+  "price": 41500,
+  "title": "Mercedes-Benz GLE-Class Coupe",
+  "type": "price",
+  "year": 2018
+ },
+ {
+  "date": "2026-11-23",
+  "diff": -1099,
+  "id": "40662043",
+  "new": 29900,
+  "old": 30999,
+  "price": 30999,
+  "title": "Mercedes-Benz GLE-Class",
+  "type": "price",
+  "year": 2017
+ },
+ {
+  "date": "2026-11-23",
+  "diff": -1000,
+  "id": "40666153",
+  "new": 28900,
+  "old": 29900,
+  "price": 29900,
+  "title": "Mercedes-Benz GLE-Class",
+  "type": "price",
+  "year": 2016
  }
 ]
