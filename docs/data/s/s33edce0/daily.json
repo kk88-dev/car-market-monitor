@@ -43,5 +43,14 @@
   "new": 2,
   "removed": 3,
   "sold": 1
+ },
+ {
+  "active": 177,
+  "date": "2026-11-24",
+  "deals": 44,
+  "median_price": 31000,
+  "new": 2,
+  "removed": 1,
+  "sold": 0
  }
 ]
