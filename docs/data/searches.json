@@ -1,18 +1,37 @@
 {
  "budget": {
-  "day": "2026-11-27",
-  "day_allowance": 168,
+  "day": "2026-11-28",
+  "day_allowance": 217,
   "month": "2026-11",
-  "recent": [],
-  "used_day": 19,
-  "used_month": 297
+  "recent": [
+   1795817137.3149,
+   1795817138.455756,
+   1795817139.547666,
+   1795817140.72922,
+   1795817141.94957,
+   1795817142.624375,
+   1795817143.568804,
+   1795817144.661295,
+   1795817145.877215,
+   1795817147.003196,
+   1795817148.150268,
+   1795817149.206843,
+   1795817150.088364,
+   1795817150.855977,
+   1795817151.932718,
+   1795817152.978334,
+   1795817154.019691,
+   1795817154.889793
+  ],
+  "used_day": 18,
+  "used_month": 315
  },
  "monthly_limit": 1000,
  "repo": "kk88-dev/car-market-monitor",
  "searches": [
   {
    "added": "2026-11-18",
-   "count": 179,
+   "count": 177,
    "demo": false,
    "filters": [
     "Mercedes-Benz GLE-Class, GLE-Class Coupe",
@@ -25,7 +44,7 @@
    "search_url": "https://auto.ria.com/uk/search/?search_type=1&category=1&all[0].any[0].brand=48&all[0].any[0].any[0].model=45217&all[0].any[0].any[1].model=67474&all[0].any[0].year[0]=2015&all[0].any[0].year[1]=2018&all[1].any[0].fuel[0]=1&all[1].any[0].fuel[1]=4&all[1].any[0].fuel[2]=3&all[1].any[0].fuel[3]=8&abroad=0&customs_cleared=1",
    "title": "Mercedes-Benz GLE-Class, GLE-Class Coupe, 2015–2018",
    "unknown_filters": [],
-   "updated_at": "2026-11-27T21:08+02:00"
+   "updated_at": "2026-11-28T00:05+02:00"
   }
  ]
 }
